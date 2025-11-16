@@ -57,4 +57,22 @@ class Neuron:
     
     def get_last_out(self):
         return self.__lastOut__
+    
+    # Encourages neurons that fired and discourages ones that didn't to force a certain outcome
+    def train(self, increase_mult, decrease_div = True):
+        if self.__fired__:
+            self.__tolerance__ *= 0.95 # Slightly increase firing chances
 
+            proc = 0
+            for i in range(len(self.inp)):
+                proc = self.inp[i] * self.wei [i]
+
+                if proc > 1:
+                    self.wei [i] *= increase_mult
+        else:
+            proc = 0
+            for i in range(len(self.inp)):
+                proc = self.inp[i] * self.wei [i]
+
+                if proc > 1:
+                    self.wei [i] /= decrease_div
