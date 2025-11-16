@@ -37,16 +37,24 @@ class Neuron:
         for i in range(len(self.inp)): proc += self.inp[i] * self.wei [i]
         proc = tanh(proc)
         # When the neuron is less than the tolerance + part of out, don't fire
-        if abs(proc + self.out / 2) < self.__tolerance__: proc = 0; self.out *= 0.80 # Out decays over time if it fired
+        if abs(proc + self.out / 2) < self.__tolerance__:
+            proc = 0
+            self.out *= 0.80 # Out decays over time if it failed to fire
+            self.__tolerance__ *= 1.0001 # Long disuse causes tolerance to increase
+            return self.out 
         else: self.out = proc; self.__lastOut__ = proc; self.__fired__ = True # Fire!
-
-        if proc == 0: self.__tolerance__ *= 1.0001 # Long disuse causes tolerance to increase
 
         # It becomes desensitized to an input if it is far higher than any others
         getsorted = sorted(self.inp, reverse=True)
-        if abs(getsorted[0]) - abs(getsorted[1]) > 0.3:
+        if self.__fired__ == True and (abs(getsorted[0]) - abs(getsorted[1]) > 0.3):
             self.wei[self.inp.index(max(self.inp))] *= 0.9999 # Reduce the weight
-            
+        del getsorted # Just in case
 
         return self.out
+    
+    def get_fired(self):
+        return self.__fired__
+    
+    def get_last_out(self):
+        return self.__lastOut__
 
