@@ -7,43 +7,80 @@ class Memory:
     connection_ref = [] # Format: [[[idx1, count1], [idx2, count2], [...] [idxX, countX]], [[idx1, count1], [idx2, count2], [...] [idxX, countX]]]
 
     def __getitem__(self, foo):
-        if not isinstance(foo, tuple):
-            return self.items[foo]
-        elif foo[2] == False: # Similar reference
-            try:
-                return self.similar_ref[foo[0]][foo[1]]
-            except IndexError:
-                return []
-        elif foo[2] == True: # Connection reference
-            try:
-                return self.connection_ref[foo[0]][foo[1]]
-            except IndexError:
-                return []
-        else:
-            raise IndexError("Improper indice to __getitem__: '" + str(foo) + "' is not valid!")
+        return self.items[foo]
     
     def __setitem__(self, foo, datum):
-        if not isinstance(foo, tuple):
-            self.items[foo] = datum
-        elif foo[2] == False and isinstance(datum, list) and len(datum) == 2: # Similar reference
-            self.similar_ref[foo[0]][foo[1]] = datum
-        elif foo[2] == True and isinstance(datum, list) and len(datum) == 2: # Connection reference
-            self.connection_ref[foo[0]][foo[1]] = datum
-        else:
-            raise IndexError("Improper indice or datum to __setitem__: indice '" + str(foo) + "' and/or datum '" + str(datum) + "' are not valid!")
+        self.items[foo] = datum
+
+    def __len__(self):
+        return len(self.items)
+    
+    def __iter__(self):
+        for i in range(len(self.items)):
+            yield tuple((self.items[i], self.similar_ref[i], self.connection_ref[i]))
         
     def append(self, datum):
         self.items.append(datum)
         self.similar_ref.append([])
         self.connection_ref.append([])
+        return len(self.items) - 1
+
+    def add_ref(self, idx, ref, type=False, count=None):
+        if type: # connection ref
+            self.connection_ref[idx].append([ref, count])
+            return len(self.connection_ref) - 1
+        else:
+            self.similar_ref[idx].append([ref, count])
+            return len(self.similar_ref) - 1
+
+    def get_all_refs_at_item(self, idx, type=False):
+        if type: # connection ref
+            return tuple(self.connection_ref[idx])
+        else:
+            return tuple(self.similar_ref[idx])
+        
+    def get_ref(self, idx_item, idx_ref, type=False):
+        if type: # connection ref
+            return tuple(self.connection_ref[idx_item][idx_ref])
+        else:
+            print(idx_ref)
+            return tuple(self.similar_ref[idx_item][idx_ref])
+        
+    def set_ref(self, idx_item, idx_ref, ref, type=False, count=None):
+        if type: # Connection ref
+            if count == None:
+                self.connection_ref[idx_item][idx_ref] = [ref, self.connection_ref[idx_item][idx_ref][1]]
+            else:
+                self.connection_ref[idx_item][idx_ref] = [ref, count]
+        else:
+            if count == None:
+                self.similar_ref[idx_item][idx_ref] = [ref, self.similar_ref[idx_item][idx_ref][1]]
+            else:
+                self.similar_ref[idx_item][idx_ref] = [ref, count]
+
 
 if __name__ == "__main__":
     m = Memory()
-    m.append("buh")
-    print(m[0])
-    print(m[0, 0, False])
-    print(m[0, 0, True])
-    m[0, 0, False] = [1, 2]
-    m[0, 0, True] = [2, 3]
-    print(m[0, 0, False])
-    print(m[0, 0, True])
+    m.append("buh 1")
+    second = m.append("buh 2")
+    m.append("buh 3")
+    cats = m.add_ref(second, "cat", count=2)
+    print(cats)
+    # mice = m.add_ref(second, "mouse", count=14)
+
+
+    for item in m:
+        print(item)
+
+    for item in m.get_all_refs_at_item(second):
+        print(item)
+
+    print(cats)
+    # print(mice)
+    print(m.get_ref(second, cats))
+
+    # m.set_ref(1, mice, "dead mouse")
+    m.set_ref(1, cats, "cat", count=3)
+
+    for item in m:
+        print(item)
