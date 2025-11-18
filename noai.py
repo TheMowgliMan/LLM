@@ -1,1299 +1,2449 @@
 from memory import *
 import random
+import math
 
 m = Memory()
 words = """
+ The Calamity Lore Document 
 
-Wikipedia The Free Encyclopedia
+Hello, and welcome to the new Calamity Lore Document, also known simply as CAL. Here, I have collected all of the lore currently in the mod, and have curated it for easier consumption, including building a timeline based on the information given to us by the Lore items, NPC quotes, the Bestiary and a bit more. However, before we proceed, a little clarification is needed in some matters…
 
-    Donate
-    Create account
-    Log in
+A Quick Summary…
 
-Banner logo
+The Calamity lore is simply the story of the world, told to us, as of right now, by Yharim, a prominent figure of the mod’s story that we will dive into later in this same Document. Several times, the Calamity lore has been rewritten to gradually become a more cohesive narrative, but as of Update 2.0.2.001 the Developers have integrated into the game what they consider to be the definitive version of the story, and that it will not be changed in the future. That said, this document should not be taken as gospel, as the lore is still subject to change. As such, this does not mean it will contain every detail of the story, as much of it is still shrouded in mystery. As of now, we have the outline of the story, the names of the main figures, and the core elements that will be expanded upon in the future.
+With that said, almost everything else that is in the game is canon, that is, exists within the story of Calamity. If you see anything in the Wiki that does not match what is ingame, then either it has not been updated yet or the site you are using is a fan created project, like the Total Calamity Wiki. Of course, however, the developers are only human, and some outdated information may be still left in the game. If you see something that directly conflicts with the Calamity lore, then please, bring this up in the Lore Discussion channel. As for this document, if anything is outdated I ask you to tell me about it, preferably in my DMs on Discord, @octolinggrimm. Finally, before we finally dive head first into the lore, I wished to thank all of the developers that have worked on the wonderful story of the Calamity Mod.
 
-Participate in the 2025 international science photo competition!
-Contents
-(Top)
-Classification
+Cei
+Lilac
+StipulateVenus
+Atalya
+Ozzatron
+Rebecca
+Finally, I present to you…
 
-History
 
-Geographical distribution
 
-Phonology
+Lore Items
 
-Grammar
+Here, I will quote every single Lore Item in the game, in its entirety, and then quickly explain what they tell us, together with a small glossary for words that aren’t so well known. Specially important facts will be colored in various colors depending on who they are tied to. Bestiary entries for each applicable boss are present directly below the entry.
 
-Vocabulary
+ Awakening 
 
-Orthography
+The tombs of the Dragons stir. My eyes lift to see ancient dust dancing from high ledges.
+These grand wings… How long has it been since I was a hero worthy of their name?
+It feels like centuries have passed, yet all I've done is blink.
+Look upon my works, as they are… Ruined. None would dare seek me out; tread my path.
+Naught awaits them in this cruel world.
 
-Dialects, accents, and varieties
+- This Lore Item is obtained at the very start of the game, and serves as a quick introduction to the others that will follow.
+- There is someone talking to you in these items, in this case, Yharim.
+- Yharim was a hero that fell from grace.
 
-See also
+Naught: Nothing.
 
-References
+ King Slime 
 
-    External links
+Given time, these gelatinous creatures absorb each other and slowly grow in both size and strength.
+There is little need to worry about this. Naturally, slimes are nearly mindless and amass only by chance.
+Though it appears they are capable of absorbing knowledge, if only in rudimentary form.
 
-English language
+- Slimes can be intelligent, somewhat.
 
-    Article
-    Talk
 
-    Read
-    View source
-    View history
 
-Tools
 
-Appearance
-Text
+ Desert Scourge 
 
-    Small
-    Standard
-    Large
+Once, it was a majestic sea serpent that threatened none but the microscopic creatures it consumed.
+After Ilmeris was incinerated, it became familiar with the hunt. To survive, it quickly learned to seek greater prey.
+Unfortunately for the scourge, it seems that it too was prey in the end. After all, there is always a bigger fish in the sea.
 
-Width
+- This creature was from a place called Ilmeris, which was incinerated.
+Desert Scourge
+A sea serpent that once swam through the waters of the Ilmeran Sea, it curiously chose to stay in its home rather than find a new one deep below. Quickly taking to a diet of antlion and cactus, it was able to take the place of possibly the desert’s apex predator after its only competition went into hiding.
 
-    Standard
-    Wide
+-Desert Scourge once roamed the Ilmeran Sea, but when the Incineration happened, it chose to remain in the area rather than flee as so many others had done.
+-The Desert Scourge is potentially the apex predator of the Desert, due to the Great Sand Shark having fled because of the Incineration.
 
-Color (beta)
+ The Eye of Cthulhu 
 
-    Automatic
-    Light
-    Dark
+In ages past, heroes made names for themselves facing such monsters.
+Now they run rampant, spawning from vile influences left unchecked. They blend well with the horrific injustice of their forebears.
+Slaying one merely paves the way for a dozen more. Surely this does not concern you, either.
 
-This is a good article. Click here for more information.
-Page semi-protected
-From Wikipedia, the free encyclopedia
-English
-Pronunciation	/ˈɪŋɡlɪʃ/ ING-lish[1]
-Native to	The English-speaking world, including the United Kingdom, United States, Canada, Australia, Ireland, New Zealand, Commonwealth Caribbean, South Africa and others
-Speakers	L1: 380 million (2021)[2]
+- There are several monsters just like the Eye of Cthulhu.
+- They spawn from “vile influences left unchecked” 
+- Their forebears were unjust.
 
-    L2: 1.077 billion (2021)[3]
-    Total: 1.457 billion
+Forebears: Ancestors.
 
-Language family
-	
-Indo-European
+ Crabulon 
 
-    Germanic
-        West Germanic
-            North Sea Germanic
-                Anglo-Frisian
-                    Anglic
-                        English
+Fungus and a sea crab. One sought a host; the other, a new home.
+These mushrooms possess a disturbing amount of tenacity. Nothing that lays down to die in their domain is left to rest.
+It is this sort of ghastly, forceful exertion of control over the unwilling that led me down my path.
 
-Dialects	
+- The mushrooms from the glowing mushroom biome are parasites that infect and control the dead.
+- Yharim walked down his path because of someone or something exerting control over the non-consenting.
+Crabulon
+A crustacean that once made its home in the heart of the Ilmeran Sea, managing to escape during the Great Incineration. Crabulon fled underground, enjoying the familiar blue glow given off by glowing mushrooms. Though it succumbed to the spores, it died in peace, reminded of its home.
 
-    British EnglishNorth AmericanCaribbeanAustralianNew ZealandSouth AfricanHiberno-English
+-This one is actually pretty interesting. It shows that Crabulon was originally from Ilmeris, and that they were alive at the time of the Great Incineration. It died, unfortunately, surrounded by Glowing Mushrooms as the mushroom spores overtook it.
 
-(full list)
-Writing system
-	
+ The Crimson and The Corruption 
 
-    Latin (English alphabet)
-    Anglo-Saxon runes (historical)
-    English Braille, Unified English Braille
+The foul air, the morbid fauna, the disgusting terrain… Here lies my first mistake of my crusade.
+The essence of a God does not simply vanish when the body dies. It must be properly disposed of or destroyed entirely.
+Essence of a pious God could never fester into a mire as dreadful as this.
 
-Signed forms
-	Manually coded English (multiple systems)
-Official status
-Official language in
-	
+To not properly dispose of the essence of a slain God is a fatal mistake. This wasteland stands as proof of such.
+Having slain my first Gods, I turned a blind eye as corrupt essence gushed from their rent forms and burrowed into the bowels of Terraria.
+The mere existence of this putrid place proves that the Gods of old were beyond redemption.
 
-    57 countries and 30 dependent territories
-    Organisations including the UN, EU, Commonwealth, ICC, IMF, IOC, ISO, NATO, WTO, ASEAN, OAS and OECD
+- Once a God dies, their corpse must be properly disposed of, or else they will warp into biomes like the Crimson or the Corruption
+- Yharim killed Gods, crusading against them.
+- The Gods that he killed were terrible people.
 
-Language codes
-ISO 639-1	en
-ISO 639-2	eng
-ISO 639-3	eng
-Glottolog	stan1293
-Linguasphere	52-ABA
-  Regions where English is the native language of the majority
-  Regions where English is an official or widely spoken language, but not a majority native language
-This article contains IPA phonetic symbols. Without proper rendering support, you may see question marks, boxes, or other symbols instead of Unicode characters. For an introductory guide on IPA symbols, see Help:IPA.
+Pious: Merciful.
+Mire: Mud.
+Gush: Burst.
 
-English is a West Germanic language that emerged in early medieval England and has since become a global lingua franca.[4][5][6] The namesake of the language is the Angles, one of the Germanic peoples who migrated to Britain after the end of Roman rule. English is the most spoken language in the world, primarily due to the global influences of the former British Empire (succeeded by the Commonwealth of Nations) and the United States. It is the most widely learned second language in the world, with more second-language speakers than native speakers. However, English is only the third-most spoken native language, after Mandarin Chinese and Spanish.[3]
+ Brain of Cthulhu 
 
-English is either the official language, or one of the official languages, in 57 sovereign states and 30 dependent territories, making it the most geographically widespread language in the world. In the United Kingdom, the United States, Australia, and New Zealand, it is the dominant language for historical reasons without being explicitly defined by law.[7] It is a co-official language of the United Nations, the European Union, and many other international and regional organisations. It has also become the de facto lingua franca of diplomacy, science, technology, international trade, logistics, tourism, aviation, entertainment, and the Internet.[8] Ethnologue estimated that there were over 1.4 billion speakers worldwide as of 2021.[3]
+It is true that unspeakable abominations may now be commonplace, largely by my hand.
+Though they have always been a product of the folly of the Gods, the same Gods would cull them in equal measure.
+My decimation of the falsely divine left many old horrors unconstrained, with new ones birthed every year.
+Now, they are your stepping stones.
 
-Old English emerged from a group of West Germanic dialects spoken by the Anglo-Saxons. Early inscriptions were written with runes before a Latin-based alphabet was adopted for longer texts. Late Old English borrowed some grammar and core vocabulary from Old Norse, a North Germanic language.[9][10][11] An evolution of the Latin alphabet fully supplanted the runic alphabet by the High Middle Ages, coinciding with the emergence of Middle English. Middle English borrowed vocabulary extensively from French dialects, which are the source of approximately 28 per cent of Modern English words, and from Latin, which is the source of an additional 28 per cent.[12] While Latin and the Romance languages are thus the source for a majority of its lexicon taken as a whole, English grammar and phonology retain a family resemblance with the Germanic languages, and most of its basic everyday vocabulary remains Germanic in origin. Middle English transformed, partly through the Great Vowel Shift, into Modern English, which exists on a dialect continuum with Scots; it is next-most closely related to Low Saxon and Frisian. Modern English is written in the English alphabet.
-Classification
+- Creatures like the Brain of Cthulhu have always existed despite being more common now.
+- The Gods were the cause for several of them, and would kill them as well.
 
-English is a member of the Indo-European language family, belonging to the West Germanic branch of Germanic languages.[13] Owing to their descent from a shared ancestor language known as Proto-Germanic, English and other Germanic languages – which include Dutch, German, and Swedish[14] – have characteristic features in common, including a division of verbs into strong and weak classes, the use of modal verbs, and sound changes affecting Proto-Indo-European consonants known as Grimm's and Verner's laws.[15]
+Folly: Foolishness.
+Cull: Kill.
+ The Eater of Worlds 
 
-Old English was one of several Ingvaeonic languages, which emerged from a dialect continuum spoken by West Germanic peoples during the 5th century in Frisia, on the coast of the North Sea. Old English emerged among the Ingvaeonic speakers on the British Isles following their migration there, while the other Ingvaeonic languages (Frisian and Old Low German) developed in parallel on the continent.[16] Old English evolved into Middle English, which in turn evolved into Modern English.[17] Particular dialects of Old and Middle English also developed into other Anglic languages, including Scots[18] and the extinct Fingallian and Yola dialects of Ireland.[19]
+Any powerful being will call forth fable and legend, of both its grandeur and terror. That monstrous worm was no exception.
+That measly thing, devouring a planet? Ridiculous. However, ridicule spreads quickly with even an ounce of truth behind it.
+One will not need to search long for examples. We are all surrounded by rampant superstition and assumption.
+I myself have been subjected to a litany of baseless boasts and accusations in my time.
 
-English was isolated from other Germanic languages on the continent and diverged considerably in vocabulary, syntax, and phonology as a result. It is not mutually intelligible with any continental Germanic language – though some, such as Dutch and Frisian, show strong affinities with it, especially in its earlier stages.[20][page needed] English and Frisian were traditionally considered more closely related to one another than they were to other West Germanic languages, but most modern scholarship does not recognise a particular affinity between them.[21] Though they exhibited similar sound changes not otherwise found around the North Sea at that time, the specific changes appeared in English and Frisian at different times – a pattern uncharacteristic for languages sharing a unique phylogenetic ancestor.[22][23]
-History
-Main article: History of English
-Proto-Germanic to Old English
-Manuscript (written in uncial script) of Beowulf, an epic poem composed in Old English between 975 and 1025.
-The poem begins: Hƿæt ƿē Gārde / na ingēar dagum þēod cyninga / þrym ge frunon ...
-[Listen! We have heard of the glory in bygone days of the folk-kings of the spear-Danes ...][24]
+- Yharim has been subject to lies about his behavior and actions.
 
-Old English (also called Anglo-Saxon) was the earliest form of the English language, spoken from c. 450 to c. 1150. Old English developed from a set of West Germanic dialects, sometimes identified as Anglo-Frisian or North Sea Germanic, that were originally spoken along the coasts of Frisia, Lower Saxony and southern Jutland by Germanic peoples known to the historical record as the Angles, Saxons, and Jutes.[25] From the 5th century, the Anglo-Saxons settled Britain as the Roman economy and administration collapsed. By the 7th century, Old English had become dominant in Britain – replacing the Common Brittonic and British Latin previously spoken during the Roman occupation,[26][27][28] which ultimately left little influence on English. England and English (originally Ænglaland and Ænglisc) are both named after the Angles.[29]
+A litany of…: Many.
+ The Perforators and Their Hive 
 
-Old English was divided into two Anglian dialects (Mercian and Northumbrian) and two Saxon dialects (Kentish and West Saxon).[30] Through the influence exerted by the kingdom of Wessex, and the educational reforms instated by King Alfred during the 9th century, the West Saxon dialect became the standard written variety.[31] The epic poem Beowulf is written in West Saxon, and the earliest English poem, Cædmon's Hymn, is written in Northumbrian.[32] Modern English developed mainly from Mercian, but the Scots language developed from Northumbrian. During the earliest period of Old English, a few short inscriptions were made using a runic alphabet.[33] By the 7th century, a Latin alphabet had been adopted. Written with half-uncial letterforms, it included the runic letters wynn ⟨ƿ⟩ and thorn ⟨þ⟩, and the modified Latin letters eth ⟨ð⟩, and ash ⟨æ⟩.[33][34]
+These creatures were unique, for they wielded the slain Gods' power as purely as possible, veins flowing with spilt ichor.
+All that exists in the Crimson is truly the divine turned inside out; their gore now glistens with its perverse treachery, for all to bear witness.
+The mire reeks of centuries of vile manipulation and callous domination of the hapless.
+Judgment is long passed, and extinction is left waiting.
 
-Old English is a markedly different from Modern English, such that 21st-century English speakers are entirely unable to understand Old English without special training. Its grammar was similar to that of modern German: nouns, adjectives, pronouns, and verbs had many more inflectional endings and forms, and word order was much freer than in Modern English. Modern English has case forms in pronouns (he, him, his) and has a few verb inflections (speak, speaks, speaking, spoke, spoken), but Old English had case endings in nouns as well, and verbs had more person and number endings.[35][36][37]
-Influence of Old Norse
+- The Gods that formed the Crimson were truly detestable.
+- Yeah that’s about it, they were just really bad and Yharim made sure everyone saw that.
 
-Between the 8th and 11th centuries, the English spoken in some regions underwent significant changes due to contact with Old Norse, a North Germanic language. Several waves of Norsemen colonising the northern British Isles in the 8th and 9th centuries put Old English speakers in constant contact with Old Norse. Norse influence was strongest in the north-eastern varieties of Old English spoken in the Danelaw surrounding York; today these features are still particularly present in Scots and Northern English. The centre of Norse influence was Lindsey, located in the Midlands. After Lindsey was incorporated into the Anglo-Saxon polity in 920, English spread extensively throughout the region. An element of Norse influence that continues in all English varieties today is the third person pronoun group beginning with th- (they, them, their) which replaced the Anglo-Saxon pronouns with h- (hie, him, hera).[38]
+Glisten: Reflect, often of something wet.
+Callous: Insensible.
+Hapless: Unfortunate.
+The Perforator Hive
+To tear and consume, taking for only themselves until there is nothing left– this was the primal instinct left behind by the gods which now form the Crimson. Their selfish desires coalesced into this hive, infested by ravenous worms whose sole desire is to devour.
 
-Other Norse loanwords include give, get, sky, skirt, egg, and cake, typically displacing a native Anglo-Saxon equivalent. Old Norse in this era retained considerable mutual intelligibility with some dialects of Old English, particularly northern ones.[39]
-Middle English
-Further information: Influence of French on English
 
-    Englischmen þeyz hy hadde fram þe bygynnyng þre manner speche, Souþeron, Northeron, and Myddel speche in þe myddel of þe lond, ... Noþeles by comyxstion and mellyng, furst wiþ Danes, and afterward wiþ Normans, in menye þe contray longage ys asperyed, and som vseþ strange wlaffyng, chyteryng, harryng, and garryng grisbytting.
 
-    [Although, from the beginning, Englishmen had three manners of speaking, southern, northern and midlands speech in the middle of the country, ... Nevertheless, through intermingling and mixing, first with Danes and then with Normans, amongst many the country language has arisen, and some use strange stammering, chattering, snarling, and grating gnashing.] 
+The Perforators
+A living embodiment of some of the worst this world has to offer, these parasites made full use of their hive. Using it to seek ever more to gorge themselves upon, they sought to grow even larger, that they may one day perhaps regain what they lost.
 
-John Trevisa, c. 1385[40]
+-The Perforator Hive is a coalescence of the selfish desires of many slain Gods.
+-The Perforators are parasites who exploit the Perforator Hive to feed upon as much as possible.
+-They have lost something of value, judging by their desire to regain it.
 
-The Middle English period is often defined as beginning with the Norman Conquest in 1066. During the centuries that followed, English was heavily influenced by the form of Old French spoken by the new Norman ruling class that had migrated to England (known as Old Norman). Over the following decades of contact, members of the middle and upper classes, whether native English or Norman, became increasingly bilingual. By 1150 at the latest, bilingual speakers represented a majority of the English aristocracy, and monolingual French speakers were nearly non-existent.[41] The French spoken by the Norman elite in England eventually developed into the Anglo-Norman language.[42] The division between Old to Middle English can also be placed during the composition of the Ormulum (c. late 12th century), a work by the Augustinian canon Orrm which highlights blending of Old English and Anglo-Norman elements in the language for the first time.[43][44]
+ The Hive Mind 
 
-As the lower classes, who represented the vast majority of the population, remained monolingual English speakers, a primary influence of Norman was as a lexical superstratum, introducing a wide range of loanwords related to politics, legislation and prestigious social domains.[11] For instance, the French word trône appears for the first time, from which the English word throne is derived.[45] Middle English also greatly simplified the inflectional system, probably in order to reconcile Old Norse and Old English, which were inflectionally different but morphologically similar. The distinction between nominative and accusative cases was lost except in personal pronouns, the instrumental case was dropped, and the use of the genitive case was limited to indicating possession. The inflectional system regularised many irregular inflectional forms,[46] and gradually simplified the system of agreement, making word order less flexible.[47]
+Some semblance of a God's mind may survive death, like the twitches of a crushed insect.
+What little remains attempts to convene, to coalesce in worship, so that its power may yet be restored. How pitiful.
+Fortunately for us, the futility of this effort is unmatched. The biomass obeys, but nothing is accomplished.
+Far from all divine power flows from faith. A God is forged of its own strength; followers may choose to worship.
 
-Middle English literature includes Geoffrey Chaucer's Canterbury Tales (c. 1400), and Thomas Malory's Le Morte d'Arthur (1485). In the Middle English period, the use of regional dialects in writing proliferated, and dialect traits were even used for effect by authors such as Chaucer.[48] In the first translation of the entire Bible into English by John Wycliffe (1382), Matthew 8:20 reads: "Foxis han dennes, and briddis of heuene han nestis."[49] Here the plural suffix -n on the verb have is still retained, but none of the case endings on the nouns are present.
-Early Modern English
-Illustration of the Great Vowel Shift that affected long vowels in Early Modern English. After the highest vowels /i: u:/ broke into diphthongs /ai au/, each of the lower vowels gradually shifted up one level to compensate.
+- Once a God dies, its corpse can try to come back, to no avail.
+- We get a little bit closer to the definition of a God, a being forged by its own strength, that people may choose to worship for various reasons, some of which we will get into later.
+The Hive Mind 
+Although Yharim's campaign would one day span the entire world, it all started in these lands with the massacre of ruthless dictator deities. As soon as their leaders fell at the hands of the Godseeker, their armies toppled like dominos. A hive mind cannot function without its brain, after all.
 
-The period of Early Modern English, lasting between 1500 and 1700, was characterised by the Great Vowel Shift (1350–1700), inflectional simplification, and linguistic standardisation. The Great Vowel Shift affected the stressed long vowels of Middle English. It was a chain shift, meaning that each shift triggered a subsequent shift in the vowel system. Mid and open vowels were raised, and close vowels were broken into diphthongs. For example, the word bite was originally pronounced as the word beet is today, and the second vowel in the word about was pronounced as the word boot is today. The Great Vowel Shift explains many irregularities in spelling since English retains many spellings from Middle English, and it also explains why English vowel letters have very different pronunciations from the same letters in other languages.[50][51]
+-Yharim’s crusade started here, in the Corruption.
+-Yharim slaughtered many Gods here.
 
-English began to rise in prestige, relative to Norman French, during the reign of Henry V. Around 1430, the Court of Chancery in Westminster began using English in its official documents, and a new standard form of Middle English, known as Chancery Standard, developed from the dialects of London and the East Midlands. In 1476, William Caxton introduced the printing press to England and began publishing the first printed books in London, expanding the influence of this form of English.[52]
+ Queen Bee 
 
-Literature in Early Modern English includes the works of William Shakespeare and the 1611 King James Version (KJV) of the Bible. Even after the vowel shift the language still sounded different from Modern English: for example, the consonant clusters /kn ɡn sw/ in knight, gnat, and sword were still pronounced. Many of the grammatical features that a modern reader of Shakespeare might find quaint or archaic represent the distinct characteristics of Early Modern English.[53] Matthew 8:20 in the KJV reads: "The Foxes have holes and the birds of the ayre have nests."[54] This exemplifies the loss of case and its effects on sentence structure (replacement with subject–verb–object word order, and the use of of instead of the non-possessive genitive), and the introduction of loanwords from French (ayre) and word replacements (bird, originally meaning 'nestling', which had replaced Old English fugol).[54]
-Spread of Modern English
+While of tremendous size, these creatures are docile until aggravated. Their idyllic demeanor is a rarity nowadays, a thing of beauty.
+In the past, entire villages would spring up around these grand hives, peacefully harvesting their share of the honey and protecting them from danger.
+Though its death is understandable given the circumstances, I do feel pity for these majestic beings.
+Fate was cruel to many of their kind.
 
-By the late 18th century, the British Empire had spread English through its colonies and geopolitical dominance. Commerce, science and technology, diplomacy, art, and formal education all contributed to English becoming the first truly global language. English also facilitated worldwide international communication.[55][4] English was adopted in parts of North America, parts of Africa, Oceania, and many other regions. When they obtained political independence, some of the newly independent states that had multiple indigenous languages opted to continue using English as the official language to avoid the political and other difficulties inherent in promoting any one indigenous language above the others.[56][57][58] In the 20th century the growing economic and cultural influence of the United States and its status as a superpower following the Second World War has, along with worldwide broadcasting in English by the BBC[59] and other broadcasters, caused the language to spread across the planet much faster.[60][61] In the 21st century, English is more widely spoken and written than any language has ever been.[62]
+- People lived in the Jungle around the honeycombs.
+- Yharim likes bees.
 
-As Modern English developed, explicit norms for standard usage were published, and spread through official media such as public education and state-sponsored publications. In 1755, Samuel Johnson published his Dictionary of the English Language, which introduced standard spellings of words and usage norms. In 1828, Noah Webster published the American Dictionary of the English language to try to establish a norm for speaking and writing American English that was independent of the British standard. Within Britain, non-standard or lower class dialect features were increasingly stigmatised, leading to the quick spread of the prestige varieties among the middle classes.[63]
+Idyllic: Peaceful.
+ Skeletron 
 
-In modern English, the loss of grammatical case is almost complete (it is now found only in pronouns, such as he and him, she and her, who and whom), and subject–verb–object word order is mostly fixed.[63] Some changes, such as the use of do-support, have become universalised. (Earlier English did not use the word do as a general auxiliary as Modern English does; at first it was only used in question constructions, and even then was not obligatory.[64] Now, do-support with the verb have is becoming increasingly standardised.) The use of progressive forms in -ing, appears to be spreading to new constructions, and forms such as "had been being built" are becoming more common. Regularisation of irregular forms also slowly continues (e.g. dreamed instead of dreamt), and analytical alternatives to inflectional forms are becoming more common (e.g. more polite instead of politer). British English is also undergoing change under the influence of American English, fuelled by the strong presence of American English in the media.[65][66][67]
-Geographical distribution
-See also: List of countries and territories where English is an official language, List of countries by English-speaking population, and English-speaking world
-  Majority native language
-  Co-official and majority native language
-  Official but minority native language
-  Secondary language: spoken as a second language by more than 20 per cent of the population, de facto working language of government, language of instruction in education, etc.[3]
-EF English Proficiency Index 2019 in Europe:[68]
-  Very high (63.07–70.27)
-  High (58.26–61.86)
-  Moderate (52.50–57.38)
-  Low (48.69–52.39)
-  Very low (40.87–48.19)
-  Not included in report
+A sorry old man, cursed by an even older cult, caught trespassing on their ancient library.
+They were once my friends. Their leader is infatuated with Dragons, and dreams of resurrecting one.
+The very walls of that place are cursed further still. The magic has long since faded, and the soldiers rotted.
+Do not expect to learn much from those tattered tomes. They were penned with misguided zeal.
 
-As of 2016, 400 million people spoke English as their first language, and 1.1 billion spoke it as a second language.[69] English is the largest language by number of speakers, spoken by communities on every continent.[70] Estimates of second language and foreign-language speakers vary greatly depending on how proficiency is defined, from 470 million to more than 1 billion.[7] In 2003, David Crystal estimated that non-native speakers outnumbered native speakers by a ratio of three-to-one.[71]
-Three circles model
+- A cult existed in the Dungeon, whose leader wished of resurrecting a dragon.
 
-Braj Kachru has categorised countries into the Three Circles of English model, according to how the language historically spread in each country, how it is acquired by the populace, and the range of uses it has there – with a country's classification able to change over time.[72][73]
+Penned: Written.
 
-"Inner-circle" countries have large communities of native English speakers; these include the United Kingdom, the United States, Australia, Canada, Ireland, and New Zealand, where the majority speaks English – and South Africa, where a significant minority speaks English. The countries with the most native English speakers are, in descending order, the United States (at least 231 million),[74] the United Kingdom (60 million),[75][76][77] Canada (19 million),[78] Australia (at least 17 million),[79] South Africa (4.8 million),[80] Ireland (4.2 million), and New Zealand (3.7 million).[81] In these countries, children of native speakers learn English from their parents, and local people who speak other languages and new immigrants learn English to communicate in their neighbourhoods and workplaces.[82] Inner-circle countries are the base from which English spreads to other regions of the world.[72]
+ Slime God 
 
-"Outer-circle" countries – such as the Philippines,[83] Jamaica,[84] India, Pakistan, Singapore,[85] Malaysia, and Nigeria[86][87] – have much smaller proportions of native English speakers, but use of English as a second language in education, government, or domestic business is significant, and its use for instruction in schools and official government operations is routine.[88] These countries have millions of native speakers on dialect continua, which range from English-based creole languages to standard varieties of English used in inner-circle countries. They have many more speakers who acquire English as they grow up through day-to-day use and exposure to English-language broadcasting, especially if they attend schools where English is the language of instruction. Varieties of English learned by non-native speakers born to English-speaking parents may be influenced, especially in their grammar, by the other languages spoken by those learners – with most including words rarely used by native speakers in inner-circle countries, as well as grammatical and phonological differences from inner-circle varieties.[82]
+An old clan once revered this thing as a paragon of the balance of nature. Now its purity is sullied by freshly absorbed muck and grime.
+The gelatinous being neither knows nor cares for the last surviving clansman.
+Such tragedy is all too common in worship.
+Alas, the Slime God is wise enough to be cowardly. Fleeing battles it cannot win when its servants are destroyed.
+Perhaps fortune will favor you if you catch it unaware.
 
-"Expanding-circle" countries are where English is taught as a foreign language[89] – though the character of English as a first, second, or foreign language in a given country is often debatable, and may change over time.[88] For example, in countries like the Netherlands, an overwhelming majority of the population can speak English,[90] and it is often used in higher education and to communicate with foreigners.[91]
-Pluricentric English
+- A clan revered the Slime God. (More details later)
+- The last member of said clan is still alive. (More details later)
+- The Slime God managed to flee the encounter.
 
-English is a pluricentric language, which means that no one national authority sets the standard for use of the language.[92][93][94][95] Spoken English, including English used in broadcasting, generally follows national pronunciation standards that are established by custom rather than by regulation. International broadcasters are usually identifiable as coming from one country rather than another through their accents,[96] but newsreader scripts are also composed largely in international standard written English. The norms of standard written English are maintained purely by the consensus of educated English speakers around the world, without any oversight by any government or international organisation.[97]
+Sullied: Tainted, dirty.
+The Slime God
+Despite being a Gluttonous slime, the Slime God forbids itself from growing out of control to maintain the balance of the world. It was still pursued during the Crusade, but it managed to survive through countless strategic retreats. The duty it upholds and the methods it employs are the reason the Onyx Kinsmen worship such a puny deity.
 
-American listeners readily understand most British broadcasting, and British listeners readily understand most American broadcasting. Most English speakers around the world can understand radio programmes, television programmes, and films from many parts of the English-speaking world.[98] Both standard and non-standard varieties of English can include both formal or informal styles, distinguished by word choice and syntax and use both technical and non-technical registers.[99]
+-The Slime God consumed the Auric Soul of the Dragon of Gluttony.
+-It upholds a duty, which is the reason why the Onyx Kinsmen worship them.
 
-The settlement history of the English-speaking inner circle countries outside Britain helped level dialect distinctions and produce koiné forms of English in South Africa, Australia, and New Zealand.[100] The majority of immigrants to the United States without British ancestry rapidly adopted English after arrival. Now the majority of the United States population are monolingual English speakers.[74][101]
+ The Underworld 
 
-    Australia has no official languages at the federal or state level.[102]
-    In Canada, English and French share an official status at the federal level.[103][104] English has official or co-official status in six provinces and three territories, while three provinces have none and Quebec's only official language is French.[105]
-    English is the official second language of Ireland, while Irish is the first.[106]
-    While New Zealand is majority English-speaking, its two official languages are Māori[107] and New Zealand Sign Language.[108]
-    The United Kingdom does not have an official language. In Wales and Northern Ireland, English is co-official alongside Welsh[109] and Irish[110] respectively. Neither Scotland nor England have an official language.
-    In the United States, English was designated the official language of the country by Executive Order 14224 in 2025.[111] English has additional official or co-official status at the state level in 32 states, and all 5 territories;[112] 18 states and the District of Columbia have no official language.
 
-English as a global language
-Main article: English as a lingua franca
-See also: Foreign-language influences in English and Study of global communication
-Status of English in public education by region[113]
-  Mandatory subject
-  Optional subject
-  No data
-2014 English Proficiency Index[114]
-  Very high (80–100 per cent)
-  High (60–80 per cent)
-  Moderate (40–60 per cent)
-  Low (20–40 per cent)
-  Very low (0.1–20 per cent)
-  No data
-
-Modern English is sometimes described as the first global lingua franca,[60][115] or as the first world language.[116][117] English is the world's most widely used language in newspaper publishing, book publishing, international telecommunications, scientific publishing, international trade, mass entertainment, and diplomacy.[117] Parity with French as a language of diplomacy had been achieved by Treaty of Versailles negotiations in 1919.[118] By the time the United Nations was founded at the end of World War II, English had become pre-eminent;[119] it is one of six official languages of the United Nations.[120] and is now the main worldwide language of diplomacy and international relations.[121] Many other worldwide international organisations, including the International Olympic Committee, specify English as a working language or official language of the organisation. Many regional international organisations, such as the European Free Trade Association (EFTA), Association of Southeast Asian Nations (ASEAN),[61] and Asia-Pacific Economic Cooperation (APEC) use English as their sole working language, despite most members not being countries with a majority of native English speakers. While the EU allows member states to designate any of the national languages as an official language of the Union, in practice English is the main working language of EU organisations.[122] English serves as the basis for the required controlled natural languages[123] Seaspeak and Airspeak, used as international languages of seafaring[124] and aviation.[125]
-
-English is the most frequently taught foreign language in the world.[60][61] Most people learning English do so for practical reasons, as opposed to ideological reasons.[126] In EU countries, English is the most widely spoken foreign language in 19 of the 25 member states where it is not an official language (that is, the countries other than Ireland and Malta). In a 2012 official Eurobarometer poll (conducted when the UK was still a member of the EU), 38 per cent of the EU respondents outside the countries where English is an official language said they could speak English well enough to have a conversation in that language. The next most commonly mentioned foreign language, French (which is the most widely known foreign language in the UK and Ireland), could be used in conversation by 12 per cent of respondents.[127] The global influence of English has led to concerns about language death,[128] and to claims of linguistic imperialism,[129] and has provoked resistance to the spread of English; however, the number of speakers continues to increase because many people around the world think English provides them with better employment opportunities and increased quality of life.[130]
-
-Working knowledge of English has become a requirement in a number of occupations and professions such as medicine[131] and computing. Though it formerly had parity with French and German in scientific research, English now dominates the field.[132] Its importance in scientific publishing is such that over 80 per cent of scientific journal articles indexed by Chemical Abstracts in 1998 were written in English, as were 90 per cent of all articles in natural science publications by 1996, and 82 per cent of articles in humanities publications by 1995.[133]
-
-As decolonisation proceeded throughout the British Empire in the 1950s and 1960s, former colonies often did not reject English but rather continued to use it as independent countries setting their own language policies.[57][58][134] For example, English is one of the official languages of India. Many Indians have shifted from associating the language with colonialism to associating it with economic progress.[135] English is widely used in media and literature, with India being the third-largest publisher of English-language books in the world, after the US and UK.[136] However, less than 5 per cent of the population speak English fluently, with the country's native English speakers numbering in the low hundreds of thousands.[137][138] In 2004, David Crystal claimed India had the largest population of people able to speak or understand English in the world,[139] though most scholars estimate the US remains home to a larger English-speaking population.[140] Many English speakers in Africa have become part of an "Afro-Saxon" language community that unites Africans from different countries.[141] Regarding its future development, it is considered most likely that English will continue to function as a koiné language, with a standard form that unifies speakers around the world.[142]
-Phonology
-This article contains phonetic transcriptions in the International Phonetic Alphabet (IPA). For an introductory guide on IPA symbols, see Help:IPA.
-
-English phonology and phonetics differ from one dialect to another, usually without interfering with mutual communication. Phonological variation affects the inventory of phonemes (speech sounds that distinguish meaning), and phonetic variation consists in differences in pronunciation of the phonemes.[143] This overview mainly describes Received Pronunciation (RP) and General American (GA), the standard varieties of the United Kingdom and the United States respectively.[144][145][146]
-Consonants
-
-Most English dialects share the same 24 consonant phonemes (or 26, if marginal /x/ and glottal stop /ʔ/ are included). The consonant inventory shown below is valid for California English,[147] and for RP.[148]
-Consonant phonemes 	Bilabial 	Labiodental 	Dental 	Alveolar 	Post-
-alveolar 	Palatal 	Velar 	Glottal
-Nasal 		m 				n 				ŋ 	
-Plosive 	p 	b 			t 	d 				k 	ɡ 	(ʔ) 	
-Affricate 							tʃ 	dʒ 				
-Fricative 		f 	v 	θ 	ð 	s 	z 	ʃ 	ʒ 		(x) 		h 	
-Approximant 	Central 						ɹ 		j 		w 	
-Lateral 					l 				
+The hellish reputation the underworld gets is rather a modern thing.
+The layers of ash choking the formerly great cities are still warm.
+The more domineering of Gods wished for me to champion their cause, and rule their society from here.
+Yet, surrounded by magma as it were, Azafure simply burned when their wishes were not met.
+Such is the unfortunate price of war, though I have no regrets fighting for my people.
 
-For pairs of obstruents (stops, affricates, and fricatives) such as /p b/, /tʃ dʒ/, and /s z/, the first is fortis (strong) and the second is lenis (weak). Fortis obstruents, such as /p tʃ s/ are pronounced with more muscular tension and breath force than lenis consonants, such as /b dʒ z/, and are always voiceless. Lenis consonants are partly voiced at the beginning and end of utterances, and fully voiced between vowels. Fortis stops such as /p/ have additional articulatory or acoustic features in most dialects: they are aspirated [pʰ] when they occur alone at the beginning of a stressed syllable, often unaspirated in other cases, and often unreleased [p̚] or pre-glottalised [ʔp] at the end of a syllable. In a single-syllable word, a vowel before a fortis stop is shortened: e.g. nip has a noticeably shorter vowel (phonetically, not phonemically) than nib [nɪˑb̥] (see below).[149]
+- The Underworld was full of great cities until recently, relatively speaking.
+- Gods wished for Yharim to lead their cause and rule society from there (More details later)
+- Azafure was destroyed during the war.
 
-    Lenis stops: bin [b̥ɪˑn], about [əˈbaʊt], nib [nɪˑb̥]
-    Fortis stops: pin [pʰɪn]; spin [spɪn]; happy [ˈhæpi]; nip [nɪp̚] or [nɪʔp]
+Domineering: Asserting one’s will in an arrogant way.
+Champion: Lead.
 
-In RP, the lateral approximant /l/ has two main allophones (pronunciation variants): the clear or plain [l], as in light, and the dark or velarised [ɫ], as in full.[150] GA has dark l in most cases.[151]
+ Wall of Flesh 
 
-    Clear l: RP light [laɪt]
-    Dark l: RP and GA full [fʊɫ], GA light [ɫaɪt]
+To contain the essence of a slain God is no small thing. It is rather a towering, ghastly construct.
+The Wall was lashed together with foul sinew and fouler magics, forming a rudimentary prison of flesh.
+It served its purpose: halting the diffusion of undue divine influence.
+Were it not for this alchemical breakthrough, the very world I fought for may have been lost in the carnage I wrought.
+My methods have since evolved. I need not contain such essences, when they can be devoured.
+May you channel my valor in combating the resulting outpour of energies.
 
-All sonorants (liquids /l, r/ and nasals /m, n, ŋ/) devoice when following a voiceless obstruent, and they are syllabic when following a consonant at the end of a word.[152]
+- The Wall of Flesh is a construct made to contain godly essence.
+- Yharim now has a way for godly essence to be devoured, making things like the Wall of Flesh unneeded.
 
-    Voiceless sonorants: clay [kl̥eɪ̯]; snow RP [sn̥əʊ̯], GA [sn̥oʊ̯]
-    Syllabic sonorants: paddle [ˈpad.l̩], button [ˈbʌt.n̩]
+Sinew: Refers to the physical materials used to build the Wall.
+Undue: Excessive.
 
-Vowels
-Closing diphthongs RP 	GA 	Word
-eɪ 	bay
-əʊ 	oʊ 	road
-aɪ 	cry
-aʊ 	cow
-ɔɪ 	boy
-Centring diphthongs RP 	GA 	Word
-ɪə 	ɪɹ 	peer
-eə 	ɛɹ 	pair
-ʊə 	ʊɹ 	poor
-Monophthongs RP 	GA 	Word
-iː 	i 	need
-ɪ 	bid
-e 	ɛ 	bed
-æ 	back
-ɑː 	ɑ 	bra
-ɒ 	box
-ɔ, ɑ 	cloth
-ɔː 	paw
-uː 	u 	food
-ʊ 	good
-ʌ 	but
-ɜː 	ɜɹ 	bird
-ə 	comma
+ Blood Moon 
 
-The pronunciation of vowels varies a great deal between dialects and is one of the most detectable aspects of a speaker's accent. The accompanying table below lists the vowel phonemes in RP and GA, with example words from lexical sets. The vowels are represented with symbols from the International Phonetic Alphabet; those given for RP are standard in British dictionaries and other publications.[153]
+This malevolence is not the work of any God. Blood moons trace their origins to the dawn of history.
+It is an occurrence equally sinister and banal. Everyone is acclimated to the shambling hordes of undead.
+Organized societies are not threatened in the slightest. If anything, they welcome the opportunity to train green foot soldiers.
+Those with fire in their veins may strike out on their own, to revel in the slaughter.
+That is how I remember the sleepless nights from my younger days… Knee deep in corpses.
 
-In RP, vowel length is phonemic; long vowels are marked with a triangular colon ⟨ː⟩ in the table above, such as the vowel of need [niːd] as opposed to bid [bɪd].[154] In GA, vowel length is non-distinctive.[155]
+- Seriously this one doesn’t really tell much outside of explaining how Blood Moons are viewed in the world, which in this case is not that serious at all. People are used to it already even, organized societies use it to train soldiers and stronger people just straight up have fun during it.
 
-In both RP and GA, vowels are phonetically shortened before fortis consonants in the same syllable, like /t tʃ f/, but not before lenis consonants like /d dʒ v/ or in open syllables: thus, the vowels of rich [rɪtʃ], neat [nit], and safe [seɪ̯f] are noticeably shorter than the vowels of ridge [rɪˑdʒ], need [niˑd], and save [seˑɪ̯v], and the vowel of light [laɪ̯t] is shorter than that of lie [laˑɪ̯]. Because lenis consonants are frequently voiceless at the end of a syllable, vowel length is an important cue as to whether the following consonant is lenis or fortis.[156]
+Banal: Boringly common.
 
-The vowel /ə/ only occurs in unstressed syllables and is more open in quality in stem-final positions.[157][158] Some dialects do not contrast /ɪ/ and /ə/ in unstressed positions, such that rabbit and abbot rhyme and Lenin and Lennon are homophonous, a dialectal feature called the weak vowel merger.[159] GA /ɜr/ and /ər/ are realised as an r-coloured vowel [ɚ], as in further [ˈfɚðɚ] (phonemically /ˈfɜrðər/), which in RP is realised as [ˈfəːðə] (phonemically /ˈfɜːðə/).[160]
-Phonotactics
+ Queen Slime 
 
-An English syllable includes a syllable nucleus consisting of a vowel sound. Syllable onset and coda (start and end) are optional. A syllable can start with up to three consonant sounds, as in sprint /sprɪnt/, and end with up to five, as in (for some dialects) angsts /aŋksts/. This gives an English syllable a structure of (CCC)V(CCCCC) – where C represents a consonant and V a vowel. The word strengths /strɛŋθs/ is thus close to the most complex syllable possible in English. The consonants that may appear together in onsets or codas are restricted, as is the order in which they may appear. Onsets can only have four types of consonant clusters: a stop and approximant, as in play; a voiceless fricative and approximant, as in fly or sly; s and a voiceless stop, as in stay; and s, a voiceless stop, and an approximant, as in string.[161] Clusters of nasal and stop are only allowed in codas. Clusters of obstruents always agree in voicing, and clusters of sibilants and of plosives with the same point of articulation are prohibited. Several consonants have limited distributions: /h/ can only occur in syllable-initial position, and /ŋ/ only in syllable-final position.[162]
-Stress, rhythm, and intonation
-See also: Stress and vowel reduction in English, Intonation (linguistics) § English, and English prosody
+Having fled after your battle, it seems the Slime God fashioned a new guardian from the unleashed essences.
+Ensnared in the absorption process of its newfound power… it could not flee again.
+Or perhaps it was overcome by arrogance or desperation.
+A glorious hunt, a fine foe. Now you know you must chase them to the ends of Terraria.
 
-Stress plays an important role in English. Certain syllables are stressed, while others are unstressed. Stress is a combination of duration, intensity, vowel quality, and sometimes changes in pitch. Stressed syllables are pronounced longer and louder than unstressed syllables, and vowels in unstressed syllables are frequently reduced while vowels in stressed syllables are not.[163]
+- You killed the Slime God, once and for all.
+- The last line refers to Gods in general.
 
-Stress in English is phonemic. For instance, the word contract is stressed on the first syllable (/ˈkɒntrækt/ KON-trakt) when used as a noun, but on the last syllable (/kənˈtrækt/ kən-TRAKT) for most meanings (for example, "reduce in size") when used as a verb.[164][165][166] Here stress is connected to vowel reduction: in the noun "contract" the first syllable is stressed and has the unreduced vowel /ɒ/, but in the verb "contract" the first syllable is unstressed and its vowel is reduced to /ə/. Stress is also used to distinguish between words and phrases, so that a compound word receives a single stress unit, but the corresponding phrase has two: e.g. "a burnout" (/ˈbɜːrnaʊt/) versus "to burn out" (/ˈbɜːrn ˈaʊt/), and "a hotdog" (/ˈhɒtdɒɡ/) versus "a hot dog" (/ˈhɒt ˈdɒɡ/).[167]
+Ensnared: Stuck.
 
-In terms of rhythm, English is generally described as a stress-timed language, meaning that the amount of time between stressed syllables tends to be equal.[168] Stressed syllables are pronounced longer, but unstressed syllables (syllables between stresses) are shortened. Vowels in unstressed syllables are shortened as well, and vowel shortening causes changes in vowel quality: vowel reduction.[169]
-Regional variation
-Phonological features in Standard English varieties[170]
-	United
-States 	Canada 	Republic
-of Ireland 	Northern
-Ireland 	Scotland 	England 	Wales 	South
-Africa 	Australia 	New
-Zealand
-father–bother merger 	Yes 	Yes 								
-/ɒ/ is unrounded 	Yes 	Yes 	Yes 							
-/ɜr/ is pronounced [ɚ] 	Yes 	Yes 	Yes 	Yes 						
-cot–caught merger 	Possibly 	Yes 	Possibly 	Yes 	Yes 					
-fool–full merger 				Yes 	Yes 					
-/t, d/ flapping 	Yes 	Yes 	Possibly 	Often 	Rarely 	Rarely 	Rarely 	Rarely 	Yes 	Often
-trap–bath split 			Possibly 	Possibly 		Often 	Yes 	Yes 	Often 	Yes
-non-rhoticity 						Yes 	Yes 	Yes 	Yes 	Yes
-close vowels for /æ, ɛ/ 								Yes 	Yes 	Yes
-/l/ can always be pronounced [ɫ] 	Yes 	Yes 		Yes 	Yes 				Yes 	Yes
-/ɑː/ is fronted before /r/ 		Possibly 	Possibly 						Yes 	Yes
-Dialects and low vowels Lexical set 	RP 	GA 	Can 	Sound change
-THOUGHT 	/ɔː/ 	/ɔ/ or /ɑ/ 	/ɑ/ 	cot–caught merger
-CLOTH 	/ɒ/ 	lot–cloth split
-LOT 	/ɑ/ 	father–bother merger
-PALM 	/ɑː/
-BATH 	/æ/ 	/æ/ 	trap–bath split
-TRAP 	/æ/
+ The Archmage 
 
-Varieties of English vary the most in pronunciation of vowels. The best-known national varieties used as standards for education in non-English-speaking countries are British (BrE) and American (AmE). Countries such as Canada, Australia, Ireland, New Zealand and South Africa have their own standard varieties which are less often used as standards for education internationally.[170]
+He yet lives?! I thought him slain by Calamitas. It appears she imprisoned the Archmage to spare his life.
+I assumed that frigid mass was an old construct of his, running amok without its master to shepherd it.
+Permafrost was an old ally of mine, wielding the prestigious title of Archmage and great renown.
+His wisdom guided my original conquests, making much of them possible at all.
+As my crusade evolved and my ambitions grew, he expressed vehement disapproval.
+Where justice was once seen, tyranny had blinded it. He departed and the Witch not long after.
 
-English has undergone many historical sound changes, some of them affecting all varieties, and others affecting only a few. Most standard varieties are affected by the Great Vowel Shift, which changed the pronunciation of long vowels, but a few dialects have slightly different results. In North America, a number of chain shifts such as the Northern Cities Vowel Shift and Canadian Shift have produced very different vowel landscapes in some regional accents.[171]
+- Yharim believed Permafrost had been slain by Calamitas (more details later).
+- Permafrost was one of the first allies Yharim had.
+- The Archmage was one of the most important pieces of his army, making several of his initial conquests possible.
+- Once Yharim started to fall, Permafrost left, and Calamitas soon followed.
 
-Some dialects have fewer or more consonant phonemes and phones than the standard varieties. Some conservative varieties like Scottish English have a voiceless [ʍ] sound in whine that contrasts with the voiced [w] in wine, but most other dialects pronounce both words with voiced [w], a dialect feature called wine–whine merger. The voiceless velar fricative sound /x/ is found in Scottish English, which distinguishes loch /lɔx/ from lock /lɔk/. Accents like Cockney with "h-dropping" lack the glottal fricative /h/, and dialects with th-stopping and th-fronting like African-American Vernacular and Estuary English do not have the dental fricatives /θ, ð/, but replace them with dental or alveolar stops /t, d/ or labiodental fricatives /f, v/.[172][173] Other changes affecting the phonology of local varieties are processes such as yod-dropping, yod-coalescence, and reduction of consonant clusters.[174][page needed]
+Amok: Frenzied.
+Vehement: Strong.
+Cryogen
+When Yharim realized that the Archmage had defected, Calamitas was ordered to hunt down and kill her former mentor. After a tearful confrontation, she decided to instead seal him away, and fake his death. The spellwork present in this living seal is inspired, and a tragic homage to every lesson Permafrost taught his student.
 
-GA and RP vary in their pronunciation of historical /r/ after a vowel at the end of a syllable (in the syllable coda). GA is a rhotic dialect, meaning that it pronounces /r/ at the end of a syllable, but RP is non-rhotic, meaning that it loses /r/ in that position. English dialects are classified as rhotic or non-rhotic depending on whether they elide /r/ like RP or keep it like GA.[175]
+-Permafrost was imprisoned within Cryogen by Calamitas in an attempt to protect him. 
+-Cryogen is a seal created by Calamitas using the teachings of Permafrost.
+-Yharim had lied about the cause of Permafrost’s disappearance, putting the blame on Calamitas instead of himself.
 
-There is complex dialectal variation in words with the open front and open back vowels /æ ɑː ɒ ɔː/. These four vowels are only distinguished in RP, Australia, New Zealand and South Africa. In GA, these vowels merge to three /æ ɑ ɔ/,[176] and in Canadian English, they merge to two /æ ɑ/.[177]
-Grammar
+ The Mechanical Trio 
 
-Typical for an Indo-European language, English grammar follows accusative morphosyntactic alignment. Unlike other Indo-European languages, English has largely abandoned the inflectional case system in favour of analytic constructions. Only the personal pronouns retain morphological case more strongly than any other word class. English distinguishes at least seven major word classes: verbs, nouns, adjectives, adverbs, determiners (including articles), prepositions, and conjunctions. Some analyses add pronouns as a class separate from nouns, and subdivide conjunctions into subordinators and coordinators, and add the class of interjections.[178] English also has a rich set of auxiliary verbs, such as have and do, expressing the categories of mood and aspect. Questions are marked by do-support, wh-movement (fronting of question words beginning with wh-) and word order inversion with some verbs.[179]
+These unwieldy beasts of steel were the experiments of Draedon, my former colleague and prodigious engineer. His intent was to fuel a war machine with soul energy, allowing it to fight with purpose and zeal. 
+The creations were a success; so much so, that the souls continued to express their own free will. Draedon was displeased with the results. However these were my soldiers with their loyalty forged anew in iron. I dismissed them from duty, and yet they linger here still. Scouring the land for evidence of the divine. 
+Unfortunately for you that puts you in their crosshairs. Give them a battle worth dying in.
 
-Some traits typical of Germanic languages persist in English, such as the distinction between irregularly inflected strong stems inflected through ablaut (i.e. changing the vowel of the stem, as in the pairs speak / spoke and foot / feet) and weak stems inflected through affixation (such as love / loved, hand / hands).[180] Vestiges of the case and gender system are found in the pronoun system (he / him, who / whom); similarly, traces of more complex verb conjugation are seen in the inflection of the copula verb to be.[180]
+- Draedon was Yharim’s former colleague and engineer.
+- He created the Mechanical Trio in an experiment with souls.
+- They were used to combat the Gods, forged from Yharim’s previous soldiers' souls.
 
-The seven word classes are exemplified in this sample sentence:[181]
-The 	chairman 	of 	the 	committee 	and 	the 	loquacious 	politician 	clashed 	violently 	when 	the 	meeting 	started.
-Det. 	Noun 	Prep. 	Det. 	Noun 	Conj. 	Det. 	Adj. 	Noun 	Verb 	Advb. 	Conj. 	Det. 	Noun 	Verb
-Nouns and noun phrases
+ The Twins 
 
-English nouns are only inflected for number and possession. New nouns can be formed through derivation or compounding. They are semantically divided into proper nouns (names) and common nouns. Common nouns are in turn divided into concrete and abstract nouns, and grammatically into count nouns and mass nouns.[182]
+Not all of warfare is direct combat. Logistics, intelligence and wit are paramount in equal ways to ensure victory.
+These machines are my finest scouts and agents, reborn in a form that gives them sight unrivaled.
+An enemy is only as safe as you allow him to be: Archers, spies, assassins and more allow you to keep a decisive edge.
+Draedon understood well that the only fair fight is the one you win.
+His assistance was infallible, and his calculus cold and cruel.
+Not even the most evasive target stood a chance.
 
-Most count nouns are inflected for plural number through the use of the plural suffix -s, but a few nouns have irregular plural forms. Mass nouns can only be pluralised through the use of a count noun classifier, e.g. "one loaf of bread", "two loaves of bread".[183]
+- The Twins played the role of hunting down any foe. Considering the statement in Queen Slime Lore Item, they were certainly useful in finding Gods that may have been too evasive.
 
-Regular plural formation:
+ Sulphur Sea 
 
-    Singular: cat, dog
-    Plural: cats, dogs
+This seaside has never been pleasant, though it has seen far better days.
+Incessant fumes rising from the industry of Azafure inundate the water with caustic ions.
+Despite this, the hardy life adapted to the new environment. No doubt aided by Silva as she burrowed through to the underworld.
+Long considered uninhabitable, its further deterioration led Draedon to designate it as a dumping ground.
+Years of careless waste disposal has now left the coast's transformation irreversible.
 
-Irregular plural formation:
+- The Sulphur Sea has always been stinky. Azafure inhabitants were the culprits because of the industry there.
+ - Silva, Goddess of Life, aided life to adapt to the new environment.
+- Draedon made the Sulphur Sea stinkier.
 
-    Singular: man, woman, foot, fish, ox, knife, mouse
-    Plural: men, women, feet, fish, oxen, knives, mice
+ Aquatic Scourge 
 
-Possession can be expressed either by the possessive enclitic -s (also traditionally called a genitive suffix), or by the preposition of. Historically the -s possessive has been used for animate nouns, whereas the of possessive has been reserved for inanimate nouns. Today this distinction is less clear, and many speakers use -s also with inanimates. Orthographically the possessive -s is separated from a singular noun with an apostrophe. If the noun is plural formed with -s the apostrophe follows the -s.[179]
+Another once grand sea serpent, well-adapted to its harsh environs.
+Unlike the other Scourge, which was half starved and chasing scraps for its next meal; it lived comfortably.
+Microorganisms evolve rapidly, so it was able to maintain its filter feeding habits as the sea putrefied.
+What a stark contrast to the rest of the ecosystem. Nearly every other creature in the Sulphur Sea is hostile.
+A shame that its last bastion of tranquility has fallen.
 
-Possessive constructions:
+- The Aquatic Scourge is a relative to the Desert Scourge, adapted to this environment.
+- Unlike many other bosses, this one is confirmed to be non-hostile.
 
-    With -s: "The woman's husband's child"
-    With of: "The child of the husband of the woman"
+Stark: Sharp.
+Aquatic Scourge
+A peaceful yet intimidating being that roamed the Sulphurous Sea, its mere existence was enough to scare away most creatures from the shore. Without its presence to act as a deterrent, fearsome predators now feel safe to prowl during the acidic storms.
 
-Nouns can form noun phrases (NPs) where they are the syntactic head of the words that depend on them such as determiners, quantifiers, conjunctions or adjectives.[184] Noun phrases can be short, such as the man, composed only of a determiner and a noun. They can also include modifiers such as adjectives (e.g. red, tall, all) and specifiers such as determiners (e.g. the, that). But they can also tie together several nouns into a single long NP, using conjunctions such as and, or prepositions such as with, e.g. "the tall man with the long red trousers and his skinny wife with the spectacles" (this NP uses conjunctions, prepositions, specifiers, and modifiers). Regardless of length, an NP functions as a syntactic unit.[179] For example, the possessive enclitic can, in cases which do not lead to ambiguity, follow the entire noun phrase, as in "The President of India's wife", where the enclitic follows India and not President.
+-Despite being a passive creature, Aquatic Scourge apparently served as a deterrent to many strong creatures from being in the Sulphurous Sea.
+-This entry also explains the reason as to why the Acid Rain gets buffed after Aquatic Scourge’s defeat.
 
-The class of determiners is used to specify the noun they precede in terms of definiteness, where the marks a definite noun and a or an an indefinite one. A definite noun is assumed by the speaker to be already known by the interlocutor, whereas an indefinite noun is not specified as being previously known. Quantifiers, which include one, many, some and all, are used to specify the noun in terms of quantity or number. The noun must agree with the number of the determiner, e.g. one man (sg.) but all men (pl.). Determiners are the first constituents in a noun phrase.[185]
-Adjectives
+ The Destroyer 
 
-English adjectives are words such as good, big, interesting, and Canadian that most typically modify nouns, denoting characteristics of their referents (e.g. "a red car"). As modifiers, they come before the nouns they modify and after determiners.[186] English adjectives also function as predicative complements (e.g. "the child is happy").[187]
+The Godseeker Knights of my company were by far my finest soldiers.
+They championed my cause, and I championed them in return.
+I bestowed upon them hulking armor and colossal weaponry, so their might would never falter.
+Some days I would take time to train by their side, inspiring them to new heights of righteous fury.
+Draedon understood well, and granted them these massive forms. Bristling with weaponry and interlocked armor forged of blessed metal.
+While in truth it was repurposed mining equipment, their sheer presence on the battlefield was immense.
 
-In Modern English, adjectives are not inflected so as to agree in form with the noun they modify, as in most other Indo-European languages. For example, in the phrases "the slender boy", and "many slender girls", the adjective slender does not change form to agree with either the number or gender of the noun.[188]
+- The Destroyer helped in a very simple manner Yharim’s cause: being really strong.
+- The Hallowed Metal it is made of is blessed, in some way.
 
-Some adjectives are inflected for degree of comparison, with the positive degree unmarked, the suffix -er marking the comparative, and -est marking the superlative: "a small boy", "the boy is smaller than the girl", "that boy is the smallest". Some adjectives have irregular suppletive comparative and superlative forms, such as good, better, and best. Other adjectives have comparatives formed by periphrastic constructions, with the adverb more marking the comparative, and most marking the superlative: happier or more happy, the happiest or most happy.[189] There is some variation among speakers regarding which adjectives use inflected or periphrastic comparison, and some studies have shown a tendency for the periphrastic forms to become more common at the expense of the inflected form.[190]
-Determiners
+ Azafure 
 
-English determiners are words such as the, each, many, some, and which, occurring most typically in noun phrases before the head nouns and any modifiers and marking the noun phrase as definite or indefinite.[191] They often agree with the noun in number. They do not typically inflect for degree of comparison.
-Pronouns, case, and person
+Oft called the First City, its tumultuous history stretches back to the Draconic Era.
+An odd jewel of civilization, the immense heat of the underworld provided it unlimited potential in defense and industry.
+Such were the abilities of the forgemasters that when I swayed them to my cause, I was never lacking for arms.
+It pains me to say even in hindsight, but their artisanry paved the downfall of the entire city.
+For the Witch and I… the air here will forever be laden with regret. There is nothing to be done.
 
-English pronouns conserve many traits of case and gender inflection. The personal pronouns retain a difference between subjective and objective case in most persons (I/me, he/him, she/her, we/us, they/them) as well as an animateness distinction in the third person singular (distinguishing it from the three sets of animate third person singular pronouns) and an optional gender distinction in the animate third person singular (distinguishing between feminine she/her, epicene they/them, and masculine he/him.[192][193] The subjective case corresponds to the Old English nominative case, and the objective case is used in the sense both of the previous accusative case (for a patient, or direct object of a transitive verb), and of the Old English dative case (for a recipient or indirect object of a transitive verb).[194][195] The subjective is used when the pronoun is the subject of a finite clause, otherwise the objective is used.[196] While grammarians such as Henry Sweet[197] and Otto Jespersen[198] noted that the English cases did not correspond to the traditional Latin-based system, some contemporary grammars, including The Cambridge Grammar of the English Language, retain traditional nominative and accusative labels for the cases.[199]
+- Azafure is often claimed to have been the First City.
+- The city had several forgemasters that supplied Yharim’s army with abundant weaponry.
+- This artisanry is what provoked the city’s downfall, for unknown reasons.
+- For some reason, Yharim and Calamitas regret whatever happened here.
 
-Possessive pronouns exist in dependent and independent forms; the dependent form functions as a determiner specifying a noun (as in my chair), while the independent form can stand alone as if it were a noun (e.g. "the chair is mine").[200] Grammatical person in English no longer distinguishes between formal and informal pronouns of address, with the second person singular familiar pronoun thou that previously existed in the language having fallen almost entirely out of use by the 18th century.[201]
+Swayed: Brought to…
+Laden: Full of…
 
-Both the second and third persons share pronouns between the plural and singular:
+ Brimstone Elemental 
 
-    Plural and singular are always identical (you, your, yours) in the second person (except in the reflexive form: yourself/yourselves) in most dialects. Some dialects have introduced innovative second person plural pronouns, such as y'all (found in Southern American English and African-American Vernacular English), youse (found in Australian English), or ye (in Hiberno-English).
-    In the third person, the they/them series of pronouns (they, them, their, theirs, themselves) are used in both plural and singular, and are the only pronouns available for the plural. In the singular, the they/them series (sometimes with the addition of the singular-specific reflexive form themself) serve as a gender-neutral set of pronouns. These pronouns are becoming more accepted, especially as part of the LGBTQ culture.[192][202][203]
+A peculiar being. Until recently, she had laid dormant for ages, posing as the city's silent matron.
+As its economy boomed, traces of brimstone found their way all across the known world.
+It was never clear why her slumber ended. At first she stirred. The people were cautiously optimistic.
+When she woke, it was horrific. Inferno billowed through the streets. None were safe from the flames.
+Fate had a sick sense of humor that day, for Calamitas to be there to match her.
+Perhaps the two were attuned somehow…
+They fought to a standstill, fire against fire.
+Neither were victorious, with the city razed by flames despite her intention.
 
-English personal pronouns Person 	Subjective case 	Objective case 	Dependent possessive 	Independent possessive 	Reflexive
-1st, singular 	I 	me 	my 	mine 	myself
-2nd, singular 	you 	you 	your 	yours 	yourself
-3rd, singular 	he/she/it/they 	him/her/it/them 	his/her/its/their 	his/hers/its/theirs 	himself/herself/itself/themself/themselves
-1st, plural 	we 	us 	our 	ours 	ourselves
-2nd, plural 	you 	you 	your 	yours 	yourselves
-3rd, plural 	they 	them 	their 	theirs 	themselves
+- The Brimstone Elemental was the cause of Azafure’s downfall.
+- Calamitas and the Elemental fought, and their battle ravaged the city completely. It is unsure exactly who played the bigger role in this matter, however.
+- The Brimstone Elemental started to appear as Azafure’s economy peaked.
+- It is unclear why she woke up.
 
-Pronouns are used to refer to entities deictically or anaphorically. A deictic pronoun points to some person or object by identifying it relative to the speech situation – for example, the pronoun I identifies the speaker, and the pronoun you, the addressee. Anaphoric pronouns such as that refer back to an entity already mentioned or assumed by the speaker to be known by the audience, for example in the sentence "I already told you that". The reflexive pronouns are used when the oblique argument is identical to the subject of a phrase (e.g. "he sent it to himself" or "she braced herself for impact").[204]
-Prepositions
+Matron: Matriarch.
+Billowed: Ran rampant…
+Brimstone Elemental
+Roused from her deep slumber in relatively recent years, her awakening set into motion the downfall of Azafure. Most blame her unexpected revival on the city’s overzealous mining of Brimstone, while a few blame the city’s pollution, and some fewer cite dubious prophecies. But behind closed doors, there are whisperings that she was revived deliberately as part of a plot by opposing forces.
 
-Prepositional phrases (PP) are phrases composed of a preposition and one or more nouns, e.g. "with the dog", "for my friend", "to school", "in England".[205] English prepositions have a wide range of uses – including describing movement, place, and other relations between entities, as well as functions that are syntactic in nature, like introducing complement clauses and oblique arguments of verbs.[205] For example, in the phrase "I gave it to him", the preposition to marks the indirect object of the verb to give. Traditionally words were only considered prepositions if they governed the case of the noun they preceded, for example causing the pronouns to use the objective rather than subjective form, "with her", "to me", "for us". But some contemporary grammars no longer consider government of case to be the defining feature of the class of prepositions, rather defining prepositions as words that can function as the heads of prepositional phrases.[206]
-Verbs and verb phrases
+-Brimstone Elemental was asleep for many years, but then awoke and was a part of Azafure’s destruction.
+-There are many theories to her reawakening, from Azafure’s Brimstone mining industry, to pollution, even proclaiming that it was the result of a prophecy. Some secretly believe that someone had reawakened the Brimstone Elemental purposefully for vile reasons.
 
-English verbs are inflected for tense and aspect and marked for agreement with a third person present singular subject. Only the copula verb to be is still inflected for agreement with the plural and first and second person subjects.[189] Auxiliary verbs such as have and be are paired with verbs in the infinitive, past, or progressive forms. They form complex tenses, aspects, and moods. Auxiliary verbs differ from other verbs in that they can be followed by the negation, and in that they can occur as the first constituent in a question sentence.[207][208]
+Overzealous: Overenthusiastic in a matter.
+Dubious: Suspicious, not trustworthy.
 
-Most verbs have six inflectional forms. The primary forms are a plain present, a third person singular present, and a preterite (past) form. The secondary forms are a plain form used for the infinitive, a gerund-participle and a past participle.[209] The verb to be – which among other uses in English functions as the primary auxiliary verb indicating the imperfective aspect (e.g. "I am going"), as well as the copula[210] – is the only verb to retain some of its original conjugation, and takes different inflectional forms depending on the subject. The first person present form is am, the third person singular form is is, and the form are is used in the second person singular and all three plurals. The only verb past participle is been and its gerund-participle is being.[211]
-English inflectional forms Inflection 	Strong 	Regular
-Plain present 	take 	love
-3rd person sg.
-present 	takes 	loves
-Preterite 	took 	loved
-Plain (infinitive) 	take 	love
-Gerund–participle 	taking 	loving
-Past participle 	taken 	loved
-Tense, aspect, and mood
+ Skeletron Prime 
 
-English has two primary tenses, past (preterite) and non-past. The preterite is inflected by using the preterite form of the verb, which for the regular verbs includes the suffix -ed, and for the strong verbs either the suffix -t or a change in the stem vowel. The non-past form is unmarked except in the third person singular, which takes the suffix -s.[207]
-	Present 	Preterite
-First person 	I run 	I ran
-Second person 	You run 	You ran
-Third person 	John runs 	John ran
+So consumed by hatred were some souls, that they pledged they would do anything in my name.
+Their devotion was unerring. Absolute. No atrocity was beyond them; their vengeance knew no bounds.
+I organized them into shock troops, dreaded for their flamethrowers and incendiaries.
+Leveling places of worship and torching those falsely devout, their expertise lay in unmaking faith with flame.
+Draedon understood well. For them he crafted a visage so grim, it evoked oblivion itself.
 
-English does not have future verb forms.[212] The future tense is expressed periphrastically with one of the auxiliary verbs will or shall.[213] Many varieties also use a near future constructed with the phrasal verb "be going to" (going-to future).[214]
-	Future
-First person 	"I will run"
-Second person 	"You will run"
-Third person 	"John will run"
+- Yharim does not see arson as a problem.
+- I don’t know what more to say this guy is just Yharim committing war crimes.
 
-Further aspectual distinctions are shown by auxiliary verbs, primarily have and be, which show the contrast between a perfect and non-perfect past tense ("I have run" vs. "I was running"), and compound tenses such as preterite perfect ("I had been running") and present perfect ("I have been running").[215]
+ Calamitas Clone 
 
-For the expression of mood, English uses a number of modal auxiliaries, such as can, may, will, shall and the past tense forms could, might, would, should. There are also subjunctive and imperative moods, both based on the plain form of the verb (i.e. without the third person singular -s), for use in subordinate clauses (e.g. subjunctive: "It is important that he run every day"; imperative Run!).[213]
+I had seen this monster roaming the night in the past, and thought nothing of it.
+With its technology, it was certainly one of Draedon's creations.
+But, to think it was housing a clone of the Witch… Detestable.
+Surely Calamitas would want nothing to do with such a project.
+I know not how it wields her brimstone magic. Perhaps some day one of us may find answers.
 
-An infinitive form, that uses the plain form of the verb and the preposition to, is used for verbal clauses that are syntactically subordinate to a finite verbal clause. Finite verbal clauses are those that are formed around a verb in the present or preterite form. In clauses with auxiliary verbs, they are the finite verbs and the main verb is treated as a subordinate clause.[216] For example, "he has to go" where only the auxiliary verb have is inflected for time and the main verb to go is in the infinitive, or in a complement clause such as "I saw him leave", where the main verb is see, which is in a preterite form, and leave is in the infinitive.
-Phrasal verbs
+- This entry also doesn’t reveal much…
+- Draedon somehow made a clone of Calamitas. It’s unsure how he did it.
+- He likely made the project after he left Yharim’s army.
 
-English also makes frequent use of constructions traditionally called phrasal verbs, verb phrases that are made up of a verb root and a preposition or particle that follows the verb. The phrase then functions as a single predicate. In terms of intonation the preposition is fused to the verb, but in writing it is written as a separate word. Examples of phrasal verbs are "to get up", "to ask out", "to get together", and "to put up with". The phrasal verb frequently has a highly idiomatic meaning that is more specialised and restricted than what can be simply extrapolated from the combination of verb and preposition complement (e.g. lay off meaning terminate someone's employment).[217] Some grammarians do not consider this type of construction to form a syntactic constituent and hence refrain from using the term "phrasal verb". Instead, they consider the construction simply to be a verb with a prepositional phrase as its syntactic complement, e.g. "he woke up in the morning" and "he ran up in the mountains" are syntactically equivalent.[218]
-Adverbs
 
-The function of adverbs is to modify the action or event described by the verb by providing additional information about the manner in which it occurs.[179] Many English adverbs are derived from adjectives by appending the suffix -ly. For example, in the phrase "the woman walked quickly", the adverb quickly is derived from the adjective quick. Some commonly used adjectives have irregular adverbial forms, such as good, which has the adverbial form well.[219]
-Syntax
-In the English sentence "The cat sat on the mat", the subject is the cat (a noun phrase), the verb is sat, and on the mat is a prepositional phrase composed of a noun phrase the mat, headed by the preposition on.
+Calamitas Clone
+This machine which stalks the night carries the failed clone of the Supreme Witch. Though lacking her hexes and black magic, even a fragment of Calamitas’ brimstone power was enough to drive the clone to insanity. Nothing human remains.
 
-Modern English syntax is moderately analytic.[220] It has developed features such as modal verbs and word order as resources for conveying meaning. Auxiliary verbs mark constructions such as questions, negative polarity, the passive voice and progressive aspect.[221]
-Basic constituent order
+-Calamitas Clone is an outer shell that contains a clone of Supreme Witch, Calamitas. After being given a small portion of Calamitas’ powers, the clone lost any form of humanity it may have had remaining.
 
-English has moved from the Germanic verb-second (V2) word order to being almost exclusively subject–verb–object (SVO).[222] The combination of SVO order and use of auxiliary verbs often creates clusters of two or more verbs at the centre of the sentence, such as "he had been hoping to try opening it".[223]
+ Plantera 
 
-In most sentences, English only marks grammatical relations through word order.[224] The subject constituent precedes the verb and the object constituent follows it. The grammatical roles of each constituent are marked only by the position relative to the verb:
-The dog 	bites 	the man
-S 	V 	O
-The man 	bites 	the dog
-S 	V 	O
+This floral aberration is another example of the volatile power of harnessed souls.
+Taking their mastery of agriculture to new heights, the Jungle settlers bred a special sprout.
+Through ritual blessing of the soil, it was fed legions of souls.
+Elders of the village wished to bring forth a new age of botanical prosperity.
+Indeed, the plant was awe inspiring. But it was wild and untamed, with a will of its own.
+Now that you have slain it, still more disorderly spiritual energies are flooding the lands.
+The village's ignorance was shameful in its own right, but this is worse still.
 
-An exception is found in sentences where one of the constituents is a pronoun, in which case it is doubly marked, both by word order and by case inflection, where the subject pronoun precedes the verb and takes the subjective case form, and the object pronoun follows the verb and takes the objective case form.[225] The example below demonstrates this double marking in a sentence where both object and subject are represented with a third person singular masculine pronoun:
-He 	hit 	him
-S 	V 	O
+- Villagers in the Jungle made this, wishing to “bring forth a new age of botanical prosperity”, whatever that may imply.
 
-Indirect objects (IO) of ditransitive verbs can be placed either as the first object in a double object construction (S V IO O), such as "I gave Jane the book" or in a prepositional phrase, such as "I gave the book to Jane".[226]
-Clause syntax
-Main article: English clause syntax
+ The Abyss 
 
-English sentences may be composed of one or more clauses, that may in turn be composed of one or more phrases (e.g. noun phrases, verb phrases, prepositional phrases). A clause is built around a verb and includes its constituents, such as any noun or prepositional phrases. Within a sentence, there is always at least one main clause (or matrix clause) whereas other clauses are subordinate to a main clause. Subordinate clauses may function as arguments of the verb in the main clause. For example, in the phrase "I think (that) you are lying", the main clause is headed by the verb think, the subject is I, but the object of the phrase is the subordinate clause "(that) you are lying". The subordinating conjunction that shows that the clause that follows is a subordinate clause, but it is often omitted.[227] Relative clauses are clauses that function as a modifier or specifier to some constituent in the main clause: For example, in the sentence "I saw the letter that you received today", the relative clause "that you received today" specifies the meaning of the word letter, the object of the main clause. Relative clauses can be introduced by the pronouns who, whose, whom, and which as well as by that (which can also be omitted).[228] In contrast to many other Germanic languages there are no major differences between word order in main and subordinate clauses.[229]
-Auxiliary verb constructions
+While there are many sightless crevasses in the deep sea, this one is a unique geological marvel.
+It is located unsettlingly close to the shoreline. Somehow, even eons of tectonics could not seal or crush it.
+The isolated Abyss is the debatably tranquil home of the naiad Anahita and some reclusive sea creatures.
+Here, I disposed of the burgeoning remains of Silva, the Goddess of Life itself. Obviously, she of all Gods refused to truly die.
+My wishes were that she would be forgotten, but her tenacity is remarkable.
+Diffused, her influence inundated that pit of crushing pressure with flora and fauna aplenty.
+Her great roots continue to thrash and tear at the impossibly dense stone, growing uncontrollably.
+She will soon remake it in her image. I can think of no worse fate for this accursed, hadal domain.
 
-English auxiliary verbs are relied upon for many functions, including the expression of tense, aspect, and mood. Auxiliary verbs form main clauses, and the main verbs function as heads of a subordinate clause of the auxiliary verb. For example, in the sentence "the dog did not find its bone", the clause "find its bone" is the complement of the negated verb did not. Subject–auxiliary inversion is used in many constructions, including focus, negation, and interrogative constructions.[230]
+- The Abyss being so close to the shoreline isn’t just a gameplay effect.
+- Anahita came from The Abyss.
+- The remains of Silva, the Goddess of Life, were thrown into it, but she refused to truly die. This is why stuff like Planty Mush exist.
+- Silva will, eventually, “remake it in her image”.
 
-The verb do can be used as an auxiliary even in simple declarative sentences, where it usually serves to add emphasis, as in "I did shut the fridge." However, in the negated and inverted clauses referred to above, it is used because the rules of English syntax permit these constructions only when an auxiliary is present. Modern English does not allow the addition of the negating adverb not to an ordinary finite lexical verb, as in *"I know not" – it can only be added to an auxiliary (or copular) verb, hence if there is no other auxiliary present when negation is required, the auxiliary do is used, to produce a form like "I do not (don't) know." The same applies in clauses requiring inversion, including most questions – inversion must involve the subject and an auxiliary verb, so it is not possible to say *"Know you him?"; grammatical rules require "Do you know him?"[231]
+Crevasse: Hole.
+Naiad: Mermaid.
+Burgeoning: Burning.
 
-Negation is done with the adverb not, which precedes the main verb and follows an auxiliary verb. A contracted form of not -n't can be used as an enclitic attaching to auxiliary verbs and to the copula verb to be. Just as with questions, many negative constructions require the negation to occur with do-support, thus in Modern English "I don't know him" is the correct answer to the question "Do you know him?", but not *"I know him not", although this construction may be found in older English.[232]
+ Leviathan and Anahita 
 
-Passive constructions also use auxiliary verbs. A passive construction rephrases an active construction in such a way that the object of the active phrase becomes the subject of the passive phrase, and the subject of the active phrase is either omitted or demoted to a role as an oblique argument introduced in a prepositional phrase. They are formed by using the past participle either with the auxiliary verb to be or to get, although not all varieties of English allow the use of passives with get. For example, putting the sentence "she sees him" into the passive becomes "he is seen (by her)", or "he gets seen (by her)".[233]
-Questions
+Although she claims dominion over all the world's oceans, in truth she is a recluse of the deep.
+Elementals pose a grave threat to all those around them. Other Elementals are no exception.
+Anahita was driven from her home in the Abyss by Silva's encroaching greenery.
+Accounts vary as to the majestic beast at her side. Some claim Anahita summoned the Leviathan herself.
+Regardless of what you believe, they are inseparable even in death.
+Such stalwart loyalty! It reminds me of Yharon.
+- Anahita is the Water Elemental, and can control the oceans.
+- She was kicked out of the Abyss by Silva, who tried to claim it as her own.
+- Silva, too, is an Elemental. Her exact title is unknown.
+Anahita
+Once a resident of the Abyss, she left it long ago due to Silva’s influence spreading through her former home. She wishes to see all overtaken by the ocean, so that her domain may encompass the world. Such is the nature of all elementals.
 
-Both yes/no questions and wh-questions in English are mostly formed using subject–auxiliary inversion ("Am I going tomorrow?", "Where can we eat?"), which may require do-support ("Do you like her?", "Where did he go?"). In most cases, interrogative words (or wh-words) – which include who, what, when, where, why, and how – appear in a fronted position. For example, in the question "What did you see?", the word what appears as the first constituent despite being the grammatical object of the sentence. When the wh-word is the subject or forms part of the subject, no inversion occurs (e.g. "Who saw the cat?"). Prepositional phrases can also be fronted when they are the questions theme (e.g. "To whose house did you go last night?"). The personal interrogative pronoun who is the only interrogative pronoun to still show inflection for case, with the variant whom serving as the objective case form, although this form may be going out of use in many contexts.[234]
-Discourse level syntax
+-Anahita originally came from the Abyss, but left due to Silva’s influence overtaking it.
+-All Elementals apparently desire all to be within their domain.
+Leviathan
+A gargantuan marine reptile that lurks the ocean depths along with the Water Elemental, Anahita. It is unknown if she is the last of her kind, or was simply manifested into existence like her master.
 
-While English is a subject-prominent language, at the discourse level it tends to use a topic–comment structure, where the known information (topic) precedes the new information (comment). Because of the strict SVO syntax, the topic of a sentence generally has to be the grammatical subject of the sentence. In cases where the topic is not the grammatical subject of the sentence, it is often promoted to subject position through syntactic means. One way of doing this is through a passive construction, "the girl was stung by the bee". Another way is through a cleft sentence where the main clause is demoted to be a complement clause of a copula sentence with a dummy subject such as it or there, e.g. "it was the girl that the bee stung", "there was a girl who was stung by a bee".[235] Dummy subjects are also used in constructions where there is no grammatical subject such as with impersonal verbs (e.g. "it is raining") or in existential clauses ("there are many cars on the street"). Through the use of these complex sentence constructions with informationally vacuous subjects, English is able to maintain both a topic–comment sentence structure and a SVO syntax.[236]
+-The origins of the Leviathan are unclear. All that is known is that she lurks in the Ocean with Anahita, anything more is a mystery.
+-The wording here implies that Anahita was created out of nothing, which could potentially hint at the origins of the Elementals.
 
-Focus constructions emphasise a particular piece of new or salient information within a sentence, generally through allocating the main sentence level stress on the focal constituent. For example, "the girl was stung by a bee" (emphasising it was a bee and not, for example, a wasp that stung her), or "the girl was stung by a bee" (contrasting with another possibility, for example that it was the boy).[237] Topic and focus can also be established through syntactic dislocation, either preposing or postposing the item to be focused on relative to the main clause. For example, "That girl over there, she was stung by a bee", emphasises the girl by preposition, but a similar effect could be achieved by postposition, "she was stung by a bee, that girl over there", where reference to the girl is established as an afterthought.[238]
+ Astrum Aureus 
 
-Cohesion between sentences is achieved through the use of deictic pronouns as anaphora (e.g. "that is exactly what I mean" where that refers to some fact known to both interlocutors, or then used to locate the time of a narrated event relative to the time of a previously narrated event).[239] Discourse markers such as oh, so, or well, also signal the progression of ideas between sentences and help to create cohesion. Discourse markers are often the first constituents in sentences. Discourse markers are also used for stance taking in which speakers position themselves in a specific attitude towards what is being said, for example, "no way is that true!" (the idiomatic marker "no way!" expressing disbelief), or "boy! I'm hungry" (the marker boy expressing emphasis). While discourse markers are particularly characteristic of informal and spoken registers of English, they are also used in written and formal registers.[240]
-Vocabulary
+Ever pragmatic, Draedon dispatched this machine to locate and analyze the source of the Astral Infection.
+While nominally for reconnaissance, the Aureus model is heavily armed and can scale any terrain.
+It performed admirably, at least until it was assimilated into the Infection.
+Sapient minds have enough willpower to resist the Infection's call indefinitely.
+However… even the finest silicon is not beyond its reach. Draedon prefers his creations to serve, after all.
+With this experiment concluded, he will certainly be examining you next. Watch yourself.
 
-The English lexicon consists of around 170,000 words (or 220,000, if counting obsolete words), according to an estimate based on the 1989 edition of the Oxford English Dictionary.[241] Over one-half are nouns, one-quarter are adjectives, and one-seventh are verbs. Another estimate – which includes scientific jargon, prefixed and suffixed words, loanwords of extremely limited use, technical acronyms, etc. – counts around 1 million total English words.[242]
+- Beings with a sapient brain are immune to the Astral Infection. Namely, humans.
+- Draedon is coming.
+Astrum Aureus
+Once meant for returning equipment from and surveying sites of prior battles, this creation of Draedon’s was overtaken by the Astral Infection. Unfortunately, its defeat has released what power it possessed, granting it instead to the star’s other warriors.
 
-English borrows vocabulary quickly from many languages and other sources. Early studies of English vocabulary by lexicographers (scholars who study vocabulary and compile dictionaries) were impeded by a lack of comprehensive data on actual vocabulary in use from high-quality linguistic corpora[243] (collections of actual written texts and spoken passages). Many statements published before the end of the 20th century about the growth of English vocabulary over time, the dates of first use of various words in English, and the sources of English vocabulary will have to be corrected as new computerised analyses of linguistic corpus data become available.[244][245]
-Word-formation processes
+-Astrum Aureus was a recon robot created by Draedon for the purpose of exploring old battle sites, but was taken by the Astral Infection.
+-Astrum Aureus held great power within it, likely given to it by the Infection.
 
-English forms new words from existing words or roots in its vocabulary through a variety of processes. One of the most productive processes in English is conversion,[246] using a word with a different grammatical role, for example using a noun as a verb or a verb as a noun. Another productive word-formation process is nominal compounding,[242][245] producing compound words such as babysitter or ice cream or homesick.[246]
+ Golem 
 
-Formation of new words, called neologisms, based on Greek or Latin roots (for example television or optometry) is a highly productive process in modern European languages like English, so much so that it is often difficult to determine in which language a neologism originated. For this reason, American lexicographer Philip Gove attributed many such words to the "international scientific vocabulary" (ISV) when compiling Webster's Third New International Dictionary (1961). Another active word-formation process in English is that of acronyms, which result from pronouncing abbreviations of longer phrases as single words, e.g. NATO, laser, scuba.[247]
-Word origins
-Further information: Foreign-language influences in English and Lists of English words by country or language of origin
-See also: Linguistic purism in English
-English lexicon by source language[9][248]
+What a sad, piteous thing. Truly, a mockery in every sense of the word.
+The Lihzahrds were abandoned by their deity long ago. They set upon creating the idol as a replacement.
+The result is an amalgamation of the concepts and themes of many Gods, prominently the heat of the sun.
+It is a far cry from a mechanical god… for the better. The alternative is too chilling to consider.
+While I believe this insignificant construct barely deserves mention, the Lihzahrds revere it unflinchingly.
+I see no need to intervene in affairs beneath me and my people.
 
-    French, including Anglo-Norman (28.3%)
-    Latin, including scientific and technical loans (28.2%)
-    Germanic (Old English, Old Norse, Dutch) (25.0%)
-    Greek (5.32%)
-    None given (4.03%)
-    Derived from proper names (3.28%)
-    Other (5.83%)
+- Yharim really dislikes Golem
+- He is also racist towards Lihzahrds.
+- They were abandoned by their deity long ago, whoever that may have been (more on this later).
+- A mechanical God would be very scary.
 
-Throughout its history, English has been a particularly frequent borrower of loanwords from other languages.[249] West Germanic words in use since the Anglo-Saxon period still comprise most of the language's core vocabulary, as well as most of its most frequently used words.[250][251][242] Many sentences can be constructed without loanwords, but not without core Anglo-Saxon vocabulary.[252] English has formal and informal speech registers; informal registers, including child-directed speech, tend to be made up predominantly of Anglo-Saxon vocabulary, while Latinate vocabulary appears more frequently in legal, scientific, and academic writing.[253][254]
+ The Plaguebringer Goliath 
 
-Prolonged and intense contact with French has resulted in English having a very high proportion of Latinate words – with French loanwords borrowed during different stages of the language's history comprising 28 per cent of the English lexicon.[255] In all periods of its history, English has also borrowed words from Latin directly,[245][242] representing another 28 per cent of the lexicon.[256] In turn, many of these words had originally entered Latin from Greek. Greek and Latin stems remain highly productive sources for new literary, technical, and scientific vocabulary in English.[257]
+An innocent queen, forced to bear an agonizing existence. This is nothing short of a crime against nature.
+Without consulting me, Draedon sought to weaponize the already well-organized Jungle bees.
+When he revealed his finished project, I was enraged. Enslaving the bees was despicable.
+Draedon cared little for my outrage and returned to his other work without further incident.
+From that point on, I stopped making requests of Draedon. He had shown me his true colors…
+In my later days I was far from virtuous. But I would not shackle a creature to fight in my name.
+That would make me no better than the divine scoundrels I pursued.
 
-Loanwords from Old Norse primarily entered English between the 8th and 11th centuries, during the Norse colonisation of eastern and northern England, and typically displaced an Anglo-Saxon equivalent. Many represent core vocabulary – including give, get, sky, skirt, egg, and cake.[258][39]
-English loans in other languages
-Main article: Englishisation
-Sign written in United States Spanish, using the English word free instead of the Spanish gratis
+- The Plaguebringer Project was what made Draedon and Yharim part ways.
+- Yharim deeply resents the idea of slavery.
+- Yharim REALLY likes bees.
 
-English has had a strong influence on the vocabulary of other languages.[255][259] The influence of English comes from such factors as opinion leaders in other countries knowing the English language, the role of English as a world lingua franca, and the large number of books and films that are translated from English into other languages.[260] That pervasive use of English leads to a conclusion in many places that English is an especially suitable language for expressing new ideas or describing new technologies. Among varieties of English, it is especially American English that influences other languages.[261] Some languages, such as Chinese, write words borrowed from English mostly as calques, while others, such as Japanese, readily take in English loanwords written in sound-indicating script.[262] Dubbed films and television programmes are an especially fruitful source of English influence on languages in Europe.[262]
-Orthography
+Scoundrel: Villain.
+The Plaguebringer Goliath
+The Plague’s creation initially began after the unsatisfactory results the soul-power machines provided, with Draedon seeking absolute control. After testing many different variants for decades, both the Plague and its goliath were born, with its spread allowing for an amount of control over life once thought impossible.
 
-Since the 9th century, English has been written using the English alphabet, which uses the Latin script. Anglo-Saxon runes were previously used to write Old English, but only in short inscriptions; the overwhelming majority of attested writings in Old English are in the Old English Latin alphabet.[33]
+-Draedon started creating the Plague after the Mechanical Bosses.
+-Several decades after the Mechanical Bosses’ creation, the Plaguebringer Goliath and the Plague were born.
 
-English orthography is multi-layered and complex, with elements of French, Latin, and Greek spelling on top of the native Germanic system.[263] Further complications have arisen through sound changes with which the orthography has not kept pace.[50] Compared to European languages for which official organisations have promoted spelling reforms, English has spelling that is a less consistent indicator of pronunciation, and standard spellings of words that are more difficult to guess from knowing how a word is pronounced.[264] There are also systematic spelling differences between British and American English. These situations have prompted proposals for spelling reform in English.[265]
+ The Empress of Light 
 
-Although letters and speech sounds do not have a one-to-one correspondence in standard English spelling, spelling rules that take into account syllable structure, phonetic changes in derived words, and word accent are reliable for most English words.[266] Moreover, standard English spelling shows etymological relationships between related words that would be obscured by a closer correspondence between pronunciation and spelling – for example, the words photograph, photography, and photographic,[266] or the words electricity and electrical. While few scholars agree with Chomsky and Halle (1968) that conventional English orthography is "near-optimal",[263] there is a rationale for current English spelling patterns.[267] The standard orthography of English is the most widely used writing system in the world.[268] Standard English spelling is based on a graphomorphemic segmentation of words into written clues of what meaningful units make up each word.[269]
+Though her title is lofty, she is more an emissary for the powers beyond and forces of nature.
+In broad daylight, she can channel the Primordial Light itself, making her nigh untouchable.
+Thankfully, left with only starlight to wield, she falls like any other graceless despot.
+Her penchant for leeching the strength of other great beings is uniquely deplorable.
+It made her sickeningly obedient. Dependent, but willingly so as they enabled her to slake her base thirst.
+I had deigned to slay her myself for her treachery, but she was a notoriously evasive mark.
 
-Readers of English can generally rely on the correspondence between spelling and pronunciation to be fairly regular for letters or digraphs used to spell consonant sounds. The letters b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, z represent, respectively, the phonemes /b, d, f, h, dʒ, k, l, m, n, p, r, s, t, v, w, j, z/. The letters c and g normally represent /k/ and /ɡ/, but there is also a soft c pronounced /s/, and a soft g pronounced /dʒ/. The differences in the pronunciations of the letters c and g are often signalled by the following letters in standard English spelling. Digraphs used to represent phonemes and phoneme sequences include ch for /tʃ/, sh for /ʃ/, th for /θ/ or /ð/, ng for /ŋ/, qu for /kw/, and ph for /f/ in Greek-derived words. The single letter x is generally pronounced as /z/ in word-initial position and as /ks/ otherwise. There are exceptions to these generalisations, often the result of loanwords being spelled according to the spelling patterns of their languages of origin[266] or residues of proposals by scholars in the early period of Modern English to follow the spelling patterns of Latin for English words of Germanic origin.[270]
+- The Empress can channel something called Primordial Light.
+- She is an emissary for powers beyond and forces of nature, and is obedient to them.
 
-For the vowel sounds of the English language, however, correspondences between spelling and pronunciation are more irregular. There are many more vowel phonemes in English than there are single vowel letters (a, e, i, o, u, y, and very rarely w). As a result, some "long vowels" are often indicated by combinations of letters (like the oa in boat, the ow in how, and the ay in stay), or the historically based silent e (as in note and cake).[267]
+Despot: Tyrant.
+Penchant: Inclination.
+Slake: Satisfy a thirst.
+Deigned: Did something that one believes to be below themselves..
 
-The consequence of this complex orthographic history is that learning to read and write can be challenging in English. It can take longer for school pupils to become independently fluent readers of English than of many other languages, including Italian, Spanish, and German.[271] Nonetheless, there is an advantage for learners of English reading in learning the specific sound-symbol regularities that occur in the standard English spellings of commonly used words.[266] Such instruction greatly reduces the risk of children experiencing reading difficulties in English.[272][273] Making primary school teachers more aware of the primacy of morpheme representation in English may help learners learn more efficiently to read and write English.[274]
+ Duke Fishron 
 
-English writing also includes a system of punctuation marks that is similar to those used in most alphabetic languages around the world. The purpose of punctuation is to mark meaningful grammatical relationships in sentences to aid readers in understanding a text and to indicate features important for reading a text aloud.[275]
-Dialects, accents, and varieties
+Outlandish as they may seem, this species is the single mightiest of the seas.
+They are relentless hunters and can easily spend significant time out of the water.
+Folklore holds that the Fishrons claim heritage from the true Dragons; countless years back.
+While there are many such tales of creatures of draconic descent, this case is factual.
+Genetic heritage or not: the Fishrons lack Dragonblood and Auric souls. I would well know.
 
-Dialectologists identify many English dialects, which usually refer to regional varieties that differ from each other in terms of patterns of grammar, vocabulary, and pronunciation. The pronunciation of particular areas distinguishes dialects as separate regional accents. The major native dialects of English are often divided by linguists into the two extremely general categories of British English (BrE) and North American English (NAE).[276]
-Britain and Ireland
-Speech example
-Duration: 41 seconds.0:41
-An example of a man with a contemporary Received Pronunciation accent (Alain de Botton).
-Problems playing this file? See media help.
-	
-Speech example
-Duration: 39 seconds.0:39
-An example of a man with a Cockney accent (Danny Baker).
-	
-Speech example
-Duration: 28 seconds.0:28
-An example of an Essex man with a working-class Estuary English accent (Russell Brand).
-Speech example
-Duration: 32 seconds.0:32
-An example of a man with a (West) Yorkshire accent (Damien Hirst).
-	
-Speech example
-Duration: 34 seconds.0:34
-An example of a man with a contemporary Liverpool accent (John Bishop).
-	
-Speech example
-Duration: 40 seconds.0:40
-An example of a man with a (South) Wales accent (Rob Brydon).
-Speech example
-Duration: 34 seconds.0:34
-An example of a man with one of the many accents of Scotland (Alex Salmond).
-	
-Speech example
-Duration: 21 seconds.0:21
-An example of a man with a Northern Irish accent (George Best).
-	
-Speech example
-Duration: 37 seconds.0:37
-An example of a woman with one of the many accents of the Republic of Ireland (Mary Robinson).
-Primary dialect regions in the United Kingdom and Ireland
-
-The fact that English has been spoken in England for 1,500 years explains why England has a great wealth of regional dialects.[277] Within the United Kingdom, Received Pronunciation (RP), an educated accent associated originally with South East England, has been traditionally used as a broadcast standard and is considered the most prestigious of British accents. The spread of RP (also known as BBC English) through the media has caused many traditional dialects of rural England to recede, as youths adopt the traits of the prestige variety instead of traits from local dialects. At the time of the 1950–61 Survey of English Dialects, grammar and vocabulary differed across the country, but a process of lexical attrition has led most of this variation to disappear.[278]
-
-Nonetheless, this attrition has mostly affected dialectal variation in grammar and vocabulary. In fact, only 3% of the English population actually speak RP, the remainder speaking in regional accents and dialects with varying degrees of RP influence.[279] There is also variability within RP, particularly along class lines between Upper and Middle-class RP speakers and between native RP speakers and speakers who adopt RP later in life.[280] Within Britain, there is also considerable variation along lines of social class; some traits, though exceedingly common, are nonetheless considered "non-standard" and associated with lower-class speakers and identities. An example of this is h-dropping, which was historically a feature of lower-class London English, particularly Cockney, and can now be heard in the local accents of most parts of England. However, it remains largely absent in broadcasting and among the upper crust of British society.[281]
-
-English in England can be divided into four major dialect regions: South East English, South West English (also known as West Country English), Midlands English and Northern English. Within each of these regions, several local dialects exist: within the Northern region, there is a division between the Yorkshire dialects, the Geordie dialect (spoken around Newcastle, in Northumbria) and the Lancashire dialects, which include the urban subdialects of Manchester (Mancunian) and Liverpool (Scouse). Having been the centre of Danish occupation during the Viking invasions of England, Northern English dialects, particularly the Yorkshire dialect, retain Norse features not found in other English varieties.[282] In the West Midlands, dialects such as Black Country (Yam Yam), and by less extent Birmingham (Brummie), preserve archaic features from Early Modern and Middle English, retaining Germanic elements such as specific grammatical structures and vocabulary.[283]
-
-Since the 15th century, South East England varieties have centred on London, which has been the centre from which dialectal innovations have spread to other dialects. In London, the Cockney dialect was traditionally used by the lower classes, and it was long a socially stigmatised variety. The spread of Cockney features across the South East led the media to talk of Estuary English as a new dialect, but the notion was criticised by many linguists on the grounds that London had been influencing neighbouring regions throughout history.[284][285][286] Traits that have spread from London in recent decades include the use of intrusive R (drawing is pronounced "drawring" /ˈdrɔːrɪŋ/), t-glottalisation (Potter is pronounced with a glottal stop as Po'er /ˈpɒʔə/) and th-fronting, or the pronunciation of th- as /f/ (thanks pronounced "fanks") or /v/ (bother pronounced "bover").[287]
-
-Scots is today considered a separate language from English, but it has its origins in early Northern Middle English[288] and developed and changed during its history with influence from other sources, particularly Scottish Gaelic and Old Norse. Scots itself has a number of regional dialects. In addition to Scots, Scottish English comprises the varieties of Standard English spoken in Scotland; most varieties are Northern English accents, with some influence from Scots.[289]
-
-In Ireland, various forms of English have been spoken following the Norman invasion of the island during the 11th century. In County Wexford and in the area surrounding Dublin, two extinct dialects known as Forth and Bargy and Fingallian developed as offshoots from Early Middle English and were spoken until the 19th century. Modern Irish English, however, has its roots in English colonisation in the 17th century. Today Irish English is divided into Ulster English, the Northern Ireland dialect with strong influence from Scots, and various dialects of the Republic of Ireland. Like Scottish and most North American accents, almost all Irish accents preserve the rhoticity which has been lost in the dialects influenced by RP.[19][290]
-North America
-Speech example
-Duration: 57 seconds.0:57
-An example of a Midwestern American man with a General American accent (Emery Emery).
-Problems playing this file? See media help.
-	
-Speech example
-Duration: 36 seconds.0:36
-An Alabama woman with a contemporary Southern American accent (Martha Roby).
-	
-Speech example
-Duration: 41 seconds.0:41
-A man with a New York City accent (Chuck Zito).
-Speech example
-Duration: 40 seconds.0:40
-A man with a Boston accent (Marty Walsh).
-	
-Speech example
-Duration: 1 minute and 42 seconds.1:42
-An example of two men with AAVE accents, the interviewer from Georgia (D. J. Shockley) and the interviewee from Louisiana (Russell Gage).
-	
-Speech example
-Duration: 27 seconds.0:27
-An Ontario woman with a Standard Canadian accent (Margaret Atwood).
-Percentage of Americans aged 5+ in the 50 states, Washington, D.C., and Puerto Rico who speak English at home, according to the 2016–2021 American Community Survey
-Rhoticity dominates in North American English, but The Atlas of North American English found over 50 per cent non-rhoticity, with at least one local speaker in each US metropolitan area (marked with a red dot) and non-rhotic AAVE pronunciations found primarily among African Americans regardless of location.
-STANDARD CANADIAN
-Pacific
-Northwest
-Indigenous Canadian
-Quebec
-Ottawa-Valley
-MTE
-ATLANTIC CANADIAN
-Lunenburg
-Newfoundland
-
-Due to the relatively strong degree of mixing, mutual accommodation, and koinéisation that occurred during the colonial period, North American English has traditionally been perceived as relatively homogeneous, at least in comparison with British dialects. However, modern scholars have strongly opposed this notion, arguing that North American English shows a great deal of phonetic, lexical, and geographic variability. This becomes all the more apparent considering social, ethnolinguistic, and regional varieties such as African-American English, Chicano English, Cajun English, or Newfoundland English.[291] American accent variation is increasing at the regional level and decreasing at the very local level,[292] though most Americans still speak within a phonological continuum of similar accents,[293] known collectively as General American English (GA), with differences hardly noticed even among Americans themselves, including Midland and Western American English.[294][295][296]
-
-Canadian English varieties, excepting those from Atlantic Canada and possibly Quebec, are generally considered to belong to the GA continuum, although they often show raising of the vowels /aɪ/ and /aʊ/ before voiceless consonants and have distinct norms for writing and pronunciation as well.[297] Atlantic Canadian English, notably distinct from Standard Canadian English,[298] comprises Maritime English and Newfoundland English. It was influenced mostly by British and Irish English, as well as Irish, Scottish Gaelic, and Acadian French.[299]
-
-In most American and Canadian English dialects, rhoticity (or r-fullness) is dominant, with non-rhoticity (or r-dropping) being associated with lower prestige and social class, especially since the end of World War II. This contrasts with the situation in England, where non-rhoticity has become the standard.[300] Varieties beyond GA which have developed distinct sound systems include the Southern American English, New York City English, Eastern New England English, and African-American Vernacular English (AAVE) groups – all of which are historically non-rhotic, save a few varieties of Southern American.
-
-In Southern American English, the most populous grouping outside GA,[301] rhoticity now strongly prevails, replacing the region's historical non-rhotic prestige.[302][303][304] Southern accents are colloquially described as a "drawl" or "twang",[305] being recognised most readily by the Southern Vowel Shift initiated by glide-deleting in the /aɪ/ vowel (e.g. pronouncing spy almost like spa), the "Southern breaking" of several front pure vowels into a gliding vowel or even two syllables (e.g. pronouncing the word press almost like "pray-us"),[306] the pin–pen merger, and other distinctive phonological, grammatical, and lexical features, many of which are actually recent developments of the 19th century or later.[307]
-
-Spoken primarily by working- and middle-class African Americans, African-American Vernacular English (AAVE) is largely non-rhotic, and likely originated among enslaved Africans and African Americans influenced primarily by the non-standard older Southern dialects. A minority of linguists,[308] contrarily, propose that AAVE mostly traces back to African languages spoken by the slaves who had to develop a pidgin or English-based creole to communicate with slaves of other ethnic and linguistic origins.[309] AAVE's important commonalities with Southern accents suggest it developed into a highly coherent and homogeneous variety in the 19th or early 20th century. AAVE is commonly stigmatised in North America as a form of "broken" or "uneducated" English, as are white Southern accents, but linguists today recognise both as fully developed varieties of English with their own norms shared by large speech communities.[310][311]
-Australia and New Zealand
-Speech example
-Duration: 17 minutes and 36 seconds.17:36
-An example of a man with a general Australian accent.
-Problems playing this file? See media help.
-	
-Speech example
-Duration: 39 seconds.0:39
-An example of a South Australian woman with a broad Australian accent (Julia Gillard).
-	
-Speech example
-Duration: 35 seconds.0:35
-An example of a Queensland man with a cultivated Australian accent (Geoffrey Rush).
-Speech example
-Duration: 19 seconds.0:19
-An example of a woman with a New Zealand accent (Eleanor Catton).
-	
-Speech example
-Duration: 8 minutes and 38 seconds.8:38
-An example of a man with a New Zealand accent (John Key).
-	
-
-Since 1788, English has been spoken in Oceania, and Australian English has developed as the first language of the vast majority of the inhabitants of the Australian continent, its standard accent being General Australian. The English of neighbouring New Zealand has to a lesser degree become an influential standard variety of the language.[312] Australian and New Zealand English are each other's closest relatives with few differentiating characteristics, followed by South African English and the English of South East England, all of which have similarly non-rhotic accents, aside from some accents in the South Island of New Zealand. Australian and New Zealand English stand out for their innovative vowels: many short vowels are fronted or raised, whereas many long vowels have diphthongised. Australian English also has a contrast between long and short vowels, not found in most other varieties. Australian English grammar aligns closely with British and American English; like American English, collective plural subjects take on a singular verb, e.g. "the government is" (rather than are).[313][314] New Zealand English uses front vowels that are often even higher than in Australian English.[315][316][317]
-Southeast Asia
-Speech example
-Duration: 19 minutes and 35 seconds.19:35
-An example of a male teenager with a Singaporean accent.
-Problems playing this file? See media help.
-	
-Speech examples
-Duration: 59 seconds.0:59
-Examples of a man and woman with Filipino accents.
-
-English is an official language of the Philippines. Its use is ubiquitous in the country, and appears in areas including on street signs, marquees, and government documents, and in courtrooms, public media, the entertainment industry, and the business sector. It became an important and widely spoken language in the country during the period of American rule between 1898 and 1946.[318] Taglish is a prominent form of code-switching between Tagalog and English.[319]
-Africa, the Caribbean, and South Asia
-Speech example
-Duration: 57 seconds.0:57
-An example of a man with a South African accent.
-Problems playing this file? See media help.
-	
-Speech example
-Duration: 38 seconds.0:38
-An example of a woman with an educated Nigerian accent (Chimamanda Ngozi Adichie).
-	
-Speech example
-Duration: 1 minute and 42 seconds.1:42
-An example of a woman and man with Jamaican accents.
-	
-Speech example
-Duration: 40 seconds.0:40
-An example of a woman with an Indian accent (Arundhati Roy).
-	
-
-English is spoken widely in southern Africa and is an official or co-official language in several of the region's countries. In South Africa, English has been spoken since 1820, co-existing with Afrikaans and various African languages such as the Khoe and Bantu languages. Today, about nine per cent of the South African population speaks South African English (SAE) as a first language. SAE is a non-rhotic variety that tends to follow RP as a norm. It is one of the few non-rhotic English varieties that lack intrusive R. The second-language varieties of South Africa differ based on the native languages of their speakers.[320] Most phonological differences from RP are in the vowels.[321] Consonant differences include the tendency to pronounce /p, t, t͡ʃ, k/ without aspiration (e.g. pin pronounced [pɪn] rather than as [pʰɪn] as in most other varieties), while r is often pronounced as a flap [ɾ] instead of as the more common fricative.[322]
-
-Nigerian English is a variety of English spoken in Nigeria; over 150 million Nigerians speak some form of the language.[323] Though traditionally based on British English, increasing United States influence during the latter 20th century has resulted in American English vocabulary entering Nigerian English. Additionally, some new words and collocations have emerged from the variety out of a need to express concepts specific to the culture of the nation (e.g. senior wife).[324]
-
-Varieties of English are spoken throughout the former British colonial possessions in the Caribbean, including Jamaica, the Leeward and Windward Islands, Trinidad and Tobago, Barbados, the Cayman Islands, and Belize. Each of these areas is home both to a local variety of English and a local English-based creole, combining English and African languages. The most prominent varieties are Jamaican English and Jamaican Creole. In Central America, English-based creoles are spoken on the Caribbean coasts of Nicaragua and Panama.[325] Residents are often fluent in both the local English variety and the local creole languages, and frequently code-switch between them. The relationship between different varieties can be conceptualised as a continuum, in which more creole-like or RP-like forms function as more formal and informal registers of the language respectively.[326]
-
-Most Caribbean varieties are based on British English and consequently, most are non-rhotic, except for formal styles of Jamaican English which are often rhotic. Jamaican English differs from RP in its vowel inventory, which has a distinction between long and short vowels rather than tense and lax vowels as in Standard English. The diphthongs /ei/ and /ou/ are monophthongs [eː] and [oː] or even the reverse diphthongs [ie] and [uo] (e.g. bay and boat pronounced [bʲeː] and [bʷoːt]). Often word-final consonant clusters are simplified so that "child" is pronounced [t͡ʃail] and "wind" [win].[327][328][329]
-
-Indian English historically tends towards RP as an ideal, with the proximity of speakers to RP generally reflective of class distinctions. Indian English accents are marked by the pronunciation of phonemes such as /t/ and /d/ (often pronounced with retroflex articulation as [ʈ] and [ɖ]) and the replacement of /θ/ and /ð/ with dentals [t̪] and [d̪]. Sometimes Indian English speakers may also use spelling-based pronunciations where the silent ⟨h⟩ found in words such as ghost is pronounced as an Indian voiced aspirated stop [ɡʱ].[330]
-Non-native varieties
-Speech example
-Duration: 18 seconds.0:18
-An example of a Hispanophone man speaking English.
-Problems playing this file? See media help.
-	
-Speech example
-Duration: 1 minute and 1 second.1:01
-An example of a Japanese man speaking English (Shinzo Abe).
-	
-Speech example
-Duration: 36 seconds.0:36
-An example of a German man speaking English (Werner Herzog).
-
-Non-native English speakers may pronounce words differently due to having not fully mastered English pronunciation. This can happen either because they apply the speech rules of their mother tongue to English ("interference") or through implementing strategies similar to those used in first language acquisition. They may create novel pronunciations for English sounds not found in their first language.[331]
-See also
-
-    English in the Commonwealth of Nations
-    English-only movement – Political movement in the U.S.
-
-References
-
-Oxford Learner's Dictionary 2015, Entry: English – Pronunciation.
-"What are the top 200 most spoken languages?". Ethnologue. 2023. Archived from the original on 18 June 2023. Retrieved 3 October 2023.
-English at Ethnologue (26th ed., 2023) Closed access icon
-The Routes of English.
-Crystal 2003a, p. 6.
-Wardhaugh 2010, p. 55.
-Crystal 2003b, pp. 108–109.
-Chua, Amy (18 January 2022). "How the English Language Conquered the World". The New York Times. Archived from the original on 1 March 2022.
-Finkenstaedt, Thomas; Dieter Wolff (1973). Ordered profusion; studies in dictionaries and the English lexicon. C. Winter. ISBN 978-3-533-02253-4.
-Bammesberger 1992, p. 30.
-Svartvik & Leech 2006, p. 39.
-Burnley, David (1992). "Lexis and Semantics". In Blake, Norman (ed.). The Cambridge History of the English Language. pp. 409–499. doi:10.1017/chol9780521264754.006. ISBN 978-1-139-05553-6. "Latin and French each account for a little more than 28 per cent of the lexis recorded in the Shorter Oxford English Dictionary (Finkenstaedt & Wolff 1973)"
-Bammesberger 1992, pp. 29–30.
-Durrell 2006.
-König & van der Auwera 1994.
-Bazelmans 2009, pp. 325–326.
-Robinson 1992.
-Romaine 1982, pp. 56–65.
-Barry 1982, pp. 86–87.
-Harbert 2006.
-
-    Bazelmans 2009, p. 326, "According to most researchers, this means that there cannot have been an 'original' Anglo-Frisian entity ..."
-    Stiles 2018, p. 31, "... It is not possible to construct the exclusive common relative chronology that is necessary in order to be able to establish a node on a family tree. The term and concept of 'Anglo-Frisian' should be banished to the historiography of the subject."
-
-Versloot 2017, pp. 341–342.
-Stiles 2018, pp. 5–6.
-Beowulf. Translated by Liuzza, Roy M. (2nd ed.). Broadview. 2012 [1999]. ISBN 978-1-554811137.
-Baugh, Albert (1951). A History of the English Language. London: Routledge & Kegan Paul. pp. 60–83, 110–130
-Collingwood & Myres 1936.
-Graddol, Leith & Swann et al. 2007.
-Blench & Spriggs 1999.
-Bosworth & Toller 1921.
-Campbell 1959, p. 4.
-Toon 1992, Chapter: Old English Dialects.
-Donoghue 2008.
-Gneuss 2013, p. 23.
-Hogg & Denison 2006a, pp. 30–31.
-Hogg 1992a.
-Smith 2009.
-Trask 2010.
-Thomason & Kaufman 1988, pp. 284–290.
-Kastovsky 1992, pp. 320, 332.
-Hogg 2006, pp. 360–361.
-Townend 2012, pp. 81–82.
-Short, Ian (2002). "Language and Literature". A Companion to the Anglo-Norman World. Boydell and Brewer. pp. 191–214. doi:10.1017/9781846150463.011. ISBN 978-1-84615-046-3.
-Townend 2012, pp. 99–100.
-Johannesson, Nils-Lennart; Cooper, Andrew (2023). Ormulum. Early English text society. Oxford University Press. ISBN 978-0-19-289043-6.
-Baker, Curt (Spring 2016). "Effects of the Norman Conquest on the English Language". Tenor Times. 5. Retrieved 17 July 2025.
-Lass 1992, pp. 103–123.
-Fischer & van der Wurff 2006, pp. 111–113.
-Horobin, Simon. "Chaucer's Middle English". The Open Access Companion to the Canterbury Tales. Louisiana State University. Archived from the original on 3 December 2019. Retrieved 24 November 2019. "The only appearances of their and them in Chaucer's works are in the Reeve's Tale, where they form part of the Northern dialect spoken by the two Cambridge students, Aleyn and John, demonstrating that at this time they were still perceived to be Northernisms"
-Wycliffe, John. "Bible" (PDF). Wesley NNU. Archived (PDF) from the original on 2 February 2017. Retrieved 9 April 2015.
-Lass 2000a.
-Görlach 1991, pp. 66–70.
-Nevalainen & Tieken-Boon van Ostade 2006, pp. 274–279.
-Cercignani 1981.
-Lass 2006, pp. 46–47.
-How English evolved into a global language 2010.
-Romaine 2006, p. 586.
-Mufwene 2006, p. 614.
-Northrup 2013, pp. 81–86.
-Baker, Colin (1998). Encyclopedia of Bilingualism and Bilingual Education. Multilingual Matters. p. 311. ISBN 978-1-85359-362-8.
-Graddol 2006.
-Crystal 2003a.
-McCrum, MacNeil & Cran 2003, pp. 9–10.
-Romaine 1999a.
-Romaine 1999a, p. 2, "Other changes such as the spread and regularisation of do support began in the thirteenth century and were more or less complete in the nineteenth. Although do coexisted with the simple verb forms in negative statements from the early ninth century, obligatoriness was not complete until the nineteenth. The increasing use of do periphrasis coincides with the fixing of SVO word order. Not surprisingly, do is first widely used in interrogatives, where the word order is disrupted, and then later spread to negatives.".
-Leech et al. 2009, pp. 18–19.
-Mair & Leech 2006.
-Mair 2006.
-"EF English Proficiency Index 2019" (PDF). Retrieved 15 August 2024. (pp. 6–7).
-Breene, Keith (15 November 2019). "Which countries are best at English as a second language?". World Economic Forum. Archived from the original on 25 November 2016. Retrieved 29 November 2016.
-Crystal 2003b, p. 106.
-Crystal 2003a, p. 69.
-Kachru 2006, p. 196.
-Svartvik & Leech 2006, p. 2.
-Ryan 2013, Table 1.
-Office for National Statistics 2013, Key Points.
-National Records of Scotland 2013.
-Northern Ireland Statistics and Research Agency 2012, Table KS207NI: Main Language.
-Statistics Canada 2014.
-Australian Bureau of Statistics 2013.
-Statistics South Africa 2012, Table 2.5 Population by first language spoken and province (number).
-Statistics New Zealand 2014.
-Bao 2006, p. 377.
-Rubino 2006.
-Patrick 2006a.
-Lim & Ansaldo 2006.
-Connell 2006.
-Schneider 2007.
-Trudgill & Hannah 2008, p. 5.
-Trudgill & Hannah 2008, p. 4.
-European Commission 2012.
-Kachru 2006, p. 197.
-Trudgill & Hannah 2008, p. 2.
-Romaine 1999.
-Baugh & Cable 2002.
-Trudgill & Hannah 2008, pp. 8–9.
-Trudgill 2006.
-Ammon 2008, pp. 1537–1539.
-Svartvik & Leech 2006, p. 122.
-Trudgill & Hannah 2008, pp. 5–6.
-Deumert 2006, p. 130.
-Deumert 2006, p. 131.
-Ward, Rowena (2019). "'National' and 'Official' Languages Across the Independent Asia-Pacific". Journal of Multidisciplinary International Studies. 16 (1/2): 83–84. doi:10.5130/pjmis.v16i1-2.6510. "The use of English in Australia is one example of both a de facto national and official language: it is widely used and is the language of government and the courts, but has never been legally designated as the country's official language."
-"40 Years of the Official Languages Act". Department of Justice Canada. Archived from the original on 10 April 2013. Retrieved 24 March 2013.
-"Official Languages Act – 1985, c. 31 (4th Supp.)". Act current to July 11th, 2010. Department of Justice. Archived from the original on 5 January 2011. Retrieved 15 August 2010.
-"Charter of the French language". Légis Québec. Québec Official Publisher. 26 March 2024. Retrieved 5 June 2024. "French is the official language of Québec. Only French has that status."
-"Article 8 of the Constitution of Ireland". Irish Statute Book. January 2020. Retrieved 5 June 2024. "1 The Irish language as the national language is the first official language. 2 The English language is recognised as a second official language."
-"Maori Language Act 1987". Retrieved 18 December 2011.
-"Recognition for sign language". Television New Zealand. 6 April 2006. Retrieved 30 October 2011.
-Huws, Catrin Fflur (June 2006). "The Welsh Language Act 1993: A Measure of Success?". Language Policy. 5 (2): 141–160. doi:10.1007/s10993-006-9000-0.
-"Irish language and Ulster Scots bill clears final hurdle in Parliament". BBC News. 26 October 2022. Retrieved 27 October 2022.
-Ho, Vivian; Pannett, Rachel (1 March 2025). "A Trump order made English the official language of the U.S. What does that mean?". The Washington Post.
-"United States". The World Factbook. Central Intelligence Agency. 29 May 2024. Retrieved 5 June 2024. "Note: data represent the language spoken at home; the US has no official national language, but English has acquired official status in 32 of the 50 states; Hawaiian is an official language in the state of Hawaii, and 20 indigenous languages are official in Alaska."
-"Countries in which English Language is a Mandatory or an Optional Subject". The University of Winnipeg. Archived from the original on 31 October 2022. Retrieved 30 October 2022.
-"CIA World Factbook". Archived from the original on 22 March 2016.
-Meierkord 2006, p. 165.
-Brutt-Griffler 2006, pp. 690–691.
-Northrup 2013.
-Phillipson 2004, p. 47.
-Conrad & Rubal-Lopez 1996, p. 261.
-United Nations 2010.
-Richter 2012, p. 29.
-Ammon 2006, p. 321.
-Wojcik 2006, p. 139.
-International Maritime Organization 2011.
-International Civil Aviation Organization 2011.
-Kachru 2006, p. 195.
-European Commission 2012, pp. 21, 19.
-Crystal 2000.
-Jambor 2007.
-Svartvik & Leech 2006, Chapter 12: English into the Future.
-Alcaraz Ariza & Navarro 2006.
-Gordin 2015.
-Brutt-Griffler 2006, pp. 694–695.
-Mesthrie 2010, p. 594.
-Annamalai 2006.
-Sailaja 2009, pp. 2–9.
-"Indiaspeak: English is our 2nd language". The Times of India. 14 March 2010. Archived from the original on 22 April 2016. Retrieved 5 January 2016.
-Desai, Sonalde B.; Dubey, Amaresh; Joshi, Brij Lal; Sen, Mitali; Shariff, Abusaleh; Vanneman, Reeve (2005). Human Development in India: Challenges for a Society in Transition (PDF). Oxford University Press. ISBN 978-0-19-806512-8. Archived from the original (PDF) on 11 December 2015. Retrieved 5 January 2016.
-Crystal 2004.
-Graddol 2010.
-Mazrui & Mazrui 1998.
-Crystal 2006.
-Wolfram 2006, pp. 334–335.
-Carr & Honeybone 2007.
-Bermúdez-Otero & McMahon 2006.
-MacMahon 2006.
-International Phonetic Association 1999, pp. 41–42.
-König 1994, p. 534.
-Collins & Mees 2003, pp. 47–53.
-Trudgill & Hannah 2008, p. 13.
-Trudgill & Hannah 2008, p. 41.
-Brinton & Brinton 2010, pp. 56–59.
-Wells, John C. (8 February 2001). "IPA transcription systems for English". University College London. Archived from the original on 19 September 2018. Retrieved 3 September 2018.
-Giegerich 1992, pp. 56–57.
-Cohen 2012, p. 80.
-Collins & Mees 2003, pp. 46–50.
-Cruttenden 2014, p. 138.
-Flemming & Johnson 2007.
-Wells 1982, p. 167.
-Wells 1982, p. 121.
-Brinton & Brinton 2010, p. 60.
-König 1994, pp. 537–538.
-International Phonetic Association 1999, p. 42.
-Oxford Learner's Dictionary 2015, Entry "contract".
-Merriam Webster 2015, Entry "contract".
-Macquarie Dictionary 2015, Entry "contract".
-Brinton & Brinton 2010, p. 66.
-"Sentence stress". ESOL Nexus. British Council. Archived from the original on 3 December 2019. Retrieved 24 November 2019.
-Lunden, Anya (2017). "Duration, vowel quality, and the rhythmic pattern of English". Laboratory Phonology. 8: 27. doi:10.5334/labphon.37.
-Trudgill & Hannah 2002, pp. 4–6.
-Lass 1992, pp. 90, 118, 610; Lass 2000, pp. 80, 656.
-Roach 2009, p. 53.
-Giegerich 1992, p. 36.
-Wells 1982.
-Lass 2000, p. 114.
-Wells 1982, pp. xviii–xix.
-Wells 1982, p. 493.
-Huddleston & Pullum 2002, p. 22.
-Carter, Ronald; McCarthey, Michael; Mark, Geraldine; O'Keeffe, Anne (2016). English Grammar Today. Cambridge University Press. ISBN 978-1-316-61739-7.
-Baugh, Albert; Cable, Thomas (2012). A history of the English language (6th ed.). Routledge. ISBN 978-0-415-65596-5.
-Aarts & Haegeman (2006), p. 118.
-Payne & Huddleston 2002.
-Huddleston & Pullum 2002, pp. 56–57.
-Huddleston & Pullum 2002, p. 55.
-Huddleston & Pullum 2002, pp. 54–55.
-Huddleston & Pullum 2002, p. 57.
-Huddleston & Pullum 2002, p. 530.
-Huddleston & Pullum 2002, p. 528.
-König 1994, p. 540.
-Mair 2006, pp. 148–149.
-Huddleston, Rodney D.; Pullum, Geoffrey K.; Reynolds, Brett (2022). A student's introduction to English grammar (2nd ed.). Cambridge University Press. pp. 124–126. ISBN 978-1-316-51464-1.
-"they". Oxford English Dictionary (Online ed.). Oxford University Press. (Subscription or participating institution membership required.)
-"Singular "They"". APA Style. Archived from the original on 21 October 2020. Retrieved 24 November 2021.
-Leech 2006, p. 69, "Nominative is a traditional name for the subjective case".
-O'Dwyer 2006, "English has subjective, objective and possessive cases.".
-Greenbaum & Nelson 2002.
-Sweet 2014, p. 52, "But in that special class of nouns called personal pronouns we find a totally different system of case-inflection, namely, a nominative case (he) and an objective case (him)".
-Jespersen 2007, pp. 173–185.
-Huddleston & Pullum 2002.
-Huddleston & Pullum 2002, pp. 425–426.
-McMahon 2012, p. 182.
-Lee, Chelsea (31 October 2019). "Welcome, singular "they"". American Psychological Association. Archived from the original on 14 February 2020. Retrieved 24 November 2021.
-Kamm, Oliver (12 December 2015). "The Pedant: The sheer usefulness of singular 'they' is obvious". The Times. Archived from the original on 19 June 2019. Retrieved 24 November 2021.
-Huddleston & Pullum 2002, p. 426.
-Huddleston & Pullum 2002, p. 58.
-Huddleston & Pullum 2002, pp. 598–600.
-Huddleston & Pullum 2002, p. 51.
-König 1994, p. 541.
-Huddleston & Pullum 2002, p. 50.
-Peters 2004, "be" p. 66.
-Huddleston & Pullum 2002, pp. 75, 91, 113–114.
-Huddleston & Pullum 2002, pp. 208–210.
-Huddleston & Pullum 2002, pp. 51–52.
-Huddleston & Pullum 2002, pp. 210–211.
-Huddleston & Pullum 2002, pp. 50–51.
-"Finite and Nonfinite Clauses". MyEnglishGrammar.com. Archived from the original on 7 December 2019. Retrieved 7 December 2019.
-Dixon 1982.
-Huddleston & Pullum 2002, p. 274.
-Huddleston & Pullum 2002, pp. 565–566.
-McArthur 1992, pp. 64, 610–611.
-Huddleston & Pullum 2002, pp. 1209–1219.
-König 1994, p. 553.
-Müller 2020, p. 666.
-König 1994, p. 550.
-"Cases of Nouns and Pronouns". Guide to Grammar and Writing. Archived from the original on 16 November 2019. Retrieved 24 November 2019.
-König 1994, p. 551.
-Miller 2002, pp. 60–69.
-König 1994, p. 545.
-König 1994, p. 557.
-Huddleston & Pullum 2002, pp. 94–98.
-Huddleston & Pullum 2002, p. 114.
-Huddleston & Pullum 2002, pp. 786–790.
-Miller 2002, pp. 26–27.
-Huddleston & Pullum 2002, pp. 7–8.
-Huddleston & Pullum 2002, pp. 1365–1370.
-Peters 2004, "dummy subject" p. 167, "there" p. 537.
-Huddleston & Pullum 2002, p. 1370.
-Huddleston & Pullum 2002, p. 1366.
-Halliday & Hasan 1976.
-Schiffrin 1988.
-"How many words are there in the English language?". Oxford Dictionaries. Archived from the original on 9 September 2017. Retrieved 13 September 2017.
-Algeo 1999.
-Leech et al. 2009, pp. 24–50.
-Algeo 1999, pp. 584–585.
-Kastovsky 2006.
-Crystal 2003b, p. 129.
-Crystal 2003b, pp. 120–121.
-"What is the proportion of English words of French, Latin, or Germanic origin?". Ask the experts. Oxford University Press. 2008. Archived from the original on 17 August 2008.
-Denning, Kessler & Leben 2007, p. 7.
-Nation 2001, p. 265.
-Denning, Keith (2007). English Vocabulary Elements. Oxford University Press. p. 34. ISBN 978-0-19-516802-0.
-Solodow, Joseph (2010). Latin Alive: The Survival of Latin in English and the Romance Languages. Cambridge University Press. p. 196. ISBN 978-0-521-51575-7.
-Crystal 2003b, pp. 124–127.
-Algeo 1999, pp. 80–81.
-Gottlieb 2006, p. 196.
-Burnley 1992, pp. 409–499, "Latin and French each account for a little more than 28 per cent of the lexis recorded in the Shorter Oxford English Dictionary (Finkenstaedt & Wolff 1973)".
-Romaine 1999, p. 4.
-Denning, Kessler & Leben 2007.
-Brutt-Griffler 2006, p. 692.
-Gottlieb 2006, p. 197.
-Gottlieb 2006, p. 198.
-Gottlieb 2006, p. 202.
-Swan 2006, p. 149.
-Mountford 2006.
-Neijt 2006.
-Daniels & Bright 1996, p. 653.
-Abercrombie & Daniels 2006.
-Mountford 2006, p. 156.
-Mountford 2006, pp. 157–158.
-Daniels & Bright 1996, p. 654.
-Dehaene 2009.
-McGuinness 1997.
-Shaywitz 2003.
-Mountford 2006, p. 159.
-Lawler 2006, p. 290.
-Crystal 2003b, p. 107.
-Trudgill 1999, p. 10.
-Trudgill 1999, p. 125.
-Hughes & Trudgill 1996, p. 3.
-Hughes & Trudgill 1996, p. 37.
-Hughes & Trudgill 1996, p. 40.
-Hughes & Trudgill 1996, p. 31.
-Clark & Asprey 2013.
-"Estuary English Q and A – JCW". Phon.ucl.ac.uk. Archived from the original on 11 January 2010. Retrieved 16 August 2010.
-Roach 2009, p. 4.
-Trudgill 1999, p. 80.
-Trudgill 1999, pp. 80–81.
-Aitken & McArthur 1979, p. 81.
-Romaine 1982.
-Hickey 2007.
-The Handbook of World Englishes. Wiley. 2020. p. 45. ISBN 978-1-119-16421-0.
-Labov 2012.
-Wells 1982, p. 34.
-Rowicka 2006.
-Toon 1982.
-Cassidy 1982.
-Boberg 2010.
-Labov, William; Sharon Ash; Charles Boberg (2006). The Atlas of North American English. Berlin: Mouton de Gruyter. pp. 141, 148.
-Chambers, Jack K. (2010). "English in Canada" (PDF). Kingston, Ontario. p. 14. Retrieved 20 July 2012.
-Labov 1972.
-"Do You Speak American: What Lies Ahead". PBS. Archived from the original on 14 September 2007. Retrieved 15 August 2007.
-Thomas, Erik R. (2003). "Rural White Southern Accents" (PDF). Atlas of North American English. Mouton de Gruyter. p. 16. Archived from the original (PDF) on 22 December 2014. Retrieved 11 November 2015. [Later published as a chapter in: Bernd Kortmann and Edgar W. Schneider (eds) (2004). A Handbook of Varieties of English: A Multimedia Reference Tool. New York: Mouton de Gruyter, pp. 300–324.]
-Levine & Crockett 1966.
-Schönweitz 2001.
-Montgomery 1993.
-Thomas 2008, pp. 95–96.
-Bailey 1997.
-McWhorter, John H. (2001). Word on the Street: Debunking the Myth of a "Pure" Standard English. Basic Books. p. 162. ISBN 978-0-7382-0446-8.
-Bailey 2001.
-Green 2002.
-Patrick 2006b.
-Eagleson 1982.
-Trudgill & Hannah 2002, pp. 16–21.
-Burridge 2010.
-Trudgill & Hannah 2002, pp. 24–26.
-Maclagan 2010.
-Gordon, Campbell & Hay et al. 2004.
-Dayag, Danilo (2008). "English-language media in the Philippines: Description and research". In Bautista, Ma. Lourdes; Bolton, Kingsley (eds.). Philippine English: Linguistic and Literary Perspectives. Hong Kong: Hong Kong University Press. pp. 49–66. doi:10.5790/hongkong/9789622099470.003.0004. ISBN 978-962-209-947-0.
-Bautista, Maria Lourdes S. (2004). "Tagalog-English Code-switching as a Mode of Discourse" (PDF). Asia Pacific Education Review. 5 (2): 226–233. doi:10.1007/BF03024960. S2CID 145684166. Archived (PDF) from the original on 15 May 2022.
-Lanham 1982.
-Lass 2002.
-Trudgill & Hannah 2002, pp. 30–31.
-"Nigerian English". Encarta. Microsoft. Archived from the original on 9 September 2010. Retrieved 17 July 2012.
-Adegbija, Efurosibina (1989). "Lexico-semantic variation in Nigerian English". World Englishes. 8 (2): 165–177. doi:10.1111/j.1467-971X.1989.tb00652.x.
-Lawton 1982.
-Trudgill & Hannah 2002, p. 115.
-Trudgill & Hannah 2002, pp. 117–118.
-Lawton 1982, pp. 256–260.
-Trudgill & Hannah 2002, pp. 115–116.
-Sailaja 2009, pp. 19–24.
-
-    Bjarkman, Peter C.; Hammond, Robert Matthew (1989). American Spanish Pronunciation. Washington, D.C.: Georgetown University Press. p. 226. ISBN 978-0-87840-099-7.
-
-Bibliography
-
-    Aarts, Bas; Haegeman, Liliane (2006). "6. English Word classes and Phrases". In Aarts, Bas; McMahon, April (eds.). The Handbook of English Linguistics. Blackwell. ISBN 978-1-4051-6425-2.
-    Abercrombie, D.; Daniels, P. T. (2006). "Spelling Reform Proposals: English". Encyclopedia of Language & Linguistics. pp. 72–75. doi:10.1016/B0-08-044854-2/04878-1. ISBN 978-0-08-044854-1.
-    Aitken, A. J.; McArthur, Tom, eds. (1979). Languages of Scotland. Occasional paper – Association for Scottish Literary Studies. Vol. 4. Edinburgh: Chambers. ISBN 978-0-550-20261-1.
-    Alcaraz Ariza, M. Á.; Navarro, F. (2006). "Medicine: Use of English". Encyclopedia of Language & Linguistics. pp. 752–759. doi:10.1016/B0-08-044854-2/02351-8. ISBN 978-0-08-044854-1.
-    Ammon, Ulrich (2006). "Language Conflicts in the European Union: On finding a politically acceptable and practicable solution for EU institutions that satisfies diverging interests" (PDF). International Journal of Applied Linguistics. 16 (3): 319–338. doi:10.1111/j.1473-4192.2006.00121.x. S2CID 142692741. Archived from the original (PDF) on 2 January 2011 – via DYLAN project.
-    Ammon, Ulrich (2008). "Pluricentric and Divided Languages". In Ammon, Ulrich N.; Dittmar, Norbert; Mattheier, Klaus J.; et al. (eds.). Sociolinguistics: An International Handbook of the Science of Language and Society / Soziolinguistik Ein internationales Handbuch zur Wissenschaft vov Sprache and Gesellschaft. Handbooks of Linguistics and Communication Science / Handbücher zur Sprach- und Kommunikationswissenschaft 3/2. Vol. 2 (2nd ed.). De Gruyter. ISBN 978-3-11-019425-8.
-    Annamalai, E. (2006). "India: Language Situation". Encyclopedia of Language & Linguistics. pp. 610–613. doi:10.1016/B0-08-044854-2/04611-3. ISBN 978-0-08-044854-1.
-    Australian Bureau of Statistics (28 March 2013). "2011 Census QuickStats: Australia". Archived from the original on 6 November 2015. Retrieved 25 March 2015.
-    Bailey, Guy (2001). "Chapter 3: The relationship between African American and White Vernaculars". In Lanehart, Sonja L. (ed.). Sociocultural and historical contexts of African American English. Varieties of English around the World. John Benjamins. pp. 53–84. ISBN 978-1-58811-046-6.
-    Bailey, G. (1997). "When did southern American English begin". In Edgar W. Schneider (ed.). Englishes around the world. John Benjamins. pp. 255–275. ISBN 9789027248763.
-    Bao, Z. (2006). "Variation in Nonnative Varieties of English". Encyclopedia of Language & Linguistics. pp. 377–380. doi:10.1016/B0-08-044854-2/04257-7. ISBN 978-0-08-044854-1.
-    Barry, Michael V. (1982). "English in Ireland". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 84–134. ISBN 978-3-12-533872-2.
-    Baugh, Albert C.; Cable, Thomas (2002). A History of the English Language (5th ed.). Longman. ISBN 978-0-13-015166-7.
-    Bazelmans, Jos (2009). "The Early-Medieval Use of Ethnic Names from Classical Antiquity: the Case of the Frisians". In Derks, Ton; Roymans, Nico (eds.). Ethnic Constructs in Antiquity: The Role of Power and Tradition. Amsterdam Archaeological Studies. Vol. 13. Amsterdam University Press. pp. 321–338. ISBN 978-90-485-0791-7. JSTOR j.ctt46n1n2.1.
-    Bermúdez-Otero, Ricardo; McMahon, April (2006). "English phonology and morphology". In Aarts, Bas; McMahon, April (eds.). The Handbook of English Linguistics. Blackwell Handbooks in Linguistics. Oxford: Wiley–Blackwell. pp. 382–410. doi:10.1002/9780470753002.ch17. ISBN 978-1-4051-6425-2.
-    Blench, R.; Spriggs, Matthew (1999). Archaeology and Language: Correlating Archaeological and Linguistic Hypotheses. Routledge. pp. 285–286. ISBN 978-0-415-11761-6.
-    Blake, Norman, ed. (1992). Cambridge History of the English Language. Vol. II: 1066–1476. Cambridge University Press. doi:10.1017/CHOL9780521264754.003. ISBN 978-1-139-05553-6.
-        Lass, Roger. "Phonology and Morphology". In Blake (1992), pp. 23–154.
-    Boberg, Charles (2010). The English language in Canada: Status, history and comparative analysis. Studies in English Language. Cambridge University Press. ISBN 978-1-139-49144-0.
-    Bosworth, Joseph; Toller, T. Northcote (1921). "Engla land". An Anglo-Saxon Dictionary (Online). Charles University. Archived from the original on 21 December 2012.
-    Brinton, Laurel J.; Brinton, Donna M. (2010). The linguistic structure of modern English. John Benjamins. ISBN 978-90-272-8824-0.
-    Brutt-Griffler, J. (2006). "Languages of Wider Communication". Encyclopedia of Language & Linguistics. pp. 690–697. doi:10.1016/B0-08-044854-2/00644-1. ISBN 978-0-08-044854-1.
-    Burridge, Kate (2010). "Chapter 7: English in Australia". In Kirkpatrick, Andy (ed.). Routledge Handbook of World Englishes. Routledge. pp. 132–151. ISBN 978-0-415-62264-6.
-    Campbell, Alistair (1983) [First published 1959]. Old English Grammar. Oxford: Oxford University Press. ISBN 978-0-19-811943-2.
-    Carr, Philip; Honeybone, Patrick (2007). "English phonology and linguistic theory: an introduction to issues, and to 'Issues in English Phonology'". Language Sciences. 29 (2): 117–153. doi:10.1016/j.langsci.2006.12.018.
-    Cassidy, Frederic G. (1982). "Geographical Variation of English in the United States". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 177–210. ISBN 978-3-12-533872-2.
-    Cercignani, Fausto (1981). Shakespeare's works and Elizabethan pronunciation. Clarendon. ISBN 978-0-19-811937-1. JSTOR 3728688.
-    Clark, Urszula; Asprey, Esther (2013). West Midlands English: Birmingham and the Black Country. Edinburgh University Press. ISBN 978-0-7486-4169-7.
-    Collingwood, Robin George; Myres, J. N. L. (1936). "The Sources for the period: Angles, Saxons, and Jutes on the Continent". Roman Britain and the English Settlements. Vol. Book V: The English Settlements. Oxford: Clarendon. JSTOR 2143838. LCCN 37002621.
-    Cohen, Antonie (2012) [1952]. The Phonemes of English: A Phonemic Study of the Vowels and Consonants of Standard English. Springer. ISBN 978-94-010-2969-8.
-    Collins, Beverley; Mees, Inger M. (2003) [1981]. The Phonetics of English and Dutch (5th ed.). Leiden: Brill. ISBN 978-90-04-10340-5.
-    Connell, B. A. (2006). "Nigeria: Language Situation". Encyclopedia of Language & Linguistics. pp. 635–637. doi:10.1016/B0-08-044854-2/01655-2. ISBN 978-0-08-044854-1.
-    Conrad, Andrew W.; Rubal-Lopez, Alma (1996). Post-Imperial English: Status Change in Former British and American Colonies, 1940–1990. De Gruyter. p. 261. ISBN 978-3-11-087218-7.
-    Cruttenden, Alan (2014). Gimson's Pronunciation of English (8th ed.). Routledge. ISBN 978-1-4441-8309-2.
-    Crystal, David (2000). Language Death. doi:10.1017/CBO9781139106856. ISBN 978-0-521-65321-3.
-    Crystal, David (2003a). English as a Global Language (2nd ed.). Cambridge University Press. p. 69. ISBN 978-0-521-53032-3.
-    Crystal, David (2003b). Cambridge Encyclopedia of the English Language (2nd ed.). Cambridge University Press. ISBN 978-0-521-53033-0.
-    Crystal, David (2004). "Subcontinent Raises Its Voice". The Guardian. Archived from the original on 17 April 2008.
-    Daniels, Peter T.; Bright, William, eds. (1996). The World's Writing Systems. Oxford University Press. ISBN 978-0-19-507993-7.
-    Dehaene, Stanislas (2009). Reading in the Brain: The Science and Evolution of a Human Invention. Viking. ISBN 978-0-670-02110-9.
-    Denning, Keith; Kessler, Brett; Leben, William Ronald (17 February 2007). English Vocabulary Elements. Oxford University Press. ISBN 978-0-19-516803-7.
-    Deumert, A. (2006). "Migration and Language". Encyclopedia of Language & Linguistics. pp. 129–133. doi:10.1016/B0-08-044854-2/01294-3. ISBN 978-0-08-044854-1.
-    Dixon, R. M. W. (1982). "The grammar of English phrasal verbs". Australian Journal of Linguistics. 2 (1): 1–42. doi:10.1080/07268608208599280.
-    Donoghue, D. (2008). Donoghue, Daniel (ed.). Old English Literature: A Short Introduction. Wiley. doi:10.1002/9780470776025. ISBN 978-0-631-23486-9.
-    Durrell, M. (2006). "Germanic Languages". Encyclopedia of Language & Linguistics. pp. 53–55. doi:10.1016/B0-08-044854-2/02189-1. ISBN 978-0-08-044854-1.
-    Eagleson, Robert D. (1982). "English in Australia and New Zealand". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 415–438. ISBN 978-3-12-533872-2.
-    "Summary by language size". Ethnologue: Languages of the World. Archived from the original on 26 December 2018.
-    Special Eurobarometer 386: Europeans and Their Languages (PDF) (Report). Eurobarometer Special Surveys. European Commission. June 2012. Archived from the original (PDF) on 6 January 2016. Retrieved 12 February 2015.
-    Fasold, Ralph W.; Connor-Linton, Jeffrey, eds. (2014). An Introduction to Language and Linguistics (2nd ed.). Cambridge University Press. ISBN 978-1-316-06185-5.
-    Flemming, Edward; Johnson, Stephanie (2007). "Rosa's roses: reduced vowels in American English" (PDF). Journal of the International Phonetic Association. 37 (1): 83–96. CiteSeerX 10.1.1.536.1989. doi:10.1017/S0025100306002817. S2CID 145535175. Archived (PDF) from the original on 19 September 2018. Retrieved 2 September 2018.
-    Giegerich, Heinz J. (1992). English Phonology: An Introduction. Cambridge Textbooks in Linguistics. Cambridge University Press. ISBN 978-0-521-33603-1.
-    Gneuss, Helmut (2013). "Chapter 2: The Old English Language". In Godden, Malcolm; Lapidge, Michael (eds.). Cambridge Companion to Old English Literature (2nd ed.). Cambridge University Press. pp. 19–49. ISBN 978-0-521-15402-4.
-    Görlach, Manfred (1991). Introduction to Early Modern English. Cambridge University Press. ISBN 978-0-521-32529-5.
-    Gordin, Michael D. (4 February 2015). "Absolute English". Aeon. Archived from the original on 7 February 2015.
-    Gordon, Elizabeth; Campbell, Lyle; Hay, Jennifer; Maclagan, Margaret; Sudbury, Angela; Trudgill, Peter (2004). New Zealand English: its origins and evolution. Studies in English Language. Cambridge University Press. ISBN 978-0-521-10895-9.
-    Gottlieb, H. (2006). "Linguistic Influence". Encyclopedia of Language & Linguistics. pp. 196–206. doi:10.1016/B0-08-044854-2/04455-2. ISBN 978-0-08-044854-1.
-    Graddol, David (2006). English Next: Why global English may mean the end of 'English as a Foreign Language' (PDF). The British Council. Archived from the original (PDF) on 12 February 2015. Retrieved 7 February 2015.
-    Graddol, David (2010). English Next India: The future of English in India (PDF). The British Council. ISBN 978-0-86355-627-2. Archived from the original (PDF) on 12 February 2015. Retrieved 7 February 2015.
-    Graddol, David; Leith, Dick; Swann, Joan; Rhys, Martin; Gillen, Julia, eds. (2007). Changing English. Routledge. ISBN 978-0-415-37679-2.
-    Green, Lisa J. (2002). African American English: a linguistic introduction. Cambridge University Press.
-    Greenbaum, S.; Nelson, G. (2002). An introduction to English grammar (2nd ed.). Longman. ISBN 978-0-582-43741-8.
-    Halliday, M. A. K.; Hasan, Ruqaiya (1976). Cohesion in English. Pearson. ISBN 978-0-582-55041-4.
-    Harbert, Wayne (2006). The Germanic Languages. doi:10.1017/CBO9780511755071. ISBN 978-0-521-80825-5.
-    Hickey, R. (2007). Irish English: History and present-day forms. Cambridge University Press. ISBN 978-0-521-85299-9.
-    Hogg, Richard M., ed. (1992). "The Place of English in Germanic and Indo-European". Cambridge History of the English Language. Vol. I: The Beginnings to 1066. Cambridge University Press. ISBN 978-0-521-26474-7.
-        Bammesberger, Alfred. "The Place of English in Germanic and Indo-European". In Hogg (1992), pp. 26–66.
-        Hogg, Richard M. "Phonology and Morphology". In Hogg (1992), pp. 67–168.
-        Kastovsky, Dieter. "Semantics and Morphology". In Hogg (1992), pp. 290–408.
-        Toon, Thomas E. "Old English Dialects". In Hogg (1992), pp. 409–451.
-    Hogg, Richard M.; Denison, David, eds. (2006). A History of the English language. Cambridge University Press. ISBN 978-0-521-71799-1.
-        Crystal, David. "English worldwide". In Hogg & Denison (2006), pp. 420–439.
-        Fischer, Olga; van der Wurff, Wim. "Syntax". In Hogg & Denison (2006), pp. 109–198.
-        Hogg, Richard M.; Denison, David. "Overview". In Hogg & Denison (2006), pp. 1–30.
-        Hogg, Richard M. "English in Britain". In Hogg & Denison (2006), pp. 352–383.
-        Kastovsky, Dieter. "Vocabulary". In Hogg & Denison (2006), pp. 199–270.
-        Lass, Roger. "Phonology and Morphology". In Hogg & Denison (2006), pp. 43–108.
-        Nevalainen, Terttu; Tieken-Boon van Ostade, Ingrid. "Standardization". In Hogg & Denison (2006), pp. 271–311.
-    "How English evolved into a global language". BBC News. 20 December 2010. Archived from the original on 25 September 2015. Retrieved 9 August 2015.
-    Huddleston, Rodney; Pullum, Geoffrey K. (2002). Cambridge Grammar of the English Language. Cambridge University Press. ISBN 978-0-521-43146-0.
-    Hughes, Arthur; Trudgill, Peter (1996). English Accents and Dialects (3rd ed.). Arnold. ISBN 978-0-340-61445-7.
-    "Personnel Licensing FAQ". International Civil Aviation Organization – Air Navigation Bureau. 2011. In which languages does a licence holder need to demonstrate proficiency?. Archived from the original on 20 December 2014. Retrieved 16 December 2014. "Controllers working on stations serving designated airports and routes used by international air services shall demonstrate language proficiency in English as well as in any other language(s) used by the station on the ground."
-    "IMO Standard Marine Communication Phrases". International Maritime Organization. 2011. Archived from the original on 3 October 2011. Retrieved 16 December 2014.
-    Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet. International Phonetic Association, Cambridge University Press. 1999. ISBN 978-0-521-65236-0.
-    Jambor, Paul Z. (2007). "English Language Imperialism: Points of View" (PDF). Journal of English as an International Language. 2: 103–123. Archived (PDF) from the original on 11 December 2023. Retrieved 11 December 2023.
-    Jespersen, Otto (2007) [1924]. "Case: The number of English cases". The Philosophy of Grammar. Routledge.
-    Kachru, B. (2006). "English: World Englishes". Encyclopedia of Language & Linguistics. pp. 195–202. doi:10.1016/B0-08-044854-2/00645-3. ISBN 978-0-08-044854-1.
-    König, Ekkehard; van der Auwera, Johan, eds. (1994). The Germanic Languages. Routledge Language Family Descriptions. Routledge. ISBN 978-0-415-28079-2. JSTOR 4176538.
-    König, Ekkehard (1994). "English". In König, Ekkehard; van der Auwera, Johan (eds.). The Germanic Languages. Routledge Language Family Descriptions. Routledge. pp. 532–562. ISBN 978-0-415-28079-2.
-    Labov, W. (1972). "The Social Stratification of (r) in New York City Department Stores". Sociolinguistic patterns. University of Pennsylvania Press. pp. 168–178. doi:10.1007/978-1-349-25582-5_14. ISBN 978-0-333-61180-7. S2CID 107967883.
-    Labov, W. (2012). "1. About Language and Language Change". Dialect Diversity in America: The Politics of Language Change. University of Virginia Press. ISBN 978-0-8139-3327-6.
-    Lanham, L. W. (1982). "English in South Africa". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 324–352. ISBN 978-3-12-533872-2.
-    Lass, Roger, ed. (2000). Cambridge History of the English Language. Vol. III: 1476–1776. Cambridge University Press.
-        Lass, Roger. "Phonology and Morphology". In Lass (2000), pp. 56–186.
-    Lass, Roger (2002). "South African English". In Mesthrie, Rajend (ed.). Language in South Africa. Cambridge University Press. ISBN 978-0-521-79105-2.
-    Lawler, J. (2006). "Punctuation". Encyclopedia of Language & Linguistics. pp. 290–291. doi:10.1016/B0-08-044854-2/04573-9. ISBN 978-0-08-044854-1.
-    Lawton, David L. (1982). "English in the Caribbean". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 251–280. ISBN 978-3-12-533872-2.
-    Leech, G. N. (2006). A glossary of English grammar. Edinburgh University Press. ISBN 0-7486-2406-6.
-    Leech, Geoffrey; Hundt, Marianne; Mair, Christian; Smith, Nicholas (2009). Change in contemporary English: a grammatical study (PDF). Cambridge University Press. ISBN 978-0-521-86722-1. Archived (PDF) from the original on 2 April 2015. Retrieved 22 September 2016.
-    Levine, L.; Crockett, H. J. (1966). "Speech Variation in a Piedmont Community: Postvocalic r*". Sociological Inquiry. 36 (2): 204–226. doi:10.1111/j.1475-682x.1966.tb00625.x.
-    Li, David C. S. (2003). "Between English and Esperanto: what does it take to be a world language?". International Journal of the Sociology of Language (164): 33–63. doi:10.1515/ijsl.2003.055. ISSN 0165-2516.
-    Lim, L.; Ansaldo, U. (2006). "Singapore: Language Situation". Encyclopedia of Language & Linguistics. pp. 387–389. doi:10.1016/B0-08-044854-2/01701-6. ISBN 978-0-08-044854-1.
-    Maclagan, Margaret (2010). "Chapter 8: The English(es) of New Zealand". In Kirkpatrick, Andy (ed.). Routledge Handbook of World Englishes. Routledge. pp. 151–164. ISBN 978-0-203-84932-3.
-    MacMahon, M. K. (2006). "16. English Phonetics". In Bas Aarts; McMahon, April (eds.). The Handbook of English Linguistics. Oxford: Blackwell. pp. 359–382. ISBN 978-1-4051-6425-2.
-    "Macquarie Dictionary". Australia's National Dictionary & Thesaurus Online | Macquarie Dictionary. Macmillan Publishers Group Australia. 2015. Archived from the original on 21 July 2019.
-    Mair, C.; Leech, G. (2006). "14 Current Changes in English Syntax". The Handbook of English Linguistics. Blackwell. ISBN 978-1-4051-6425-2.
-    Mair, Christian (2006). Twentieth-century English: History, variation and standardization. Cambridge University Press. doi:10.1017/S1360674307002420. S2CID 120824612.
-    Mazrui, Ali A.; Mazrui, Alamin (1998). The Power of Babel: Language and Governance in the African Experience. University of Chicago Press. ISBN 978-0-226-51429-1.
-    McArthur, Tom, ed. (1992). Oxford Companion to the English Language. Oxford University Press. doi:10.1093/acref/9780192800619.001.0001. ISBN 978-0-19-214183-5.
-    McCrum, Robert; MacNeil, Robert; Cran, William (2003). The Story of English (3rd ed.). London: Penguin. ISBN 978-0-14-200231-5.
-    McGuinness, Diane (1997). Why Our Children Can't Read, and what We Can Do about it: A Scientific Revolution in Reading. Simon and Schuster. ISBN 978-0-684-83161-9.
-    Meierkord, C. (2006). "Lingua Francas as Second Languages". Encyclopedia of Language & Linguistics. pp. 163–171. doi:10.1016/B0-08-044854-2/00641-6. ISBN 978-0-08-044854-1.
-    "English". English - Definition and More from the Free Merriam-Webster Dictionary. Merriam Webster. 26 February 2015. Archived from the original on 25 March 2015.
-    Mesthrie, Rajend (November 2010). "New Englishes and the native speaker debate". Language Sciences. 32 (6): 594–601. doi:10.1016/j.langsci.2010.08.002.
-    Miller, Jim (2002). An Introduction to English Syntax. Edinburgh University Press. ISBN 0-7486-1254-8.
-    Montgomery, M. (1993). "The Southern Accent—Alive and Well". Southern Cultures. 1 (1): 47–64. doi:10.1353/scu.1993.0006. S2CID 143984864.
-    Mountford, J. (2006). "English Spelling: Rationale". Encyclopedia of Language & Linguistics. pp. 156–159. doi:10.1016/B0-08-044854-2/05018-5. ISBN 978-0-08-044854-1.
-    Mufwene, S. S. (2006). "Language Spread". Encyclopedia of Language & Linguistics. pp. 613–616. doi:10.1016/B0-08-044854-2/01291-8. ISBN 978-0-08-044854-1.
-    Mugglestone, Lynda, ed. (2012) [2006]. Oxford History of English (Revised ed.). Oxford University Press. ISBN 978-0-19-966016-2.
-        McMahon, April. "Restructuring Renaissance English". In Mugglestone (2012), pp. 180–218.
-        Townend, Matthew. "Contacts and Conflicts: Latin, Norse, and French". In Mugglestone (2012), pp. 75–105.
-    Müller, Stefan (2020). Grammatical theory. Language Science Press. ISBN 978-3-96110-273-0.
-    Nation, I. S. P. (2001). Learning Vocabulary in Another Language. Cambridge University Press. p. 477. ISBN 978-0-521-80498-1.
-    "Census 2011: Release 2A". Scotland's Census 2011. National Records of Scotland. 26 September 2013. Archived from the original on 2 April 2015. Retrieved 25 March 2015.
-    Neijt, A. (2006). "Spelling Reform". Encyclopedia of Language & Linguistics. pp. 68–71. doi:10.1016/B0-08-044854-2/04574-0. ISBN 978-0-08-044854-1.
-    "Census 2011: Key Statistics for Northern Ireland December 2012" (PDF). Statistics Bulletin. Northern Ireland Statistics and Research Agency. 2012. Table KS207NI: Main Language. Archived from the original (PDF) on 24 December 2012. Retrieved 16 December 2014.
-    Northrup, David (2013). How English Became the Global Language. Palgrave Macmillan. ISBN 978-1-137-30306-6. Retrieved 25 March 2015.
-    O'Dwyer, Bernard (2006). Modern English Structures: Form, Function, and Position (2nd ed.). Canada: Broadview. ISBN 978-1-55111-763-8.
-    "Language in England and Wales, 2011". 2011 Census Analysis. Office for National Statistics. 4 March 2013. Archived from the original on 2 April 2015. Retrieved 16 December 2014.
-    "Oxford Learner's Dictionaries". Oxford. Archived from the original on 9 February 2015. Retrieved 25 February 2015.
-    Patrick, P. L. (2006a). "Jamaica: Language Situation". Encyclopedia of Language & Linguistics. pp. 88–90. doi:10.1016/B0-08-044854-2/01760-0. ISBN 978-0-08-044854-1.
-    Patrick, P. L. (2006b). "English, African-American Vernacular". Encyclopedia of Language & Linguistics. pp. 159–163. doi:10.1016/B0-08-044854-2/05092-6. ISBN 978-0-08-044854-1.
-    Payne, John; Huddleston, Rodney (2002). Huddleston, R.; Pullum, G. K. (eds.). Cambridge Grammar of English. Cambridge University Press. doi:10.1017/9781316423530.006. ISBN 978-0-521-43146-0.
-    Peters, Pam (2004). The Cambridge Guide to English Usage. Cambridge University Press. ISBN 978-0-521-62181-6.
-    Phillipson, Robert (28 April 2004). English-Only Europe?: Challenging Language Policy. Routledge. ISBN 978-1-134-44349-9.
-    Richter, Ingo (2012). "Introduction". In Richter, Dagmar; Richter, Ingo; Toivanen, Reeta; et al. (eds.). Language Rights Revisited: The challenge of global migration and communication. BWV Verlag. ISBN 978-3-8305-2809-8.
-    Roach, Peter (2009). English Phonetics and Phonology (4th ed.). Cambridge.
-    Robinson, Orrin (1992). Old English and Its Closest Relatives: A Survey of the Earliest Germanic Languages. Stanford University Press. ISBN 978-0-8047-2221-6.
-    Romaine, Suzanne (1982). "English in Scotland". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 56–83. ISBN 978-3-12-533872-2.
-    Romaine, Suzanne, ed. (1999). Cambridge History of the English Language. Vol. IV: 1776–1997. Cambridge University Press. doi:10.1017/CHOL9780521264778.002. ISBN 978-0-521-26477-8.
-        Algeo, John. "Vocabulary". In Romaine (1999), pp. 57–91.
-        Romaine, Suzanne. Introduction. In Romaine (1999), pp. 1–56.
-    Romaine, Suzanne (2006). "Language Policy in Multilingual Educational Contexts". Encyclopedia of Language & Linguistics. pp. 584–596. doi:10.1016/B0-08-044854-2/00646-5. ISBN 978-0-08-044854-1.
-    "The Routes of English". BBC. 1 August 2015. Archived from the original on 24 October 2015. Retrieved 9 August 2015.
-    Rowicka, G. J. (2006). "Canada: Language Situation". Encyclopedia of Language & Linguistics. pp. 194–195. doi:10.1016/B0-08-044854-2/01848-4. ISBN 978-0-08-044854-1.
-    Rubino, C. (2006). "Philippines: Language Situation". Encyclopedia of Language & Linguistics. pp. 323–326. doi:10.1016/B0-08-044854-2/01736-3. ISBN 978-0-08-044854-1.
-    Ryan, Camille (August 2013). "Language Use in the United States: 2011" (PDF). American Community Survey Reports. p. 1. Archived from the original (PDF) on 5 February 2016. Retrieved 16 December 2014.
-    Sailaja, Pingali (2009). Indian English. Dialects of English. Edinburgh University Press. ISBN 978-0-7486-2595-6.
-    Schiffrin, Deborah (1988). Discourse Markers. Studies in Interactional Sociolinguistics. Cambridge University Press. ISBN 978-0-521-35718-0.
-    Schneider, Edgar (2007). Postcolonial English: Varieties Around the World. Cambridge University Press. ISBN 978-0-521-53901-2.
-    Schönweitz, Thomas (2001). "Gender and Postvocalic /r/ in the American South: A Detailed Socioregional Analysis". American Speech. 76 (3): 259–285. doi:10.1215/00031283-76-3-259. S2CID 144403823.
-    Shaywitz, Sally E. (2003). Overcoming Dyslexia: A New and Complete Science-based Program for Reading Problems at Any Level. A. A. Knopf. ISBN 978-0-375-40012-4.
-    Smith, Jeremy J. (2009). Old English: A Linguistic Introduction. Cambridge University Press. ISBN 978-0-521-86677-4.
-    "Population by mother tongue and age groups (total), 2011 counts, for Canada, provinces and territories". Statistics Canada. 22 August 2014. Archived from the original on 26 July 2018. Retrieved 25 March 2015.
-    "2013 QuickStats About Culture and Identity" (PDF). Statistics New Zealand. April 2014. p. 23. Archived from the original (PDF) on 15 January 2015. Retrieved 25 March 2015.
-    Lehohla, Pali, ed. (2012). "Population by first language spoken and province" (PDF). Census 2011: Census in Brief (PDF). Pretoria: Statistics South Africa. p. 23. ISBN 978-0-621-41388-5. Report No. 03‑01‑41. Archived (PDF) from the original on 13 November 2015.
-    Stiles, Patrick (2018). "Remarks on the 'Anglo-Frisian' Thesis". Friesische Studien II: Beiträge des Föhrer Symposiums zur Friesischen Philologie vom 7.–8. April 1994 [Frisian Studies II: Articles from the Föhr Symposium on Frisian Philology on 7th–8th April 1994]. NOWELE Supplement Series (in German). Vol. 12. doi:10.1075/nss.12. ISBN 9789027272843.
-    Svartvik, Jan; Leech, Geoffrey (2006). English: One Tongue, Many Voices. Palgrave Macmillan. ISBN 978-1-4039-1830-7.
-    Swan, M. (2006). "English in the Present Day (Since ca. 1900)". Encyclopedia of Language & Linguistics. pp. 149–156. doi:10.1016/B0-08-044854-2/05058-6. ISBN 978-0-08-044854-1.
-    Sweet, Henry (2014) [1892]. A new English grammar. Cambridge University Press.
-    Thomas, Erik R. (2008). "Rural Southern white accents". In Edgar W. Schneider (ed.). Varieties of English. Vol. 2: The Americas and the Caribbean. de Gruyter. pp. 87–114. doi:10.1515/9783110208405.1.87. ISBN 978-3-11-020840-5.
-    Thomason, Sarah G.; Kaufman, Terrence (1988). Language Contact, Creolization and Genetic Linguistics. University of California Press. ISBN 978-0-520-91279-3.
-    Toon, Thomas E. (1982). "Variation in Contemporary American English". In Bailey, Richard W.; Görlach, Manfred (eds.). English as a World Language. University of Michigan Press. pp. 210–250. ISBN 978-3-12-533872-2.
-    Trask, Robert Lawrence (2010). Why Do Languages Change?. Cambridge University Press. ISBN 978-0-521-83802-3.
-    Trudgill, Peter (1999). The Dialects of England (2nd ed.). Oxford: Blackwell. ISBN 978-0-631-21815-9.
-    Trudgill, P. (2006). "Accent". Encyclopedia of Language & Linguistics. p. 14. doi:10.1016/B0-08-044854-2/01506-6. ISBN 978-0-08-044854-1.
-    Trudgill, Peter; Hannah, Jean (2002). International English: A Guide to the Varieties of Standard English (4th ed.). London: Hodder. ISBN 978-0-340-80834-4.
-    Trudgill, Peter; Hannah, Jean (2008). International English: A Guide to the Varieties of Standard English (5th ed.). London: Arnold. ISBN 978-0-340-97161-1.
-    "Everything You Always Wanted to Know About the United Nations" (PDF). United Nations. 2010. Retrieved 10 December 2022. "The working languages at the UN Secretariat are English and French."
-    Versloot, Arjen P. [in Western Frisian] (2017). "13. Traces of a North Sea Germanic Idiom in the Fifth–Seventh Centuries AD". In Hines, John; IJssennagger, Nelleke (eds.). Frisians and their North Sea Neighbours: From the Fifth Century to the Viking Age. Woodbridge: Boydell & Brewer. pp. 339–373. doi:10.1017/9781787440630. ISBN 978-1-78744-063-0.
-    Wardhaugh, Ronald (2010). An Introduction to Sociolinguistics. Blackwell textbooks in Linguistics. Vol. 4 (6th ed.). Wiley-Blackwell. ISBN 978-1-4051-8668-1.
-    Watts, Richard J. (2011). Language Myths and the History of English. Oxford University Press. doi:10.1093/acprof:oso/9780195327601.001.0001. ISBN 978-0-19-532760-1.
-    Wells, John C. (1982). Accents of English. Vol. 1: An Introduction (pp. i–xx, 1–278), Vol. 2: The British Isles (pp. i–xx, 279–466), Vol. 3: Beyond the British Isles (pp. i–xx, 467–674). Cambridge University Press. doi:10.1017/CBO9780511611759, doi:10.1017/CBO9780511611766. ISBN 0-52129719-2, 0-52128540-2, 0-52128541-0.
-    Wojcik, R. H. (2006). "Controlled Languages". Encyclopedia of Language & Linguistics. pp. 139–142. doi:10.1016/B0-08-044854-2/05081-1. ISBN 978-0-08-044854-1.
-    Wolfram, W. (2006). "Variation and Language: Overview". Encyclopedia of Language & Linguistics. pp. 333–341. doi:10.1016/B0-08-044854-2/04256-5. ISBN 978-0-08-044854-1.
-
-External links
-Library resources about
-English language
-
-    Resources in your library
-    Resources in other libraries
-
-    Accents of English from Around the World (University of Edinburgh). Sound files comparing how 110 words are pronounced in 50 English accents from around the world.
-    International Dialects of English Archive – recordings of English dialects and international L2 accents
-
-    vte
-
-Description of the English language
-
-Links to related articles
-
-English speaking countries
-	
-Portals:
-
-    icon Language
-    icon Linguistics
-    icon Writing
-
-English language at Wikipedia's sister projects:
-
-    Definitions from Wiktionary
-    Media from Commons
-    Quotations from Wikiquote
-    Textbooks from Wikibooks
-    Resources from Wikiversity
-    Data from Wikidata
-    Functions from Wikifunctions
-
-Authority control databases Edit this at Wikidata
-
-Categories:
-
-    English languageAnalytic languagesAnglic languagesFusional languagesGermanic languagesLingua francasStress-timed languagesSubject–verb–object languagesCultural globalization
-
-    This page was last edited on 17 November 2025, at 13:45 (UTC).
-    Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
-
-    Privacy policy
-    About Wikipedia
-    Disclaimers
-    Contact Wikipedia
-    Code of Conduct
-    Developers
-    Statistics
-    Cookie statement
-    Mobile view
-
-    Wikimedia Foundation
-    Powered by MediaWiki
+- Fishrons are descendants of true Dragons.
+- They do not have an Auric Soul.
+
+
+ Ravager 
+
+A sickening flesh golem built for the sole purpose of savage, relentless destruction.
+The monstrosity was a desperate bid to turn the tides against my God-seeking armies.
+I could scarcely believe it myself, but it was born of a ritual of great sacrifice, performed in ardent faith.
+The ritual condemned and fused the bodies and souls of their fallen allies into this hideous thing.
+When the warlocks pledged their very lives to it as an offering, it awoke and effortlessly massacred them.
+Now caked in fresh blood, it hungered for more, and set off on an aimless rampage.
+I suppose its brutality serves as a reminder to be careful what you believe.
+
+- The Ravager was created in a desperate attempt to stop Yharim’s army.
+- It failed.
+Ravager
+The mangled reincarnation of the God of Sacrifices, given life once more. Necromancers sworn to his faith returned his broken body to his temple, offering the only sacrifices they could to reverse his Death– their own lives. Yet, necromancy is an imperfect art, and the god has very little of his mind left, simply destroying all it comes across.
+
+-Ravager is the reincarnation of the God of Sacrifices, and before his revival, consumed the Auric Soul of the Dragon of Death.
+-While he may have died, necromancers that were devoted to his faith attempted to bring him back through their own deaths. This was successful to an extent, as necromancy is imperfect.
+
+ Prelude 
+
+In ages past, now named the Draconic Era, the majestic Dragons protected Terraria from all threats.
+Their famed might was put to the ultimate test by an aberrant behemoth from beyond the stars.
+Fighting with all their strength, the Dragons could wound and weaken it… but not destroy it.
+Lacking options, they tore the monster down to a shadow of its former self; sealing it away.
+What is left of it now lies imprisoned in the Moon, as far away as the Dragons could banish it.
+Much of dragonkind was lost as casualties in that struggle, and they never recovered.
+Zeratros himself was gravely injured. It seemed his power, along with his life, would be lost forever.
+One mortal, sworn to the service of the Dragons, rose in determination to save their virtuous King.
+
+- A long time ago, dragons protected Terraria. One day, a behemoth from the stars, the Moon Lord, came down and nearly wiped out every Dragon on the planet before being sealed.
+- Zeratros was the King of Dragons.
+- One mortal was sworn to serve the Dragons, and rose in determination to save Zeratros.
+
+ Astral Infection 
+
+This twisted dreamscape is a starborne equivalent of the mundane rot you see in your lands.
+I do not claim to understand the process in detail, but even the stars above can die. 
+Left unchecked, their corpses bloat and fester.
+Typically, some semblance of order is maintained. It is not unlike the circle of life.
+Cosmic beings patrol the fathomless void and pick at the carrion, leaving clean bones.
+The infection itself is a disturbance from deep space. It has a mind of its own, and projects its will upon life and land.
+Those whose minds can grasp the true form of the universe are largely immune.
+They cannot be starstruck by a supposed higher truth, let alone one preached by a pustule.
+
+- Stars can die, somehow.
+- Cosmic beings eat the corpses of stars that bloat and fester into the Astral Infection.
+- The Astral Infection has a mind of its own.
+
+ Astrum Deus 
+
+On our world, this being is revered as the God of the night sky. It is said to devour dying stars and birth new ones in turn.
+Unlike the many Gods you or I know, it is guiltless. An important distinction, for it was equally as diseased as they.
+The infection that tainted its body is from beyond Terraria. Neither I nor Draedon recognize it fully.
+With its will subsumed, it hurled a chunk of infested astral matter at our world, then came to guard it.
+Thankfully, such a grandiose being that walks amongst the stars is likely not truly dead.
+While the land has paid a terrible price, the price of a wrongful conviction is higher still.
+
+- The Astrum Deus is revered as a God, devouring dying stars and birthing new ones. However, it is guiltless of the divine crime (more on that later).
+- Astrum Deus’ will was subsumed, making it hurl the Astral Meteor into Terraria and then coming to guard it.
+- Astrum Deus is not truly dead.
+- The God of the night sky is not a true God.
+Astrum Deus
+When a star begins to die, under normal circumstances, its power simply fades as it falls to the nearest celestial body. However, some dying stars bloat and fester before falling. Astrum Deus exists to consume these stars before the Astral Infection manifests in them, and it has been revered for its sacred duty since time immemorial.
+
+-Astrum Deus serves as a guardian of the stars, and devours dying stars. It is revered due to this.
+-The Astral Infection can form within dying stars, and Astrum Deus’ purpose is to consume these stars before the Astral Infection forms.
+
+ Requiem 
+
+As the Light Dragon was fading, the monk visited him. Nearly none understand what transpired that day.
+Most say his passing was eased. The truth? Zeratros' Auric soul was consumed; utterly.
+The monk stood, wreathed in Primordial Light, declaring themselves Xeroc. The First God.
+When a Dragon is laid to rest on the Aerie, its powers are relinquished so they may one day return.
+Xeroc renounced their sworn oath and broke the cycle, becoming a traitor without equal.
+Word of the ascension spread quickly. Many attempted to follow suit and claim an Auric soul for themselves.
+Now you know… Good intentions or no, all Gods are sinners. Each and every one complicit in genocide.
+Wherever your journey may lead, whether you are with me or against… May fortune favor you.
+For nothing else will.
+
+- The monk consumed the Auric Soul of Zeratros and became Xeroc, the First God.
+- They were covered in Primordial Light.
+- When a dragon is put to rest, their powers are resigned so one day they may return.
+- Xeroc broke the cycle and their oath with dragons, making them a traitor.
+- When they ascended to Godhood, the event news spread like wildfire. Many people from across the world rushed to get their hands on an Auric Soul, but regardless of their intentions, they were all complicit in the divine crime of killing a dragon.
+- A God is a being that has consumed an Auric Soul, stealing the power of the dragon they killed.
+
+Wreathed: Covered.
+Relinquished: Resigned, abdicated.
+
+With this, we have officially entered the Post Moon Lord territory. This is where the items start to become quite lore intense and specially revealing, but nonetheless, I would like to thank you for your time reading this and for your dedication to the Calamity lore. Let 's continue now!
+
+ The Profaned Guardians 
+
+The Guardians are rather simple constructs, extensions of the Profaned Goddess' power.
+They are given partial autonomy to hunt down threats and are rarely seen outside of temples sanctified in her name.
+She has been attempting to expand her domain, it is of no surprise she sees you as her largest threat.
+After all, it was you that finished off the star-spawned horror that catalyzed the downfall of the Dragons.
+Draw her out from hiding. Have no mercy, for the Profaned Goddess shows none herself.
+
+- The Profaned Goddess is revered in temples dedicated to worshiping her, and the Guardians protected them.
+- Attempting to expand her domain, she sees you, the player, as the biggest threat.
+Guardian Commander
+In a time lost to memory, there were four soldiers who used their wits and teamwork to slay a dragon, that one might gorge themself upon its auric soul. “I am the wisest,” declared their commander, “I should be the one.” There was silence, until Providence spoke: “You need temper your wisdom with action, that we might impose our will upon this world.”
+Guardian Defender
+In a time lost to memory, there were four champions who used their loyalty to one another to slay a dragon, that one might gorge themself upon its auric soul. “I am the strongest,” declared their shieldmaiden, “I should be the one.” There was silence, until Providence spoke: “You lack strength of conviction, that you might try to pluck the stars from the sky.”
+Guardian Healer
+In a time lost to memory, there were four champions who used their fathomless determination to slay a dragon, that one might gorge themself upon its auric soul. “I am the most courageous,” declared their cleric, “I should be the one.” There was silence, until Providence spoke: “Your courage blinds you to the truth, that your overconfidence would doom you.”
+
+-The Profaned Guardians were once human soldiers who helped Providence slay an Auric Dragon.
+-This happened very long ago.
+
+ Dragonfolly 
+
+Near the close of the Draconic Era, there are records of the “impure” Dragon species.
+Wyverns, basilisks, Pigrons and the like are documented. Though none are sure how exactly they came to be.
+To this day, scholars argue over the true names and lineages of these creatures.
+Names aside: it is clear the first offshoots are pure enough to retain the great strength of their forebears.
+Naturally, this led them to be targeted by cruel divine mandates, and most were hunted to extinction.
+It is known that Fishrons, Follies, and the Abyssal Wyrms survived the purging hunts of the Deific Era.
+Notably, they now are all reclusive or exceedingly violent. It is tragic how they evolved to be that way.
+
+- Wyverns, Pigrons and Basilisks are possibly related to Dragons.
+- There are three known species claimed to be direct descendents of the dragons that are still alive to this day, the Fishrons, the Dragonfollies, and the Abyssal Wyrms.
+- The era that comes after the downfall of the dragons is the Deific Era.
+Dragonfolly
+Long ago, these siblings of the auric dragons hid themselves away in the depths of the jungle. They hunt prey using the immense static electricity generated by the flapping of their wings against their feathery bodies, manifesting as deadly bolts of red lightning.
+
+-Dragonfollies are close relatives of the Auric Dragons.
+-They can generate electricity by flapping their wings against their bodies.
+
+ Providence, the Profaned Goddess 
+
+A glorious day.
+Deeds of valor of this caliber are enshrined in legend. Of this age, only the Witch, Braelor and myself can compare.
+Providence was perhaps one of the wickedest Gods, hellbent on purification through erasure.
+Her worshippers saw little value in life. Pain was not a price they felt justified to pay.
+The Profaned Goddess promised her followers she would end inequality by reducing all to featureless ash.
+Those devoted to her were weak-willed, and yet she reigned as one of the mightiest Gods.
+Perhaps it was their easily-swayed nature, that let her draw so much power from them…
+
+- Of this age, only three people compare to what you have accomplished. The Witch Calamitas, Braelor and Yharim.
+- Providence seeked to purify the world of inequality by reducing all of it into featureless ash.
+- Despite her devoted being so weak-willed, she was still one of the mightiest Gods.
+- She could somehow draw power from her followers.
+
+Enshrined: Consecrated.
+Providence, the Profaned Goddess
+In a time lost to memory, there were four visionaries. With righteous fury, they slew a dragon, and their leader gorged Herself upon its auric soul of Flame. “The world is without guidance, and its people are filled with darkness.” She said. There was silence, until Providence spoke once more. “Let us go forth, and light the world anew.” And it was so.
+
+-Providence consumed the Auric Soul of the Dragon of Flame.
+-What darkness could She have been referring to here, I wonder… perhaps it’s just religious symbolism, or perhaps it’s something else entirely.
+
+ Ceaseless Void 
+
+A contained, previously inert portal sealed in the Dungeon. The presiding cult kept it a closely guarded secret.
+Upon sighting the Devourer of Gods, their leader hurriedly led me to its chamber to reveal its existence to me.
+The portal led to the Devourer's home. It was identical to his, only ancient and perfectly stable.
+The serpent claimed: It too was his creation. Its permanence was a mistake he later rectified.
+But this rift was unquestionably far older than he. It dated back to the Golden Age of Dragons.
+His lie was thin and forced. Something far more powerful than the Devourer was at hand.
+Its eerie persistence gnawed at my mind. It did not just threaten me. It threatened everyone. Everything.
+Even when faced with blatant lies and harrowing danger, I simply walked away and did not return…
+
+Harrowing: Alarming.
+
+
+- The Ceaseless Void is a portal to the Devourer’s home, that was kept in sigil by the cult in the Dungeon, who revealed it to Yharim once they saw the cosmic serpent.
+- This portal dates back to the Golden Age of Dragons, and DoG blatantly lied it was his construct.
+- Something hides in the Distortion. Something that threatens to destroy this very world.
+Ceaseless Void
+-
+
+- This is not an error in the document or the mod, there is intentionally no bestiary entry.
+
+ Storm Weaver 
+
+This beast, while of lesser stature than the Devourer, is a great danger in its own right.
+They are clearly of the same species. Even this serpent was known to devour Wyverns whole.
+Very little is known about the realm or space that the Great Devourer hails from.
+Even Draedon and his obsessive research has been unable to discern its true nature.
+The Weaver slipped through a rift from this place opened by the Devourer, and he has monitored it since.
+In his mind, the lesser serpent's similar powers could lead it to be too threatening for him to let live.
+Little does he know, he has forever stood in a similar position. He thinks himself invincible after all.
+
+- Draedon studied the Distortion, but couldn’t discern its true nature.
+- Yharim believes the Weaver and the Devourer are from the same species and have similar powers.
+Storm Weaver
+An invasive pest from another dimension crowned by many as king of the skies, soaring across the upper atmosphere at near unmatched speed. Unlike the other beings from the Distortion, the Storm Weaver lacks higher purpose, feasting upon the remnants of the civilization that once dwelled in the skies.
+
+-Storm Weaver comes from the Distortion, similar to the Devourer of Gods and Signus.
+-It lacks a higher purpose, probably meaning that it’s disconnected from the Distortion hive mind.
+
+ Signus 
+
+An aberration that defies all explanation, borne of the Distortion and revered by the Onyx Kinsmen.
+Almost all information about this entity is sourced from that enigmatic clan. All else is hearsay.
+It has been reported to manifest in multiple places at once. Its capacity for deceit and ruthless cunning is peerless.
+Statis' compatriot Braelor dueled me to a standstill. With our blades locked, the ronin lunged for the lethal blow.
+The Devourer is not one for honor or loyalty. But he sensed weakness. Hesitation. An easy prey.
+The serpent ensnared both my assailants in a dimensional vortex. Assuring me they were as good as dead.
+Yet, Statis must have struck a bargain with Signus. He escaped his banishment unscathed.
+
+- The Onyx Kinsmen revere Signus, a being spawned from the Distortion.
+- Braelor was a compatriot of Statis, who dueled Yharim to a standstill. While their blades were locked, Statis lunged for the lethal blow, but he hesitated, and the Devourer saw an opportunity to attack and lock both in the Distortion.
+- Statis is still alive, as he has made a deal with Signus to escape the banishment.
+
+Peerless: Unmatched.
+Signus
+‘For any desire, there is a price’. A deal bound in Onyx and sealed in blood, and one can have any wish granted– a gateway, a promise, a betrayal. Curiously, there is no recorded history of Signus before the age of gods, and very little recorded to this day. Perhaps, for the right price, one might find out the truth of Signus for oneself.
+
+-”A deal bound in Onyx and sealed in blood” You might call it a blood pact
+-Ok in all seriousness, Signus is an incredibly mysterious entity, as no evidence of them existing came from before the Deific Era, and little records as a whole. However, if one were to make a specific bargain, one might figure out what the deal is with Signus.
+-Although… why does this entry talk about a “gateway”? Maybe this is referring to how Statis got out of the Distortion? And if so, does the “promise” and “betrayal” also refer to something regarding that deal?
+
+ Polterghast 
+
+The further my war dragged on, the further I sank into negligence. This specter is the crux of my failure.
+I hid behind my excuses, calling them duties. Fighting the gods. Training. Ruling.
+I had the time and resources to devote. I was simply paralyzed by apathy.
+The scores of prisoners I kept in the dungeon I claimed perished alongside their jailors.
+Within those hexed walls, none may know rest. Their souls coalesced into a formless monster.
+Boiling with rage, wallowing in sorrow, screaming in madness. The amalgamation was uncontrollable.
+The dragon cult was furious, their leader demanding I put the haunt down myself.
+I did not answer. I had long since become deaf to the world outside my crusade. Do not fall as I have.
+
+- Yharim’s war had dragged on for decades.
+- He has kept several prisoners within the dungeon, and alongside their jailors, they all died, forming together into the Polterghast.
+- The amalgam marks the separation of Yharim and the dragon cult.
+
+Hexed: Cursed.
+Coalesced: Merge.
+Wallowing: Drowning.
+Polterghast
+The feral amalgamation that drove out the cult that once dwelled here, and inadvertently broke an alliance thought to be eternal. Many have delved into the dungeon in search of riches and knowledge long since lost, yet most simply join the spirits that have claimed this place as their own.
+
+-Nice theme namedrop
+-Polterghast is an amalgamation of many spirits that drove out the Dragon Cult.
+-Many who venture into the Dungeon are slain by this amalgamate, with their spirits joining the many other deceased that wander the Dungeon.
+
+ The Old Duke 
+
+That was possibly one of the oldest mundane living beings on the face of the planet.
+The first Fishrons were spotted in the middle of the Draconic Era. What exotic prestige…!
+Fishrons were one of the original offshoots of pure-blooded Auric Dragons.
+They are so old and venerated that many historians are convinced they are the original sea monsters of folklore.
+This particular Duke's guile is self-evident: It evaded centuries of hunting, and until now had survived a most thorough poisoning.
+Above almost all others, this creature was a living fable. One must wonder what goes through the mind of a fading legend…
+
+- The Old Duke was one of the oldest living creatures of the world, dating back before even Xeroc rose.
+- Fishrons may have even been the source of much of the sea folklore.
+The Old Duke
+One of the original draconic offshoots who were born in the Draconic Era. Dragons who were born after all the auric souls had been gifted to their kind were forced to make do without, forever outside of the cycle of rebirth. Yet in a twist of fate, the auric dragons’ age would end, and those rejected would be the survivors in this new world.
+
+-The Old Duke is one of the first Draconic offshoots, born long ago in the Draconic Era.
+-They managed to outlive the age of the Auric Dragons, being one of the oldest creatures on the face of Terraria.
+-There is a limited amount of Auric Souls in the world.
+
+ The Devourer of Gods 
+
+The infamous, otherworldly glutton, in the flesh. His imposing title was self-granted, but truth made it stick.
+He is a formidable foe: Capable of swallowing Gods whole, absorbing their essence in its entirety.
+I ordered Draedon to armor his gargantuan form, so he could safely best even great Gods in single combat.
+Fittingly, he had a serpent's tongue. He manipulated me incessantly, driving me to awful acts.
+I recruited him out of desperation. My war had dragged on for decades, and I would do anything to have it end.
+It was then my negligence was born. My descent began the moment recruiting this scoundrel crossed my mind.
+His absence of loyalty was clear as day, even at the time. However, I suspect it goes beyond that.
+The Devourer's alien capabilities and domineering tactics hint that his allegiance lay elsewhere.
+Is he but one soldier, a mere pawn of a malevolence far beyond…?
+
+- The Devourer of Gods was known for defeating even powerful Gods in a duel.
+- He marked the start of Yharim’s downfall, being a manipulative scoundrel that drove him to commit heinous felonies.
+- He was never loyal, for his loyalty lay elsewhere, at the hands of whatever rules the Distortion, even above him.
+The Devourer of Gods
+An entity of many titles and reputations, it is easy to conflate the truth and myths of its many legendary deeds. Though Yharim once believed that the essence he devours is utterly and completely erased from existence, it is a fundamental rule of creation that energy cannot be destroyed– it can only be transferred from one form to another.
+
+-The Devourer of Gods had exaggerated his capabilities, possibly in an attempt to enter Yharim’s forces.
+-By far one of the most important things here is that Godly essence cannot be completely destroyed due to a rule of creation, so where does it go after the Devourer consumes a God?
+
+Conflate: Combine into one.
+
+ Yharon, Resplendent Phoenix 
+
+The return of the Age of Dragons, dashed. Just like that, it is but ashes in the wind…
+Yharon was the last of the Auric Dragons. As a phoenix, his domain of power includes rebirth.
+The Gods thought him culled with the rest of his kind, but he returned as an egg. Hidden on the Aerie.
+I was destined to consume his Auric soul when he hatched, and rule forever as God-King.
+
+Destiny is for the weak.
+
+I rejected their whims, and upended their scheme. I was sentenced to execution for treason.
+Their meek, ingratiated swine cast both Yharon's egg and I into the magma of Hell.
+The intense heat hideously scarred me, but birthed Yharon anew. He rose, wreathed in fire, and saved my life.
+From that day, our souls were one. He shared with me the tale of Zeratros, and the genocide of his kind.
+I promised him I would have justice. So the war began, Yharon rallying all as a beacon of hope.
+Now, that hope is long withered. I am but a husk of the hero I once was, and this is the ultimate proof.
+Yharon may yet return, as he does, but he… he has bade me farewell.
+
+- Yharon is the last of the Auric Dragons, thought to have been killed but being reborn in an egg. Said egg contained Yharon’s Auric Soul, and Yharim was destined to consume it and rule forever as God-King.
+- Yharim refused to do so and destroyed their plans, being captured and sentenced to death with the egg. However, Yharon hatched and saved him, sharing the tale of Zeratros. Their souls became one, and Yharim’s crusade against the Gods started.
+- Roar of the Jungle Dragon is canon, if you are wondering.
+
+Whims: Plans.
+Meek, ingratiated swine: Referring to the God's servants with several insults.
+Yharon, Dragon of Rebirth
+Each dragon once wielded nigh limitless power over their domain, a fundamental power drawn directly from the world's fragmented soul. The dragons were masters of all; life, death, even the great Primordial Light that banishes the eternal night beyond. And yet, one of these majestic beings reached a height of power possibly second only to their king. He who made his kind eternal through his powers of Rebirth... and yet, even eternity did not last.
+
+-The Auric Dragons held immense power over their respective domains.
+-Primordial Light is supposedly the Sun.
+-Yharon was likely close in power to Zeratros, and was part of the reason why the Dragons were able to be reborn.
+-Something called the “World Soul” was shattered at some point, and the domains of the Auric Dragons have something to do with it.
+
+
+ The Exo Mechanical Trio 
+
+What a terrifying marvel of engineering. Draedon's specialty always lay in the machines of war, but these are immaculate.
+His bold claim that no God can match his work is, however… incorrect. He is not privy to the Traitor almighty.
+Regardless, from steel and wit alone, he has forged engines of destruction that rival Calamitas.
+It brings me little comfort to remark that even she, at least has a heart to speak of.
+Draedon is an amoral monster beyond compare. He is entirely devoid of humanity and compassion.
+With technology this incomprehensibly advanced, he stands at the precipice of apotheosis.
+He can fabricate such dreadful, synthetic nightmares at will. His resources must be nigh unlimited.
+Were he to lose his temper: if he even has one, all of life's hopes would be smothered in an instant, silenced by a torrent of silicon.
+Though, perhaps you may leverage his unimaginable craft to your advantage, and seek insight from him.
+
+- Draedon can supposedly unmake all life on Terraria were he to lose his temper.
+- He is entirely devoid of compassion and humanity. Amoral, in the very sense of the word.
+
+Wit: Intelligence.
+Apotheosis: The absolute peak.
+Leverage: Utilize.
+XF-09 Ares
+The first of the superweapons Draedon created, Ares is capable of both widespread destruction and concentrated attacks with its deadly cannons. His goal in making the Exo Mechs was to forge war machines that could rival even the vaunted strength of Yharim when last they saw one another. To gaze upon this diabolical monstrosity is to know fear.
+
+-Ares was the first Exo Mech that Draedon created.
+-Draedon was attempting to make machines that could match Yharim’s strength before they parted ways.
+
+Vaunted: Boasted or praised excessively.
+XM-05 Thanatos
+A mechanical serpent built using a revised variant of the Devourer’s armor plating, it was intended to be utterly invincible. Even its weakness of needing to vent due to overheating was turned to a strength, for no creature of flesh or metal can survive such temperatures. To gaze upon this serpentine terror is to know true power.
+
+-Thanatos was created after the Devourer of Gods’ armor was crafted.
+-The heat produced by Thanatos’ overheating is so extreme that almost nothing can withstand those temperatures.
+XS-01 Artemis
+The final superweapon to be created, Artemis only needed a single revision to its original blueprints. Draedon’s perfectionist nature allowed him to raise his skill in engineering to new heights, culminating with a machine possessed of unbelievable nimbleness and precision. To gaze upon the archer is to gaze a second too late.
+
+-Artemis was the final Exo Mech that Draedon created, and it required little revision to become finished.
+-Draedon’s engineering skill is without equal, and as such he can create machines with incredible speed.
+XS-03 Apollo
+With plasma cannons that rival the heat of Calamitas’ own flames and trained in advanced simulations against the world’s strongest, few can match this machine of war. Though the chassis consumes incredible amounts of energy, its power demands are easily met by its Exo Prism power core. To gaze upon the oracle is to know its unwavering stare.
+
+-Apollo’s plasma cannons can match Calamitas’ brimstone flames in heat.
+-Exo Prisms are a source of immense energy.
+
+ Calamitas 
+
+None have borne the brunt of misfortune quite like the Brimstone Witch, Calamitas.
+When first I saw her, she was still a girl. Prostrated in my court, garbed in charred rags as she trembled.
+I could not grasp the unfathomable, raw power of the fell magics that coursed through her.
+She could scant control it herself. Permafrost recognized this immediately. With a pained face, he counseled me to look after her.
+The Witch entered his tutelage, and soon after, my service. She was ablaze with desire to douse the Gods in her wicked wrath.
+Indeed, the faithful already quaked in her presence. Her name was a moniker of theirs, one uttered quietly in fear.
+In my campaigns, I counted on her sheer capacity for annihilation as my ace in the hole.
+No man: army, city or God could stand against her unbridled fury.
+Eventually, the girl's horrific sin was too much for her to bear. She left my side along with her mentor.
+The weight of her deeds haunts her to this day. She despises me, and I cannot blame her.
+Please, if you would… show her respect where I did not.
+
+- Calamitas was just a child when she entered Yharim’s army.
+- She was strong enough to destroy Gods, even in her childhood.
+- The Witch was Yharim’s trump card, acting when nothing else would.
+- Her own sin was too much for her to bear, and she left Yharim’s side with Permafrost.
+
+Borne: Carried.
+Prostrated: Bowing down to.
+Garbed: Wearing.
+Scant: Barely.
+Douse: Extinguish.
+Moniker: Epithet.
+Unbridled: Unstoppable.
+Supreme Witch, Calamitas
+After inheriting nigh limitless magical power as a mere teenager, she was recruited into Yharim’s army, where she served for nearly a decade. She reveled in the violence of it all, the endless dance of madness and death, allowing the Godseeker to wield her as a weapon in his endless war against the gods. But now that the fire inside her has died, all that remains are the smoldering embers of regret.
+
+-Calamitas had been drafted into Yharim’s army as a teenager, and remained there for nearly a decade.
+-In the early years, she took enjoyment from the destruction, but after the war ended, she only felt regret for her actions.
+
+Smoldering: Slowly burning without flame.
+
+ Cynosure 
+
+You now stand at the brink of infinity. The power you have amassed is extraordinary.
+Valor and deceit, truth and falsehood, loyalty and betrayal… you are beyond these notions.
+You have rent all asunder as they crossed your path. The very land now bends to your will.
+Do you not see how the grass parts where you step, how the stars illuminate where you gaze?
+Terraria itself kneels to you, whether it be out of fear or respect.
+This is the strength the Dragons held. The primordial power they commanded.
+Little stands between us now. If you did not seek battle with me, I doubt you would have come so far.
+When you are prepared: seek the grave of the Light, at the summit of the Dragon Aerie.
+I await your challenge.
+
+- This Lore Item talks more about the player than anything, there isn’t much to cover, but I will still say what little it gives us.
+- Your strength is akin to that of the dragons, however, it is unclear whether it’s the source or the level.
+- Yharim awaits you at the peak of the Dragon Aerie, where he has been all along.
+
+ Draedon’s Logs and Schematics 
+
+These items are our next critical lore point to explore. While the Lore Items give a major description of the entire world and are without a doubt our most important source currently, the Logs and the Schematics provide more insight into something very important too, that being Draedon’s participation inside Yharim’s army and several other pieces that help tie together a timeline. Without further ado, let’s begin!
+
+Sunken Sea Bio-Center Lab
+
+
+ Log
+
+"Marine Biology Log"
+Page 1
+A hub of diverse ocean life, and all that remains of Ilmeris that is unscorched. Once its rural outskirts, it is now the final fragment of a once powerful kingdom. It is fortunate that the Witch only focused on attacking the cities proper, and spared some amount of the sea from the Incineration. I have long yearned to research these waters in great depth, yet was never able due to the ongoing conflict. Although many species went extinct in the devastation, many still thrive down here in its depths. It is in this lab that I may finally study aquatic life properly and learn of their nature.
+Page 2
+Although the marine life in these caves do have eyes, some of their eyes are weak and process few colors. All they are made to see is the light of the sea prisms that surround them, with many creatures relying on them to guide their way through the submerged caverns. Their tough, gnarled hides possess crystal growths that I had originally assumed were the prisms settling on their backs. However, dissection results reveal that they instead possess these crystals internally, and the growths are a result of internal sea prisms bursting out of their hides. The growth of these crystals reaches such an extent that some creatures are more geological than biological in certain areas.
+Page 3
+Of the specimens here, the abnormally large clams capture my interest the most. Many times larger than the average person, their weight is so great that they lack the ability to move via the same methods as their smaller counterparts. Instead, they rely on teleportation to transport their hulking, heavily armored bodies. They seem to have once possessed further magical powers according to scouts. However, as they were seen only from afar, their reports could have easily been mistaken. Alternatively, their source of power simply could have faded after Ilmeris’ downfall. It is unwise to entirely discount the latter possibility.
+ Schematic
+
+The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle.
+However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue.
+Addendum: For those who think themselves powerful, search the upper bounds of this planet's atmosphere for a structure similar to that of the Sunken Seas.
+I will know by the end if you are worthy of battling my creations.
+
+- The Draedon Logs at their core serve as worldbuilding more than anything. However, they still give us plenty of information regarding the biomes they are found in and talk about certain events.
+- In this particular Log, we discover that Calamitas has scorched Ilmeris down, turning it into a desert, leaving only the Sunken Sea, the rural outskirts of the kingdom, left for Draedon to study.
+- Yharim and Ilmeris were also relatively hostile for a good time now, too, as evidenced by the fact that Draedon could never study the sea because of the conflict. This doesn’t necessarily imply that he joined during the war, but at the very least that Ilmeris and Yharim never got along.
+
+
+Space Bio-Center Lab
+
+ Log
+"Low Orbit Study Log"
+Page 1
+High above even the sky islands upheaved long ago lies a fascinating geological phenomenon. Though, unlike the islands, their airborne nature appears to have formed more naturally. I speculate that they formed long ago when the world was in its infancy judging by soil samples I have taken while testing high atmosphere plant growth. Perhaps these “planetoids”, as many refer to them as, formed via meteor strikes tossing matter high into the atmosphere. This would simultaneously explain many geological oddities I have found on the world’s surface.
+Page 2
+Travel between worlds is a fascination of mine. The planets within reasonable distance to this provide no use to me in terms of materials or study opportunities they could provide. And so, I wish to go further beyond this mere cluster of planets some day. It will likely take many more decades of technological progress, however, as travel between worlds would take years even at the maximum speed physical matter can currently go. Perhaps I will find a way to shatter this limit once this world holds my interest no longer.
+Page 3
+A request from Yharim has been delivered. An inquiry to create a suit of armor for the serpent that has joined his forces recently, the “Devourer of Gods” as the serpent calls himself. He is a bothersome yet fascinating being. And so, I have taken the opportunity so that I may learn more of his home dimension. Using materials from his place of origin, I have forged armor of immense size and durability yet extreme flexibility. It is certainly one of the most unique materials I have worked with and has advanced my knowledge greatly. Though, I have learned more than I expected to about the cosmic beast from this. Perhaps more than he wished for me to.
+ Schematic
+Within an army, as weapons do, the soldiers serve different purposes. That distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.
+Addendum: Seek out my base of operations closest to the Lihzahrd's home. I wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject.
+- Once again we get some more worldbuilding, explanation as to what exactly are the Planetoids. We also discover that the Sky Islands we see in the sky are artificial, at least sorta, and yes, fucked worldgen has also been explained.
+- Draedon has not set foot beyond Terraria, yet has a fascination for going after so. In a way, his wish was conceded as he got to work within the Distortion and forge the Devourer’s armor. Despite this, his knowledge of the place is severely limited, though he did gain information on the nature of the creatures that live there.
+
+
+Jungle Bio-Center Lab
+
+ Log
+
+"Plague Nanomachine Log"
+Page 1
+It would not be a stretch to call the jungle the hub of this planet. All is centered around it, and none know not of it. It brings me no small amount of unease to see the uncomfortable, raw forms of the living beings who pass through on their journeys above. Fortunately, these labs provide everything I need in my research and more. There is little need to visit the surface, save for Yharim’s summons.
+Page 2
+Few travel down here, with far fewer making the expedition to reach as far down as this research station. As such, I have taken to using this isolation to develop advanced nanotechnology for use in controlling the minds of biologicals. I yearn for it to be capable of spreading from organism to organism, a perfected blend of a virus and nanotechnology. Yet, it has been an arduous task even with my newly developed technologies. Further experimentation and research are required.
+Page 3
+Continued experiments have led to significant results. With a mechanically modified Queen Bee as a primary host, it may act as the core of a hive mind of those my plague has touched. However, Yharim was outraged upon learning of my experiments here and decried them as inhumane. After a brief verbal conflict, he wordlessly left and I have not heard from him since. Fortunately, I need not rely on the slayer of gods any longer, nor have I needed to for years.
+ Schematic
+As rank progresses, so often does the lethality of equipment. In the hands of competent soldiers, the weapons have the ability to make change. However, competent soldiers take no action but orders from above.
+Addendum: If you read this, you have come far. Do not disappoint. Go now to Hell, for the next component stored in what were once my forges.
+- I have previously refrained from talking about this specific subject but the Logs also give us some very interesting inner workings of Yharim’s army, specifically how at the very least their weapon ranking scaled.
+- Draedon remarks the fact that he no longer needed Yharim anymore nor has needed for a long time. This could mean several things, however, granted the Godslayer has vast resources, Draedon needs something that would grant him just as many. One may wonder how exactly he has many resources, something even Yharim mentions on the Exo Mechanical Trio Lore Item.
+- Needless to say, but yeah, Yharim left Draedon because of the Plague project.
+Underworld Bio-Center Lab
+
+
+ Log
+
+"Environmental Pollution Log"
+Page 1
+The Underworld is a realm with history dating back more than a millenia when the Crags were first settled, and acts as a glance into both the modern and ancient world simultaneously. Prior to my joining of Yharim’s forces, Azafure was the center of scientific advancement in this world. Explosives, firearms, smithing techniques, and even entire schools of magic have roots in the city. It is doubtless that the city has been largely aided by the fact that forging is trivial in the Underworld, along with an abundance of food due to Silva’s essence dripping down from the Abyss above. Due to this, it has prospered even with the occasional attack from Demons.
+Page 2
+Azafure has not existed without consequence, of course. Any society on such a large scale leaves an ecological footprint behind. This can be seen most clearly in the sea far above the city, appropriately known as the Sulphurous Sea. Brimstone fumes became intense enough in the city that they began rising up through the Abyss via a process akin to osmosis, and eventually reached the sea. Reducing the pollution the city creates, particularly from forging, is a goal Yharim wishes for me to prioritize. I see little need in it, yet it is a field of study few in this world have delved into. I refuse to squander an opportunity for scientific breakthrough.
+Page 3
+A particular being here has been the subject of my interest: a massive wall created from biological material lies in this place created many years ago by the greatest mages Azafure has to offer. It is a living being, though only just. It lacks both pain and emotion, and brings terror to all who lay their eyes upon it. It is kept protected via high security by the city, and so few aside from the Godseeker’s closest allies have had the opportunity to observe it. For as long as Azafure continues to stand, it is unlikely to ever be truly released. Yet, I do not deny that I would be fascinated to see the effects its release would have on the world.
+ Schematic
+Only the highest ranking in the battalions of the Yharim's army held these weapons. However these are still not my most potent tools. Those...characters could not be trusted with them.
+Addendum: The final piece remains. Travel now from the hottest fire this land has to offer, to the most frigid cold. I cannot deny having some sense of poetic symmetry.
+- Azafure is the reason behind the Sulphurous Sea being so toxic because of the toxins it releases via smithing. Even then, they still receive energy from Silva that drips down from the Abyss.
+- Draedon was sent to the Underworld to lessen the ambiental impact Azafure caused in the world.
+
+Tundra Bio-Center Lab
+
+
+ Log
+
+"Cryonic Material Log"
+Page 1
+A freezing tundra, where only creatures entirely adapted to the subzero temperatures exist and thrive. Few sapient beings have ever permanently resided here, save for miners and the Archmage. With this fact in mind, Yharim has requested I observe this place for oddities due to the armies largely having glossed over this location. Additionally, I have been requested by the Archmage to perform studies on his frigid metals. There is little else to do in this frozen wasteland, and so his request has been accepted.
+Page 2
+Cryonic Ore, as the Archmage simply calls it, is a material seemingly akin to iced over glass. One would assume it is a fragile material at a glance, yet upon testing it is clear that is not the case. Plating made out of it has been found to be more durable and resilient than mythril alloy via flexural and tensile testing, followed by destruction attempts. Yet, it is but a fraction of the weight. Perhaps mass amounts of this material could be used to forge armor for units who disdain for the usual burden of metal plating. I will likely inquire further about the creation methods of Cryonic Ore to achieve this.
+Page 3
+As described earlier, Cryonic Ore was developed by the Archmage, Permafrost. Despite his position as the mage of mages, he has little will to engage in combat. He instead acts as advisor to Yharim, assisting in much of the management of cities and towns taken by or sided with the Godkiller. In addition, he seems to have bonded with the girl who arrived seeking Yharim some months ago, acting as a fatherly figure to her. I myself have taken an interest in her immense natural power.
+ Schematic
+I have since made progress to even greater weapons than these, but they remain creations to be proud of. No progress can be made without a desire that comes from dissatisfaction.
+Addendum: The time has come. You are ready.
+
+- Cryonic Ore has been made by Permafrost, who too has taken care of Calamitas in her initial days in Yharim’s army. Draedon was surprised by the durability and use of this Ore.
+- He too remarks that the Tundra is likely not natural, however can come to no conclusion as to how it was exactly made.
+- Again, more confirmation as to the Archmage function within the army and confirmation that he is without a doubt very strong on his own, but prefers to not engage in combat. Same for Calamitas, confirmation as to her joining and relationship to Permafrost.
+
+
+
+ Draedon Communication 
+
+Logs and schematics aren’t the only ways to get access to Draedon’s perspective, though. Communication with Draedon via the Codebreaker provides numerous insights into many aspects of the lore, from characters to specific dates in the timeline. The first part of his dialogue is simply a fetch quest for a piece of Exo technology to prove the player’s worth, so we’re skipping over it straight to the relevant parts.
+
+ Inquiry: Your Origins 
+My first memories are that of awakening in a distant laboratory on the date of 11.19.1227, well over six centuries ago. Surrounded by nothing but a vast taiga, I was accompanied by only one other thing: a dead organic.
+- Draedon was created “well over six centuries ago”, on 11.19.1227, placing the events of the game some significant amount of time after 11.19.1827.
+
+Presumably, I was created by what I assume to be the laboratory’s former inhabitant, though I am unsure how they accomplished such a feat. From what I gathered, they were quite the prestigious inventor, not unlike I. Several gadgets assumedly of their own making were attached to their body, and the equipment in the lab was more advanced than any I found elsewhere in the world.
+- Draedon’s creator, an inventor based in the taiga, had technology far surpassing anything in the world.
+- Draedon could be an AI, but the cybernetics attached to his creator’s body suggests he was a botched consciousness transfer. Alternatively, the transfer may have been successful, if his creator wished to wipe all of their memories.
+
+I have no recollection of events prior to my activation, but from the start, I knew what my goal was: creation and scientific advancement. Many years were spent optimizing and building upon both the laboratory and myself to assure constant progress.
+- Draedon expanded his laboratory for a while, so it’s definitely not one of the Bio-Center Labs.
+
+At the date of 7.30.1385, expansion of the laboratory became impractical. Thus, I chose to instead expand my horizons. I sent hundreds of remotely-piloted scoutbots to thoroughly survey the continent, ignorant of the attention such an endeavor would draw when not properly prepared.
+- Not much to be gleaned here, save for more raw data to pin down a timeline.
+
+In the following years, legends and rumors began to spread in nearby cities. Many spoke of encounters with roaming creatures made not of flesh and blood, but steel and oil. Scholars attempted to study my machines. Some explorers even followed my creations back to one of my several recon bodies.
+- Draedon’s machines used to be a common sight.
+
+However, as the years passed, I became adept at carrying out such operations in a subtler manner. Slowly but surely, stories about my machines became rare. By the year 1421, my creations and I became nothing more than myth until the Crusade began.
+- Draedon is now skilled at operating unseen, with knowledge of his machines dropping into legend in 1421.
+
+ Inquiry: Role in the Crusade 
+While the Crusade is widely considered to have begun on the date of 6.19.1781 with Yharon's rebirth, I took no part in it until 4.23.1803. Upon joining, I was chosen to lead the science and engineering divisions. While I was given freedom over which projects I chose and how I pursued them, it was expected that anything I made would be beneficial to the war effort.
+- The Crusade began on 6.19.1781. Draedon joined around twenty years later, on 4.23.1803.
+
+Boosting the efficiency of mining operations was my first major contribution to Yharim's campaign, being essential to any further development. I learned how to mass produce the first generation of Excavators to expand mining operations outside of Azafure, and then used similar mass-producible technology to create arms and armaments that far outclassed our enemies'. Many simply dubbed this equipment "The Arsenal".
+- Draedon first helped with expanding mining operations, meaning Yharim was no longer dependent on Azafure for materials.
+- “The Arsenal” is, in fact, the canon name people used for Draedon’s weaponry.
+
+Throughout the Crusade, I also created widespread surveillance systems, using knowledge gained from my original survey of the continent I was activated on. Soon, my vigil over Yharim's rapidly expanding territory was absolute, and my knowledge of his adversaries grew. There were few nations I knew not the weakness of, and fewer still that knew our own.
+- Draedon also acted as a spymaster, a role he was perfectly suited for.
+
+However, what I am most notorious for are my hulking machines of war. I am certain that you are familiar with them. Though Yharim was almost sycophantic in his praise of my results, even if he sometimes questioned my methods, our time together came to an abrupt end after he learned of the Plaguebringer Goliath. Regrettably, this event left a sizable hole in my laboratory. No longer subject to his restrictions, my work on cloning the Witch and creating exotechnology began.
+- Draedon’s final interaction with Yharim as his engineer was not, in fact, “verbal”.
+
+My role in the Crusade summarily ended; I do not consider the later inclusion of exotechnology into Yharim’s armor a formal part of my work under him. Yharim's knights and other troops continued to use my "Arsenal" in their military efforts, but I no longer oversaw their research or production.
+- Yharim’s armor has integrated Exo technology.
+
+The Crusade did not obstruct or interfere with my core objective of creation and scientific advancement; rather, it simply redirected my focus. Through it, I gained novel insights and reached heights I would not have reached without playing a part in it. I appreciate having had the opportunity to work with some of the greatest organic minds of the time, and I hope those that are still alive will bring progress to a plethora of fields I have yet to explore.
+
+ Inquiry: Your Goals 
+My goal has been and always will be the advancement of science and technology. I will continue until I am eliminated or I reach the universe's scientific ceiling. Even if I have shattered limits before, there is bound to be a point at which nothing more can be done to advance. I find it unlikely I will ever reach this point.
+
+You may have intended to ask of more specific long-term objectives. I currently aim to observe the world with a far more open mind than I once had, so that I may find further inspiration for new works. Even long after my activation and after meticulously surveying large portions of Terraria, there is much that I still do not comprehend.
+- Draedon is currently focusing on understanding the nature of Terraria.
+
+Once I have a firm grasp of the vast majority of this world's workings, I will focus my study on the Astral Infection's effects in hopes of finding a way to negate them permanently. When present on a planet, one simply could use a Clentaminator and the correct solution to remove the Astral Infection. In the vacuum of space, however, it makes for an irksome and tenacious obstacle. Ventures beyond Terraria would require preparation and appropriate countermeasures.
+- Afterwards, Draedon hopes to find a way to eliminate the Astral Infection, in preparation for later space travel.
+
+In contrast, I will present a short-term goal: I wish to begin harvesting minerals from this world's moon. With the husk of the cosmic titan culled, I plan to begin experiments with wireless spatial linkage. The teleporters you are familiar with must be wired and are thus unsuitable for interplanetary distances. Scalable logistical means for instantaneous transport will be paramount in harvesting and ferrying materials beyond Terraria when this world becomes unsuitable for my needs. To be clear, I do not wish to see this world devastated and have no intentions of ruining it.
+- In the short term, Draedon is researching wireless teleportation and preparing for lunar mining operations.
+
+ Inquiry: The Exo Mechanical Trio 
+The zenith of my craft. The culmination of all I have ever accomplished. The result of over six hundred sixty years of research and scientific advancement. They are my magnum opus; a work of art. Simply calling them war machines would be an insult not just to me, but to them.
+- Here’s an important line. Draedon goes into more detail on how long it has been since he was activated, placing the events of the game some time in the range of 11.19.1887-11.19.1897.
+
+Ares was the first to begin construction. Its early models, XF-00 through XF-05, were developed primarily to find the most efficient combination of weapons for it to wield. While some were more deadly in and of themselves, particularly those featuring projected hard-light melee peripherals in place of its laser and plasma cannons, it was clear that they did not synergize well with their brethren. Its current arms maximize its threat level when deployed alongside them.
+- Ares was the first Exo Mech, and was initially designed with hard-light swords. These were scrapped, as Draedon believes the current configuration is best for group efforts with the other Exo Mechs.
+
+The second to be drafted was Thanatos. I took advantage of the size of the chassis and potent propulsion systems to add nigh impenetrable armor and innumerable pulsed laser turrets. Few would be capable of learning its weakness before meeting their demise.
+
+I forged its armor using a process inspired by how Silva created Braelor's axe: by using particle jets to slowly and carefully fuse many elements together into a nanocomposite, the invincible armor organically "grows" over Thanatos' structure like a chrysalis. Regrettably, the plating's immense weight makes Thanatos notably slower than its siblings.
+- Thanatos was second, with armor “grown” over its chassis.
+- Braelor’s axe was created with a similar process, likely involving the fusion of multiple materials.
+
+When designing the third, Apollo, my goal was to downscale significantly; to make something powerful, yet compact. Reviewing the most compact forms of destructive potential I knew, I elected to simulate the Witch's flames.
+                	 
+Apollo's searing exoplasma is fueled by unstable nanomachines that constantly shed a deluge of ultra high energy particles. This both heats the plasma to incredible temperatures and causes radiation burns of a severity on par with those inflicted by the Witch. The craft had little capability beyond its nanomachine plasma projector, but there was no worry. Apollo was never meant to fight alone.
+- Apollo was inspired by Calamitas, and its plasma is on par with brimstone flames.
+
+The final to begin construction was Artemis. Rather than being founded on raw power, it was made to be the apex of speed and accuracy. There is elegance in simplicity, for all of Artemis' combat efficacy comes from an onboard predictive AI and a battery of hard-light bolt emitters.
+
+It was the perfect partner to its twin and required just a single revision. Organic beings are naturally inclined to fixate their senses on fire, presenting Artemis with the perfect opportunity to strike with unparalleled precision.
+- Artemis and Apollo were specifically designed to counter organics that allow themselves to focus on fire.
+
+ Inquiry: What is Exotech? 
+Exotechnology is my greatest scientific advancement, unlocking a new echelon of potential in my machinery. The iteration you are most familiar with, the Exo Prisms, took a great deal of time to perfect. My focused efforts on this power source have been met with immense reward, one that has yet to be fully realized.
+
+The basis of exotechnology stems from my own neural interface, which serves as a synthetic replacement for the brain cells of organic life. Exotechnology is predicated on a modular implementation of this synthetic intelligence, which enables communication and interfacing with any conceivable form of technology. Instructions and information are processed at lightspeed in a distributed fashion, not unlike a cerebral network taken to its theoretical extreme.
+- Exo technology is based on Draedon’s brain, allowing it to interface with any technology at incredible speeds.
+
+Peerless computation density does not come without a price. My prototype models consumed absurd amounts of energy and could not be meaningfully integrated into any system without a limitless source of power. After experimentation with a plethora of different candidates failed to bring results, I chose to approach the problem of limitless power more directly.
+- Unfortunately, said neural interfaces consume a lot of power.
+
+The Ilmeran crystals that you know as "Sea Prisms" are self-illuminating and provide a weak electric charge indefinitely, even when tapped by circuitry. Etching the crystals with conduction pathways at the molecular level and providing an initial energy impulse, not unlike igniting a newborn star, transforms them into a facsimile of the Exo Prisms you are familiar with.
+- Sea Prisms are theoretically infinite energy sources, though very weak. Precise modifications can drastically increase their production, creating Exo Prisms.
+
+Exo Prisms emit a self-sustaining resonance of particles that is unlike any other phenomena I have observed. I dubbed this Exotic Resonance, and it is the breakthrough that the rest of exotechnology is named for. Exotic resonance remains present no matter how much energy is drawn from it, amplifying the intrinsic properties of the Sea Prisms far beyond my expectations. The sheer abundance of energy produced via exotic resonance allows a sufficient quantity of Exo Prisms to power any device, no matter the size or complexity.
+
+You will find my modern Exo Prisms easy to work with when using my forge, and should have no issues using their power to vastly enhance your armaments. If you are concerned about my harvesting of Sea Prisms from Ilmeris, do remember that you found the largest ever cohesive gem unharmed in my laboratory. Artificially growing equivalent crystals allows me to manufacture pure, flawless Exo Prisms en masse, which provide much more stable power output. I have no need to strip mine the sea kingdom to meet my exponentially rising energy budget.
+- Draedon is capable of artificially growing Sea Prisms, eliminating the need for mining operations.
+
+ Inquiry: Miracle Matter 
+Is that really what you have chosen to name it? How nonsensical. There is nothing miraculous about what you hold in your hands; it is the culmination of decades of research and a testament to the truly unlimited potential of science. Though, as you were the one to be able to stabilize it, I will begrudgingly refer to it as that.
+
+The particles contained within Exotic Resonance are capable of breaking down nearby matter when exposed to enough external energy. You have already experienced this phenomenon whilst fighting against my machines. The power surges from the ongoing battle caused some of the Exo Prisms within to actuate, melting down some of the internal components into an unstable slurry of this so-called Miracle Matter. The altered resonance enhanced their attacks with a prismatic blight that disintegrates anything, organic or otherwise.
+- Exotic Resonance can deconstruct matter, creating Miracle Matter.
+- The Exo Mechs’ utilization of Exotic Resonance in their attacks was not intended by Draedon.
+
+The various materials that you exposed to the exotic particles melded together in such a perfect way to create a stable substance. Harnessing the combined force of draconic wrath, the life essence of the planet, energies and spirits alike, and the strength of the cosmos, what you now possess has limitless potential.
+- Draedon was unable to stabilize Miracle Matter, the Terrarian was first to do so.
+
+Hypothetically, your stabilized Miracle Matter should be able to unmake some of your weaponry and reshape their essence into something infinitely more destructive, capable of annihilating any obstacle in your path.
+- Crafting with Miracle Matter involves deconstructing the composite weaponry and reconstituting it into something greater.
+
+ Inquiry: Your Forge 
+I mentioned the first time we communicated through your "Code Breaker" that I had other reasons for giving you the blueprints for this forge. Notably, I wish for you and Yharim to be on even footing when you inevitably clash. There are three primary reasons for this.
+
+Firstly, I wish to witness such a battle. Secondly, you are far too valuable for me to allow you to throw away your life in combat with the Godseeker. Thirdly and most importantly, I am interested in how society as a whole would react to the Godseeker's defeat. Such a scenario is not easily replicable, nor do I expect another appropriate challenger to rise before his natural passing.
+- The Terrarian is valuable to Draedon in some way.
+- Draedon is interested in society, something we haven’t really seen of him before.
+
+Providing access to my forge is how I am assisting you in reaching the heights of power Yharim possesses. Though you are surely aware of how to utilize it by now, you may benefit from understanding the minutiae of its inner workings.
+
+The forge's core mechanisms operate upon both the raw energy output and connective properties of Exo Prisms. The exoparticles physically dissociate a multitude of other potent crafting stations, letting them all exist and function simultaneously in the same enclosure. From there, the embedded exotechnology allows them to work collectively as one workshop, providing a single interface for the entire forge. The blueprints for the exterior structure are embedded in the prisms. You need only provide the requisite materials.
+- Draedon’s forge is literally multiple crafting stations in one, with a unified interface.
+
+Once fully constructed, the Exotic Resonance field containing the superimposed workstations is controlled by a computation matrix which comes preinstalled with all my data on the fundamental building blocks of our universe. Using the universal compatibility of exotechnology, my forge can interface with and disassemble any kind of matter you present to it, and output any desired result.
+- The forge functions via a computer containing all of Draedon’s material data.
+
+ Inquiry: Yharim 
+The Godseeker. He once fascinated me nearly as much as you now do, both of you being unpredictable catalysts of a new era. I first heard word of him and the Crusade via scoutbot reports twenty-two years after the crusades began. While the rumors about Yharim himself and his war plans to conquer a city on the continent I was on intrigued me, another rumor demanded my full attention. Supposedly, he was accompanied by the Auric dragon that was the catalyst for the Auric dragons' rebirth.
+- 22
+
+I saw this as an opportunity that could not be missed. I modified a scoutbot to enable two-way communication and dispatched it to the city that was supposedly Yharim's target. I had expected it to arrive while the city was still under siege to have an edge in negotiations, but by the time my machine arrived, the city had fallen a week prior. Such military might was beyond anything I had deemed possible at the time. It was then the Godseeker interested me just as much as the Auric dragon did.
+- Yharim’s military power surprised even Draedon.
+
+Yharim was a very distinctive figure even then and it was not difficult to locate him. I found him in a charred street directing the cleanup effort. After he spotted my reconnaissance drone unexpectedly, we had a tense but brief negotiation. I discovered he had a passion for military history, as he quickly deduced that I was the source of the mysterious beings of steel and oil from centuries past. Despite the initial tension, I found him receptive to my offers after his realization. Perhaps he viewed me akin to a mythical force of nature not allied with the gods.
+- Yharim tends, or at least tended, to take such menial tasks as cleanup efforts into his own hands.
+- Yharim, unsurprisingly, is knowledgeable on military history.
+
+I explained our mutual situations from my perspective. I desired to create and progress, but was limited by a lack of safety. Yharim commanded a formidable army, but his great ambition could not be fulfilled unless he had an edge over his adversaries that could not be matched.
+
+My proposal was a simple one. I would join his forces and focus my research onto assets that would benefit his campaign. In return, Yharim would see to my protection and provide me ample resources to pursue my work. The Godseeker was initially skeptical, but accepted after I showed him various examples of my technology. I was soon moved to the heart of Yharim's empire and made his lead engineer and scientist. While we had many disagreements that would eventually result in us parting ways, we came to a vague understanding.
+- Draedon joined Yharim both due to research aims and a need for protection.
+
+Though I was disappointed that I had little chance to study Yharon given he was what initially drew me to Yharim, I would be presented with many other opportunities throughout the next seventy-two years: the Archmage's magic, the Devourer's realm, and the Witch's power were the most notable. The Crusade taught me that I progressed faster with external aid, even if it only served as inspiration.
+- Draedon was largely unable to study Yharon.
+- Draedon was removed from Yharim’s service some time around 4.23.1875.
+
+My last interaction with Yharim was not even a year before I first observed you. He had come to me some months after his nearly fatal encounter with Braelor and Statis and requested that I enhance his Auric armor with my newly-invented exotechnology. We spoke little before he departed to the Dragon Aerie, and I believe him to still be there.
+- Yharim’s armor was upgraded less than a year before the start of the game, and Braelor and Statis made their fateful assassination attempt only a few months before that.
+
+ Inquiry: Dragon Aerie 
+My knowledge of the Dragon Aerie is limited. Yharim is adamant in protecting it. In recent history, only he and Yharon have trod there, and neither were inclined to share details about it.
+- No one other than Yharim and Yharon have been to the Aerie in recent times.
+
+Even if I dared to evoke Yharim's wrath, I cannot survey the Aerie. My attempts at locating it have been fruitless despite having surveyed this world's surface and skies many times over. Perhaps it avoids observation, as per some manner of cloaking. It is also possible it simply exists outside of conventional space, in a pocket dimension of sorts. Either case would make detecting it via my current methods drastically more difficult.
+- Draedon has been unable to detect the Aerie, leading him to hypothesize it is either cloaked or located outside of space, such as in a pocket dimension.
+
+What I do know is that the Dragon Aerie is an unusually large sky island that acted as the sacred home of the Auric dragons. Few others were ever allowed to tread there, as a sort of religious sanctuary or holy ground.
+        	 
+It is also where Auric dragons would be laid to rest in preparation for their revival by Yharon. As their revival on the Aerie was a commonly accepted fact even at the start of recorded history, the sky island must be at least 2,000 years old, with Yharon himself being a similar age.
+- Recorded history dates back around 2,000 years.
+
+Considering the extraordinary power of the Auric dragons and the sanctity of the Dragon Aerie, I am left to ponder: did the Aerie make the Auric dragons powerful, or is the Aerie inundated with power due to their extended presence? Perhaps more importantly, what made them leave the safety of the Aerie even as their kind were being slain? I eagerly await the uncovering of such mysteries.
+- Draedon presents two questions; did the Aerie’s power or the Dragons’ power come first, and why did they leave it during the draconic purges?
+
+ Inquiry: The Brimstone Witch 
+The Witch was an unexpected ally in the final stages of the Crusade. For most of the campaign, I was undoubtedly Yharim's greatest asset, but that changed when she arrived. Her flames burned hotter than my most powerful furnace, and her desire to torch the Godseeker's enemies surpassed even my passion for creation.
+
+The Archmage was firmly opposed to her fighting, though Yharim would often send her on covert missions while Permafrost attended to other matters. Between these excursions, however, he attempted to act as a guardian and teach the young Witch how to control her magic. These sessions were the most perplexing and simultaneously the most fascinating portions to observe.
+- Most of Calamitas’ missions were in secret, to avoid Permafrost’s outrage.
+
+Calamitas was shown to only have a slightly above average grasp on the principles of magic, being unable to cast complex spells without them overloading and bursting into flame. Yet when wielding the brimstone fires of the underworld, she commanded power that rivaled Yharim's. My surveillance over Azafure never signaled anyone who lived there having such power, and a mere child certainly could not hide it. Furthermore, she was no goddess, or Yharim would have slain her at any cost.
+- Calamitas’ magical skill is only marginally better than average, except in the field of Brimstone magic, where she excels beyond belief.
+- Despite this, Draedon never detected her power before her arrival.
+
+I therefore hypothesized that she was not born with this power. After combing the archives for records of similar magics, I eventually traced it back to the Brimstone Elemental herself. The arcane signatures were nigh identical, with a few key differences.
+- Calamitas likely gained her power from the Brimstone Elemental in some way, possibly causing her to wake. Otherwise, she may have gained it during their confrontation.
+
+After the Incineration, however, my research came to an abrupt and unplanned end. The Archmage had already chosen to desert Yharim, and Calamitas followed in his footsteps shortly thereafter. It was then I would get my final official order from Yharim: replicate the Witch's power. My focus at the time was the Plague, so initially I made minimal progress. Soon after, the Godseeker and I went our separate ways.
+
+Some years later, even without Yharim to order me, I returned to the project in an attempt to create a flame that burned hot enough for an early prototype of my forge. In order to directly replicate her power, I began work on making a clone of the witch made from traces of her DNA I had gathered over the years. Though the clone was a technical success, it showed no signs of being able to wield Calamitas' signature magic.
+- It appears Yharim was the one who ordered the creation of the Calamitas clone. Though this may seem contrary to his own statements, Yharim only requested a replication of her power, and the clone was created after Draedon was dismissed.
+- The clone could not wield Calamitas’ power innately.
+
+While this did prove that the Witch's power was not natural, I had no means of tracking its source. Soon after the project's underwhelming conclusion, security reports indicated that Calamitas herself broke into the laboratory that the clone was stored in and released it. Interestingly, it became capable of wielding a tiny fraction of her very own brimstone magic soon after. To this day, I ponder the implications of these events.
+- Calamitas freed her clone herself.
+- Calamitas’ power is transferable.
+
+
+ Inquiry: The Devourer of Gods 
+No being I have seen is as enigmatic as the Nameless Serpent. Nothing in our world even vaguely resembled his body structure, genome, or phylogenetic tree. I began many studies on his nature, all of which quickly failed for lack of a familiar aspect to make comparisons to. Even his basic biological functions proved to be near-incomprehensible.
+- Not unexpectedly, the Devourer of Gods’ biology is entirely different from any creature found in our dimension.
+
+It did not help that many of his claims about himself were unfounded. Creating such a stable portal like the one in the Dungeon is a particularly absurd example, as none of his portals have ever been so stable even with my aid.
+- The Devourer lies through his teeth, as usual.
+
+Some number of years after the Serpent joined Yharim's forces, an even more confusing addition to the equation was detected: the other, smaller serpent that you refer to as the Storm Weaver. You may have heard the claim that it is of the same species as the Devourer. Any level of in-depth inspection reveals that to be false.
+
+Setting aside the similar body shape, basic x-rays proved that their endoskeletons were entirely different, and the difference in size tells all else needed. In fact, from what little I have grasped about both Serpents' biology, the Storm Weaver may have been older than the Devourer despite the sheer difference in power and size. However, I am not confident enough in this conjecture to state it as fact.
+ - Storm Weaver is a different species than the Devourer, and may be older than him too.
+
+Despite my issues with the Serpent, his assistance on the battlefield and with resource acquisition was welcome. One of the few unquestionable truths about him was the grandeur of his title. I still make use of smelted Cosmilite to this day in numerous applications, and I utilize the raw material as a metallurgical component of various alloys such as the Exo Mechanical Trio's plating.
+- Cosmilite is a component in Exo plating.
+
+Yet the most profound mystery remains: the means via which the Devourer's body processed or disposed of godly essence. The energy is not absorbed or entirely converted, but scans for traces of the essence showed that it was not stored inside him for other purposes. All signs indicated that godly essence simply vanished shortly after he consumed it.
+
+Unless he blatantly defied the laws of thermodynamics, which is most unlikely, the mass-energy must have been transferred elsewhere. Where to, I am not sure. I doubt this matter will ever be resolved now that the Devourer has been culled.
+- The Devourer of Gods does not absorb, convert, or destroy godly energy. Whatever he does with it, it likely involves sending it somewhere else.
+
+
+ Inquiry: Distortion 
+Despite my efforts to gain information from the Devourer when forging his armor, I know very little about the Distortion. What knowledge I do possess was still seemingly deemed to be too much by the serpent. He was fiercely suspicious of my questioning, yet did not interfere with my own limited attempts to probe the dimension myself.
+- Draedon doesn’t know much about the Distortion.
+- The Devourer is very protective of information about the Distortion, but does not directly stop attempts to research it.
+
+All inorganic material in the Distortion is extraordinarily old, with radiometric dating failing on all 116 samples collected. Given the formations that are present, it is a safe assumption that most matter in the Distortion has existed for far longer than life on this world.
+- The Distortion is positively ancient.
+
+Despite most of the local life forms displaying behavior similar to highly intelligent creatures on our own planet, electroscopy and dissection of the few collected specimens revealed that none of them possess neural structures of a caliber needed for independent sapience. This evidence, along with observations of similar behavioral patterns between different species, leads me to theorize that the bulk of the creatures of the Distortion merely express intelligence because they serve as limbs of a central hive mind.
+
+Quite how this is the case is not clear to me. It should not be possible to remotely grant thought capacity to an otherwise simplistic organism. Doubly so when one considers this effect applies to an unknowable number of creatures, all expressing intelligence simultaneously and working in concert with each other to some undisclosed goal.
+- Most Distortion life is highly intelligent, but possess either no brains, or extremely underdeveloped brains.
+
+- This leads Draedon to surmise that the Distortion is a hive mind, though the mechanics of this mind are clearly supernatural in nature.
+
+ Inquiry: The Mechanical Trio 
+The "Mechanical Trio", as most call them, are what you annoyingly refer to as The Destroyer, Retinazer & Spazmatism, and, though it pains me to call it this, "Skeletron Prime". While you may be an exceptional individual, I question your naming capabilities. For your information, their formal designations are HM-03, HSx-00, HSy-01, and HF-04 respectively.
+- The Terrarian is awful at naming things.
+- The Destroyer’s designation is HM-03, Retinazer and Spazmatism are HSx-00 and HSy-01, and Skeletron Prime is HF-04.
+
+They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an Auric dragon.
+- The mechanical bosses were initially based on Gods.
+
+As acquiring an Auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.
+
+Upon further research, I confirmed that a soul's strength is defined by its intense emotions or resolve. Here, Yharim's unrivaled charisma and skill at evoking passion within the hearts of others was key. Not only was finding a source of emblazoned souls trivial, but many of his most stalwart troops even directly consented to having their souls embedded in my machines after their demise at the hands of the enemy.
+- Souls gain strength with determination and intense emotions, making the zealous soldiers of Yharim’s army the perfect source.
+
+Fueled by the loyalty of the Godseeker's fallen soldiers, my machines were fearsome and ruthless. Harnessing the meshed combat experience of a thousand lifetimes, their battlefield prowess was self-evident. However, this same source of strength proved to be a flaw, as the unified will that gave them their might also made them volatile and not subject to my commands. While Yharim thoroughly approved, I sought to remove this imperfection from my designs via future projects.
+- As we already knew, the Mechanical bosses kept their free will, a matter Yharim and Draedon had differing opinions on.
+
+ Inquiry: The Plague 
+Before you ask: I am aware that my nanomachines currently plague the jungle. I created a failsafe in case this happened, and have no intent of causing uncontrollable mass destruction. If it begins to threaten biodiversity or otherwise encroach upon my learning of Terraria, I will deactivate it myself.
+- Draedon is keeping a close eye on the plague, and it has a kill switch he can use at any time.
+
+My research into applied nanotechnology began as a means to match the ever rising heights of power organic beings such as the Witch, Braelor, Statis, and Yharim himself were achieving. Living things cannot be externally ordered or controlled, and are prone to fits of emotion and, in rare cases, rebellion.
+- Draedon began development of the plague in order to counter organic beings with incredible power.
+
+I aimed to create a weapon which could control, subdue, or eliminate any organic entity, given enough time. I was well aware of the tenacity and adaptability of life, and quickly realized such a weapon would itself need to be alive to overpower and dominate any known organism.
+
+It was through my observation of the growth of such powerful beings, however, that I had an epiphany: there was no need for my machinery to surpass organic life. Not when that very same life could be improved upon and then harnessed as a tool or weapon.
+
+I saw then the banality of my efforts to simply control and replace life. I stood before the near limitless possibilities of enhancing it further.
+
+Even when I deemed that I had plateaued in the field of cybernetics, the limitations of my methodology were ever present. The bodies of most jungle creatures were too frail to handle the prerequisite cybernetic enhancements. A Queen Bee was the optimal choice to host the nanomachines. Born to rule, such beings are resilient enough to survive the augmentation, but still weak enough to be subdued if or when necessary.
+
+Something about this research in particular incensed the Godseeker. Upon witnessing my progress, he flew into a rage. He blasted out a sizable chunk of the genomic laboratory and intentionally allowed my first, unfinished specimen to escape. In no uncertain words, he terminated his agreement with me and stormed off. I do not know what line was crossed, but he has made no further moves to antagonize me, so I shall continue my research in peace.
+- Once again, Draedon’s confrontation with Yharim was not verbal as he claimed in the Plague Nanomachine Log.
+- Draedon has no idea why Yharim was enraged with the Plaguebringer specifically.
+
+Regardless. There is a unique allure to setting loose a synthesized mimicry of prokaryotic life. It continues to evolve incomprehensibly rapidly, even as we speak, providing endless opportunities for analysis.
+
+
+ Inquiry: Astral Infection 
+The Infection has beguiled me since its surge upon this world. To study it, I retrofitted an Aureus reconnaissance model with armor intended to nullify its effects. In the end, all the protection I could muster only delayed Aureus' fall to the starborne rot. Observing your trials, I understood why it was overtaken: the lack of a thinking brain.
+
+Attempts at studying it on my own failed; a body was built for the task, but the chassis fell short, even if my mind remained. Using an alternative approach, I sent hired mercenaries into the infection. Few returned, but those who did provided me with enough intel.
+- It appears a remote controlled body will be overtaken by the infection the same as a body without a thinking mind.
+
+What interested me the most were the reports of an infected Astrum Deus patrolling the Infection. Until the rot afflicted it fully, the closest it had ever been spotted was in Terraria's higher atmosphere. Further analysis pointed towards it being the catalyst for the infection's arrival on the surface. Though I have not found a concrete reason as to why and how this happened, I do have a hypothesis.
+
+As you may know, stars are concentrations of magic that form over countless years of ambient mana gathering together in deep space. With the mana having nothing to gravitate towards but itself, it condenses until it becomes a brilliant star. Stars that grow too large begin to collapse, degenerating and forming clots of Astral Infection. Throughout the cosmos at large, this is a rare occurrence, as Astrum Deus intermittently devours large stars for sustenance.
+- Stars form via mana coalescing together under its own gravity in a similar manner to gases condensing into real life stars.
+
+However, space is unfathomably large. If Astrum Deus were to vanish from space for even a brief time, some number of stars should visibly degenerate into Astral Infection, observable via telescope. Yet such observations show no significant increase in the quantity of collapsed stars. Furthermore, I know from my calculations that the observable universe is far, far too large to support a scenario where Astrum Deus disappears.
+
+It is therefore almost certain the Astrum Deus we know is simply one of many. Anything further I say on this matter is speculation.
+- Astrum Deus is definitely one of a species, as otherwise the amount of Astral Infection would have vastly increased during the period of its infection.
+
+The infected Astrum Deus near our world may be a juvenile. This would explain why it could struggle to devour a star or fail to identify an infected star as a potential hazard. It then grew sick and crashed onto the nearest planet. As there are presumably many others of its kind, space on the whole is largely unaffected. I welcome any other hypotheses you may have.
+- Draedon theorizes that the Deus that was infected may be young, though he admits this is conjecture.
+
+ Inquiry: Sulphurous Sea 
+Even before I used the sea as a disposal site for nuclear waste, it was never a pleasant place for your kind. Sulphuric fumes from Azafure's industry rose through the Abyss and came to pollute the sea far above. Most of the calm, docile life that once flourished here was utterly demolished by such a hostile change.
+
+The new life that emerged many years later via mutation and other adaptation allowed for studying how life can adjust to such harsh conditions, including ever-increasing levels of radiation. Though I did not value such data at first, familiarizing myself with the increased tolerances of adapted organic beings proved to be essential at several points during my development of the Plague.
+- Research into organic adaptation gained from the Sulphurous Sea was a key point when Draedon created the plague.
+
+If you are concerned about the sea's current state, you are far from the first. You may put your worries to rest, as I have no plans to further irradiate the area for the foreseeable future. Indeed, my actions have already been met with scathing criticism and uproar.
+- Draedon has ceased dumping waste into the sea, and has no plans to restart in the future.
+
+The Godseeker's bureaucrats would frequently remind me of how the public had organized to revolt against my advancement of science. From what they knew, they were justified. They feared what calamities further science could wreak upon Terraria, due to the destruction brought upon the Sulphurous Sea.
+- People are pretty environmentally conscious, even for the Sulphurous Sea. Protests against nuclear waste dumps in the sea were common during Draedon’s time serving Yharim.
+
+I thought such retaliation to be absurd, but it appears not all can see reason. Despite my infamy and legacy, technological advancements continue to be made by many other scientists across Terraria, even if the subject continues to provoke unfounded fear mongering.
+
+Regardless, if I deem it necessary, I possess the means to simply rebuild the Sulphur Sea from the bedrock up. Restoring it to its pristine status would be a trivial matter and a testament to science's creative potential.
+- Draedon can literally just destroy the sea and rebuild it. It would be a “trivial matter”. He can just do that.
+
+
+ Boss Rush 
+
+Boss Rush is an endgame event where the player fights strengthened versions of all the past bosses. In this event, we see the voice of Xeroc, a very important figure in the lore. All the messages in the event are of their perspective, giving us more insight on several instances that haven’t been elaborated on before.
+
+Xeroc’s Dialogue
+
+First off, we have the dialogue shown to the player upon starting the event. Subsequent refights of Boss Rush have a significantly shorter line of text, one with nothing of importance in it, so it is excluded.
+
+...How long has it been? Centuries? Perhaps even a millennia?
+I sank this artifact of mine to the deepest depths of the world to prevent it from being used ever again.
+Few are aware of its existence, and those who are?
+They know that the boundless power it was once able to provide can no longer be taken advantage of.
+It is a surprise to see there is another who is courageous enough to have retrieved it, particularly given these circumstances.
+A mortal this time, no less! How interesting...
+What exactly is it that made you go out of your way to claim what is now nothing more than a decaying stone tablet?
+...Perhaps this is an opportunity. Claiming this relic is no small feat, and I have caught brief glimpses of your journey.
+You, who claimed this artifact that ended an era on your quest to end another...
+I wish to test your strength, using fragments of my Primordial Light taking the form of your past foes.
+It will be no easy task, yet should you prove yourself strong enough, I will have a proposal for you.
+Do you believe yourself capable of conquering such a challenge?
+
+-Xeroc is very, very old.
+-From this, we can confirm that Terminus was in fact an artifact owned by Xeroc, and that it was capable of providing immense power in the past. This is no longer the case, however.
+-A mortal obtaining the Terminus is surprising to Xeroc, evidently. As mentioned before, Silva seems to be incapable of dying, so perhaps Xeroc is referring to her here.
+-The Terminus had apparently “ended an era”. This could be referring to the Draconic Era, as that was the era in which Xeroc had ascended.
+-The bosses in Boss Rush are formed of Primordial Light, and are not the actual boss.
+
+
+There are also some lines of dialogue if the player defeats specific bosses before starting the Boss Rush. There are 3 in particular, for a few of the endgame bosses.
+
+Who slew the nameless serpent... 
+-This one appears if the Devourer of Gods was defeated prior to Boss Rush. Evidently Xeroc knows about the Devourer; could be significant about something bigger, or could just be the Devourer being hard to miss.
+
+Who bested even my old friend, the Phoenix…
+-This one appears if Yharon was defeated prior to Boss Rush. Yharon and Xeroc apparently were friends in the past.
+
+Whose power may match the only mortal who has ever made me doubt my own…
+-This one appears if both the Exo Mechs and Supreme Witch, Calamitas were defeated prior to Boss Rush. Apparently Yharim was strong enough to make even Xeroc doubt their own power, which is concerning, to say the least.
+
+
+Of course, there are also messages for completing each tier of the Boss Rush, not just the start and end.
+
+A passable display so far, but not nearly enough to meet my expectations.
+Prepare both your body and soul for what has yet to come.
+
+I wasn't mistaken. You are indeed an admirable warrior.
+Still, you haven't shown me enough. Shall we escalate things further?
+
+Your determination and will to grow stronger... It reminds me of myself, when I was mortal.
+But the hardest challenges still await. Do not let your guard down, even for a moment.
+
+The trial will soon reach its climax.
+Now is the time to display your conviction, and the true extent of your strength and will.
+Prove to me that you are capable of surpassing even yourself.
+
+-These four are respectively the messages for finishing tiers 1, 2, 3, and 4.
+-I can never tell if these are subtle lore drops or just really cool sounding
+
+
+And finally, the ending monologue for when you complete Boss Rush.
+
+A truly excellent display. I see that I was correct! You indeed may be this world's mightiest warrior. However…
+It seems as though even that power... it is not enough. I'm afraid I will not be sharing my proposal with you.
+Though, as a consolation prize, I wish for you to take this ancient stone I carved from the Aerie.
+I have long held it as a... keepsake, of sorts.
+Though you may have failed to meet my requirements, it is unlikely that this will be the only time our paths cross!
+Continue to seek greater strength, and when we meet again, perhaps you will have grown enough in power to be worthy.
+In the meantime, I have my own matters that I must attend to.
+Farewell, for now.
+
+-We don’t actually get to know what the proposal was, in the end.
+-The Rock was supposedly special to Xeroc, for them to keep it this long.
+-This is not the last we’ll see of Xeroc.
+
+ Rock 
+
+As stupid as it sounds, the Rock actually has some very important lore in its tooltip, with a very cryptic question at the end.
+
+When the battle was finally over, the dust having just began to settle
+Where even the stone refused the course of time, there sat a monk
+Who dared to question history and stare into fate
+'What is the true price of the past being ever eternal?
+Why must our future forever haunt us?'
+
+-Long ago, there was a great battle. This was very likely the battle with the Moon Lord during the Draconic Era, given the context.
+-The monk mentioned is likely Xeroc.
+-What could that question at the end mean?
+
+
+
+
+
+ NPC Dialogue 
+
+Calamity adds five NPCs, specifically. All of them come with dialogue too, as expected, and some share information pertaining to the lore. Not only that, but some Vanilla NPCs also have added dialogue that is extra important. Here, I have separated every dialogue that I found important. Please, do note that Cirrus falls under dedicated content and thus is considered non-canon.
+
+ The Sea King, Amidias 
+
+The Sea King is the previous ruler of Ilmeris, the kingdom Calamitas burned during Yharim’s crusade, as evidenced by this quote of his…
+
+"My home may have been destroyed and my people lost... But I will assist you to honor their memory."
+
+Going for his quotes, however, many of the specially relevant entries come from his Help dialogue.
+
+"Scattered across the lands are shrines dedicated to the gods. They contain powerful gear that may help you on your adventures."
+
+The Shrines you find around the world are all dedicated to Gods. We will cover them later, too.
+
+"I assume you have heard of the legendary ninja, Statis? He and his clan worshiped the God of slime, who may be a survivor of the war due to its trickery and knowing when to hide or flee."
+
+Statis was a legendary ninja and his clan worshiped the Slime God. While this has been stated previously, I will talk about facts before if they happen to be stated by more than one character, to show more definitive proof as to some stuff that may or may not be 100% true.
+
+"The [Corruption / Crimson] is a relatively recent development in the world, and its formation marked the start of Yharim's treacherous war. Although the source of its growth would be sealed away, nothing was ever done about the original manifestations.
+
+The Crimson and the Corruption could mark one of two things. Either they were the first slain Gods by Yharim or they were the start of people actually questioning his ways. What we do know is that it stopped growing, at least until you release the essence trapped within the Wall of Flesh.
+
+"Have you ever heard of the Archmage, Permafrost? Once an advisor to Yharim, he one day vanished and Calamitas abandoned Yharim's cause soon after. From what I know, Permafrost was akin to a father to her. Perhaps if she had something to do with his disappearance, he may yet live...?" 
+
+Again, we see some more Permafrost and Calamitas relationship insight. We do too know that Calamitas most likely has something to do with his disappearance other than Yharim. I am going to consider this fact from now on, too.
+
+"Azafure, the city founded in the Brimstone Crags, was one of the first places to support Yharim in his war. Now, it is nothing more than ruins... Just what happened there?"
+
+The actual reason for Azafure burning doesn’t seem to be public.
+
+"The men at the front of the dungeon are performing a ritual to keep the Moon Lord contained in his prison. In order to gain Yharim's attention, however, you may need to defeat them."
+
+This confirms what the Cultists were doing, and also the reasoning as to your fight with them. A necessary evil, it seems.
+
+"The Profaned Guardians serve Providence, one of the few Gods even I despise. The Guardians attempt to eliminate threats to their Goddess preemptively, and it is likely that their next target is you."
+
+"Providence can likely be drawn out for combat by using the relic her Guardians left behind. I wonder... Why has Yharim not challenged her? Is he simply that negligent now?"
+
+"Providence was a great threat to Yharim and his army. She would appear out of seemingly thin air, wreck havoc, and vanish before much damage could be done to her. Perhaps she would be overconfident in facing but a single warrior."
+
+I grouped these three quotes because they all paint a wider picture for Providence and her behavior overall. How she fought Yharim’s army, how her Guardians work, and poses a great question… Why has Yharim not killed her yet?
+
+"The Rune of Kos holds a significant portion of Providence's brand of magic, easily distinguishable from all others. Activating it in certain places would have some... risky consequences."
+
+Take this quote with a grain of salt, I believe it is mostly outdated by now, however, it does confirm that the Rune somewhat holds Providence’s godly essence.
+
+"The Devourer's armor was specially made by Draedon. Extremely flexible yet durable and massive, it may be one of his most impressive creations. I shudder to think of what unholy things he may be able to create now, if his research has not stopped."
+
+It’s quite unfortunate that we find that out. Anyways, once again, more Devourer and Draedon action. It seems like the armor’s nature is quite well known, too.
+
+"The Devourer of Gods is truly an enigma. Some say it's not even from this world at all. What is known is that he is a being that can devour the essence of Gods entirely, leaving absolutely nothing left. It's no wonder Yharim recruited that monster."
+
+One must wonder where said essence goes. It’s either absorbed and turns the Devourer stronger, or perhaps it’s something more sinister.
+
+"Auric is near impossible to work with without being attuned to a Dragon or using the claimed soul of a Dragon to perform a "mock" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the Gods."
+
+Oh yeah and here comes one of the single most important pieces of lore from the entire story, hidden in the annals of Amidias help dialogue. This specifically talks about the process of working with Auric Ore and implies a LOT of stuff. I will quickly list it, too.
+- Yharim is almost certainly attuned to Yharon, and this allows him to perfectly work with Auric. Quickly citing it, if you die from Auric Rejection, your death message will say you were not worthy, so in short words, Yharim is worthy of Auric because he attuned with Yharon.
+- You cannot work with Auric Ore properly, the mock attunement you make by using the mere fragments of Yharon’s soul is still significantly weaker than Yharim’s version of it.
+- Gods most likely could not work with Auric Ore to its fullest. After all, why would they deem something they would use heretical? If anything, they would say using Auric Ore was a blessing only they are allowed to have. Plus, it wouldn’t make sense if they could use it, otherwise the power scale of them wouldn’t be all over the place (Slime God and Providence).
+ The Bandit 
+
+Enigmatic, they don’t offer much to us in terms of overall lore. However, The Bandit still has quite the fun dialogue, I recommend you read them whenever you have a chance.
+
+"I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories."
+
+Whatever could this means, ties The Bandit to the Jungle slightly. Could give us some insight as to future plans with them.
+
+ The Archmage, Permafrost 
+
+Much is known about him from the previous several entries, so I don’t think I need to explain this one. Let 's continue.
+
+"The tundra’s unnatural state is not all my doing. Decades ago, I came across it and amplified the climate with my magic."
+
+This paints the picture for two things. One, we discover what exactly made the Tundra so cold, and second, we get to see a glimpse at Permafrost’s scope of power, being able to change a biome with his magic. Granted, that most likely took a long time and a lot of effort.
+
+"Nightfall is a good time for practicing magic. We mages often rely on celestial bodies and their fragments to enhance our mana."
+
+This, paired with some extra knowledge, namely the Fallen Stars being crafted into Mana Crystals and the various magic items crafted from the Astral Infection, without a doubt connects magic to the stars. To what extent, it is unknown.
+
+"If your blood were to thoroughly freeze, it would be quite fatal."
+
+Thanks for the advice.
+
+ Supreme Witch, Calamitas 
+
+The Witch herself. While her NPC doesn’t have much dialogue, her boss quotes reveal interesting things about her character and her motivations to fight you. If you ask about Draedon, his boss dialogue isn’t very interesting to warrant a section in the Document in my opinion.
+
+"Do you enjoy going through hell?" 
+“You should have just died..." 
+"It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?" 
+"You've harnessed great power, but you wield it for no one but yourself." 
+"Would you like to meet my family? Horrible, isn't it?"
+"You will suffer greatly." 
+"It's absurd to even think of trying to get away. As long as you live, you will suffer." 
+"An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?" 
+"You have no stake in this battle. No one gave you any say in this matter!"
+"Once the dust has settled and only one remains, if it is you, what value will this have had?!" 
+
+"Just stop!"
+"I have no future if I lose here."
+"Once you have bested me, you will only have one path forward."
+"And that path... also has no future."
+"Even if he has thrown all else away, his power remains."
+"I have no more energy left to resent him, or you..."
+"It will all be in your hands now."
+
+- Her rematch dialogue doesn’t show much of anything interesting, but these few lines are already important enough on their own. First of all, this gives confirmation that Catastrophe and Cataclysm are her brothers. Calamitas was also aware of her clone, which begs the question why she hasn’t destroyed it already, however, it is possible that she discovered it after you killed it. She, too, has her reasons for fighting you, having been so traumatized by Yharim, she sees you as someone as dangerous as him, and being so deathly afraid of the Godslayer, she sets out to kill you herself.
+
+
+
+
+Boss Despawn Messages
+
+As absurd as this may sound, yes, there is lore hidden inside the fucking Boss Checklist unique Boss Despawn messages. Of course, not all of them are epic, but some of them reveal some interesting aspects about certain bosses, but there won’t be many. I will be brief about these, too.
+
+
+ The Slime God 
+
+“The grimy, gelatinous God hops away, its vengeance achieved.”
+
+- This implies a few things. As much as this “vengeance” could be interpreted as for the slimes, it could too be interpreted as a reason for the God to have even been born. A man seeking revenge in something absorbed an Auric Soul… Simply food for thought, but still an intriguing entry regardless.
+
+ The Brimstone Elemental 
+
+“The elemental ever maintains her somber vigil over Azafure…”
+
+- I chose this entry for a specific reason… Why would the Brimstone Elemental vigil over Azafure, when it destroyed the city in her wake? Something doesn’t line up, perhaps the Elemental wants something different other than destruction, but it isn’t very clear.
+
+ Yharon, Dragon of Rebirth 
+
+“Yharon soars out of sight, his task fulfilled.”
+
+- This is our last entry on this short list. I chose this one because it reveals that Yharon did in fact come to murder us. Combined with the Roar of the Jungle Dragon lyrics, which are now canon, and his Lore Item, we can now safely conclude that Yharon came on his own behalf to try and stop the playable character, with no outside influence coming from Yharim.
+
+
+
+
+
+ Wulfrum Items 
+
+Items most of the time are a good way of understanding more specific parts of the lore, the world and some characters. As of currently, there aren’t many items that add special tidbits that give us these insights, however, I decided to group what we currently have here! Starting with everyone’s favorite items, Wulfrum!
+
+ Abandoned Wulfrum Helmet
+This rather flimsy armor was commonly worn by scavengers and looters.
+Its versatility and common nature led it to be used as currency in trades.
+
+- This specific item shows us about the purpose Wulfrum had in the grand scheme. Of course, something so weak and crude as this metal wouldn’t be used if not by the less fortunate, and thus, it was mainly used as a currency.
+
+ Wulfrum Prosthesis
+Technology and magic have been forever locked in an arms race of imitation and retaliation.
+At times they work in tandem, as seen in certain prosthetic limbs.
+
+- As for this prosthesis, this is probably one of the more interesting descriptions, to be honest. It puts in evidence the co-existence of magic and technology, how they always tried to one up each other and how sometimes they can work together. I believe this is better shown in Draedon and Calamitas, and later Yharim.
+
+
+
+ Ilmeris Weaponry 
+
+A kingdom isn’t a kingdom without its weaponry, and you end up coming across it in the game using the Sea Remains. Of course, they also come with their own lore relevancy in their texts, being definitely more interesting and definitely building a lot more on how Ilmeris existed.
+
+ Coral Spout
+Knowledge is important, and the Old Sea Kingdom's many scribes knew it had to be preserved at any cost.
+Their libraries were much larger than most, because of the water-proof stone tablets occupying them.
+
+- Quite self explanatory. This shows two very interesting facts, one being how Ilmeris actually stored knowledge and the second being the fact that they had quite a vast array of knowledge under their hands. It most likely completely burned though, just like a certain library I know…
+
+ Cnidarian 
+From looking at their less sapient brethren, the Old Kingdom's inhabitants adapted tools and weapons designed for underwater efficiency.
+The electric properties of ghost bells remain useful even after death, having been commonly used as conduits.
+
+-The citizens of Ilmeris made tools and weapons adapted from their less intelligent brethren. We also get some insight as to how Ilmerians used their surroundings, and we see more about this in some Bestiary entries later in this doc.
+
+ Fishbone Boomerang
+
+Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.
+As a last resort, they had to fashion weapons from the skeletons of dead animals.
+
+- This one sheds light on a critical detail, Ilmeris’ evaporation was not instant. Calamitas took a while to burn the entire sea down, and Ilmeris still fought to the bitter end.
+ Redtide Spear
+The people of the sea were adept hunters, but they abhorred unnecessary violence.
+Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.
+
+- Well, with this comes a theory. Redtide Spear details that the Ilmerians were highly against unnecessary violence, and that their neighboring nations were quite aggressive. What kick-starts my theory is that as we can see Amidias too is rather pacific, and being against Yharim, I draw the conclusion that perhaps Ilmeris served under a God that preached about peace or whatnot. Of course, take this with a grain of salt, I could be very wrong here.
+
+ Reed Blowgun
+The Old Sea Kingdom never truly sought to expand beyond its initial borders.
+However, they had a perfect track record of repelling any invasions, thanks to their insurmountable advantage in the water.
+
+- Again, this item remarks the general pacifism of Ilmeris and their biggest strength, that being their absolutely massive advantage in the water. If they did hold a God in its walls, then said vantage should have been big enough for even Yharim to fear, which surely is scary.
+
+ Exhumed Items 
+
+For the current last items we have in store, there are the Exhumed Items. Granted they aren’t very special, they still definitely imply some interesting things about Calamitas as a character and without a doubt help paint a picture of her better as a person.
+
+ Rancor
+
+Forgiveness can only heal so much,
+If the recipient has not yet forgiven themselves.
+
+- Very straightforward. Despite being forgiven by you, Amidias and perhaps many more, Calamitas can’t bring herself to forgive her own sins, be it killing thousands, trapping her father figure for years, and who knows what else…
+ Cinders of Lament
+
+The Witch, a sinner of her own making,
+Within her mind her demon lies, ever patient, until the end of time.
+
+- Once more, more Calamitas trauma. Currently it’s not known exactly what Catastrophe and Cataclysm are for her, but if they are all still brothers, then it definitely checks up, after all, the dead can never be truly revived.
+
+ Gruesome Eminence
+
+The spirits of the amalgam could never pass on to their desired afterlife,
+Tainted and melded by rage as they were.
+
+- The Polterghast never truly passed on, it seems, and this item makes it very clear. Such hateful souls, and when powered by a grieving witch, one can only imagine the abomination that would spawn from it.
+
+ Metastasis
+
+A contemplated possible future of the cosmic serpent,
+A gruesome warning for those blinded by the hunger for power.
+
+- No, the Devourer of Gods will not become directly The Sepulcher. I swear to God the damage this tooltip did to the world is irreparable. Anyways, this tooltip works more as a metaphor because of how power hungry the Devourer is, and in a way says how, if he did not stop, or in our case, killed, eventually he would just be another mindless beast running around, or perhaps a part of the crawling tomb of Calamitas.
+
+
+ Environmental Tidbits 
+
+Not all lore is told through text. In fact, environmental storytelling is just as important as any lore Item you may find. However, the environmental storytelling of Calamity as of currently is sparse, since it demands way more effort than just writing text. Of course, I could have missed some, especially when later updates come, but this section will document various structures and enemies that silently tell a tale within the world of Calamity.
+
+Phantasm Dragon
+
+
+- Summoned during the Lunatic Cultist boss fight, this servant has been directly integrated into Calamity’s own lore. The Draconic Cult worshiped Dragons, and thus, their leader could very well summon one… Or at least, something that looked like one.
+
+The Surface Shrine
+
+
+- This Shrine specifically is the most concrete we have, by far. With its japanese theming and the presence of Pink Gel, we can safely assume that this is dedicated to the Slime God. Not only that, it is also maintained by Statis, who has been confirmed to be alive. Perhaps you can find him praying to his God, eventually…?
+
+Tundra Shrine
+
+- The Tundra Shrine is rather unique. What I mean is that it has our third God. Yes, this Shrine is dedicated to the God of Electricity, who was worshiped in the Tundra for their benevolence and allowing the inhabitants to live off affordable prices for their heating services. Yharim has then defeated the God, which was reduced to the small jellyfish you see in the bowl.
+- Of course, this is a joke. In reality I have no idea what this Shrine could be dedicated to, probably it was just a mundane house, and said person lived with a Rimehound as a pet. But hey, at least I hope I made you chuckle a bit with my “theory”.
+
+Marble Cave Shrine
+
+
+- The Marble Cave Shrine is an enigma, to be certain. However, I have my own personal theory as to what it could be dedicated to. The Marble Caves are known for the Hoplites, skeletons in armor worthy of gladiators, and the Locket inside the chest also shows that. My theory is that the Marble Caves were used as fighting grounds, and challengers ventured deep into the caves for a chance to fight with glory and pride, and in case they won, be gifted by a God, which I can presume would be the God of Battles, or something similar. Of course, such a figure would eventually be taken down by Yharim, and the competitions would cease.
+
+Granite Cave Shrine
+
+
+- The Granite Cave Shrine is another one I have an interesting theory about. With Geodes inside and its rather natural shape unlike the other Shrines, I assume this is the opposite of several Shrines dedicated to a God or thing, but rather something a God directly made to aid the mortals, namely what I believe to be the “God of Riches”, or something similar. This God would have made this Shrine to help anyone who came across it, with not only plenty of riches but also a powerful accessory and potions to help adventurers scavenge deeper into the underground in search of greater fortune. 
+
+Mushroom Cave Shrine
+
+
+- The Mushroom Cave Shrine isn’t too special either. From the contents it has not much can be concluded, but the inclusion of the Truffle Worms could mean that this Shrine was dedicated to Fishrons, as it is likely their favorite food, with the exception of a particularly old individual. Of course, in the Deific Era this sounds unlikely, but remember the cult of the dungeon exists, it’s not impossible that people go around worshiping the Dragons and its descendants.
+
+Crimson and Corruption Shrines
+
+
+- Both Shrines basically tell the same story, in the same way the Lore Items are very similar in what they tell. While it is weird that someone would worship these putrid mires, it is not far to say that people would still worship the Gods that once lived and turned into the biomes. What I believe is that as Yharim’s war dragged out and people got desperate to stop the Godslayer, they turned to the ones he had already slain. The Shrines are perhaps a way of communicating with them, or perhaps even to aid the Gods in reviving. The intent is unsure, but it definitely feels and looks like a desperate act, especially the Crimson Shrine.
+
+Desert Shrine
+
+
+- This Shrine has an interesting implication. The desert, at least this part, did not exist before the incineration of Ilmeris. This means it's recent, and most likely not offered to any Gods. It could perhaps be as simple as a tribute to the kingdom, as if someone was mourning the loss of it.
+
+The Abyss Shrine
+
+
+- This Shrine is shrouded in mystery, just like The Abyss itself and especially the Eidolon Wyrms which seem so closely related to the Terminus. More details on this are present within the Primordial Wyrm’s Bestiary entry, but in case you don’t want to scroll down slightly, let’s review the details here. The Terminus present within the Abyss Shrine is an artifact that is related to Xeroc in some way, as it’s referred to as “their artifact” in the Primordial Wyrm’s Bestiary entry, as well as Xeroc themself claiming ownership of it in Boss Rush. More specifically, Xeroc is likely the creator of the Terminus, and the Primordial Wyrm is intended to be a guardian of this artifact, likely defending it from Xeroc. As for what the artifact was intended to do, perhaps it was a method to contact Xeroc, as Boss Rush contains their commentary as you progress, with their sigil even in the background during the event. I don’t believe we have a concrete answer as to what purpose it serves, or why it’s down here, so I can only speculate with what we have currently.
+
+Abyss Chest Unlock Message
+
+
+- Self explanatory, but yeah, this is a cool one. Simply saying, this means that the vines Silva implanted in the Abyss have a will of their own, and recognize your feats.
+
+
+ The Bestiary 
+
+Here is where a bulk of the current lore resides, through the eyes of an unbiased narrator. The same general rules as the Lore Items apply here too. So you don’t have to scroll all the way back up, here’s a quick refresher. Bestiary entries will be recited in their entirety with notes and definitions for certain words below. Any grammatical errors are in fact intentional, unless confirmed otherwise. Certain notes may have some colored lines when talking about specific characters such as Yharim, so do note that. For the entries themselves, they will be separated into 3 different categories, being:
+Important entries
+Semi-important entries
+Minor worldbuilding entries
+Something to keep in mind is that certain entries are excluded from this list, due to how they are attached to dedicated content, which is non-canon. These entries are:
+Drunk Princess
+Fearless Goldfish Warrior
+Piggy
+With all this in mind, let’s jump right into the Bestiary!
+
+Important Entries
+Archmage
+One of the world’s foremost experts on magical theory, he is renowned for his skill with the arcane arts. In his days when he traveled with Yharim’s entourage, he acted as the Godseeker’s advisor, due to both his status and his distaste for actively participating in battle.
+
+-Permafrost, the Archmage, is one of the greatest mages in Terraria.
+-He traveled with Yharim as his advisor and hated fighting.
+Bohldohr
+Bohldohrs were made to serve the lihzahrds, being crafted from ancient stone and brought to life with magical power in the twilight of the great Lihzahrd Dynasty. But the sun sets on every civilization, and once their deity abandoned them, they were left to fend for themselves.
+
+-The Lihzahrds had some sort of civilization, even being so advanced as to have a labeled Dynasty. Bohldohrs were created by the Lihzahrds with the intention of being servants, but when the Lihzahrdian deity left them, their civilization was forced to survive on their own.
+-The Golem is an attempt at recreating the Lihzahrdian deity, albeit a mechanical one.
+Brimstone Witch
+Recruited to Yharim’s forces late into the war, her magic overflows with such power that she is largely incapable of casting normal spells. Yet despite her great power, Calamitas prefers not to use it, as it takes a heavy toll on her psyche.
+
+-Calamitas is capable of great strength, but using it is largely harmful to her mental state.
+-Calamitas was drafted into Yharim’s war later.
+Cataclysm 
+The eldest of the three siblings, this brother was a brawler of great renown in Azafure, with few in the city being capable of matching his raw strength. He was protective of his sister, vowing to always be there for her in her times of need. The brother continues to fulfill this promise, even in death.
+
+-Cataclysm is now dead, but was revived through necromancy.
+-Cataclsym is the eldest of his siblings.
+Catastrophe
+The middle child of the three siblings was a skilled swordsman in life, taking up mercenary work to put food on the table. Despite his rather bloody career choice, he did his best to be kind to his sister and keep her out of any danger his occupation could have put his remaining family in. He continues to defend her, even in death.
+
+-Catastrophe is now dead, but was brought back through necromancy, albeit not completely.
+-Catastrophe is the middle child in his family, with Calamitas being younger and Cataclysm being older.
+
+Cosmic Mine
+Tearing a rift into our world from the distortion takes vast amounts of energy; that is, unless you are a being of both worlds. Signus alone can create these portals with such ease, but even it cannot sustain them for long before the energy used to open them violently disperses.
+
+-Signus is able to create portals to the Distortion, but they cannot keep them active for long.
+-This begs the question of how Ceaseless Void is able to stay active for this long, as it is a portal to the Distortion itself. Could there be something else other than Signus that can create these portals?
+
+Eidolist
+Once members of the dragon cult, they now beg the favor of a new master. They are able to live in the abyss indefinitely thanks to their wyrm-like form, allowing them to serve a new purpose.
+
+-Eidolists were former members of the Dragon Cult, but at some point, they defected and started serving the Eidolon Wyrms, or very likely the Primordial Wyrm itself.
+Eidolon Wyrm
+Relatives of the auric dragons, they adapted to hide away in a forgotten corner of the world to survive the great purges. And yet even without auric souls, the power of eidolon wyrms rivals many of their brethren who possessed them.
+
+-The Eidolon Wyrms are relatives of the Auric Dragons, and survived the Draconic genocide by hiding in the Abyss.
+-They are able to match the power levels of Dragons, even though they don’t have Auric Souls themselves.
+Perennial Slime
+These slimes have seized a small amount of the Goddess of Life’s essence. Despite her reimprisonment in the deepest depths of the Abyss, the tendrils of her influence now stretch far into the world beyond.
+
+-Silva was imprisoned in the Abyss more than once.
+-She is the Goddess of Life.
+Phantom Spirit
+The spirits within the Dungeon only vaguely recall their lives, and yet there is one thing each and all clearly remember, that drives them to chaos: the man responsible for locking them in these cursed walls, and his overwhelming power– power that they have been reminded of, due to one ever growing in strength roaming their halls.
+
+-Despite their untimely deaths, the Phantom Spirits still vividly remember Yharim locking them in the Dungeon and growing rapidly in power.
+-This entry talks about how the Terrarian is growing close to Yharim in terms of power, and may eventually match him in strength.
+Plaguebringer
+Nothing can escape the Plague; everything is either assimilated or culled. Such is the case of queen bees. While strong enough to stave off plagued creatures, they are often forced to abandon their hives due to their subjects becoming infected. This leaves their larvae to be overtaken by nanites, and soon after, a plaguebringer is born.
+
+-Plaguebringers are Plague-infected Queen Bee larvae.
+-Queen Bees are strong enough to fight Plague-infected creatures, but they often leave their hives due to their subjects being infected.
+Primordial Wyrm
+The first Wyrm, blessed by the Goddess of Life, held staggering power that surpassed nearly all of its auric brethren. It held a deep hatred for any sign of usurped light, and would have attempted to strike down even the wielder of Primordial Light had they returned to reclaim their artifact. And yet, despite its immense power, it never would have stood a chance.
+
+-The Primordial Wyrm was the first of its kind, and it was blessed by Silva.
+-It hates Primordial Light, and if Xeroc had returned to the Abyss to reclaim the Terminus, it would have attempted to kill Xeroc. Despite this, Xeroc’s strength is far greater than the Primordial Wyrm’s ever will be.
+Sea King
+The seventeenth ruler of the constitutional monarchy of Ilmeris since the tribes of the Ilmeran Sea unified, under the Electric Goddess, Otonilou, and the elusive God of the Seas. Alas, one cannot be a ruler without subjects, and while he remains widely respected by those who opposed Godseeker Yharim, his kingdom is no more.
+
+-Unironically an incredibly important entry. You wouldn’t expect that from an NPC, would you?
+-This entry lets us in on two more Gods: The God of the Seas, and Otonilou, the Goddess of Electricity. That’s about 7 Gods/Goddesses we know about.
+-Ilmeris has a constitutional monarchy, and Amidias is the 17th King of the Kingdom of Ilmeris.
+Sepulcher
+An amalgamation of souls and flesh given new form and purpose via necromancy. This twisted perversion of life is inspired by the auric dragons’ method of revival, though it is plain to see that any grace the dragons may have had is not present here. The school of magic used to create Sepulcher was forbidden in the Deific Era, yet many still practiced it in secrecy.
+
+-Sepulcher was created through necromancy, and it was inspired by the method of the Auric Dragons’s revival.
+-The magicks to create Sepulcher were outlawed back in the Deific Era. Despite this, it was practiced in secrecy.
+
+Perversion: An unintended change of something.
+
+
+
+
+
+Semi-Important Entries
+
+Aero Slime
+Previously mundane slimes that have absorbed trace amounts of draconic essence from the outpour of energy caused by the re-enchantment of Aerialite. They now soar the skies with their newly sprouted wings, reaching heights few of their gelatinous kind ever have.
+
+-This is an interesting one. From what we see here, we can infer that even small amounts of Draconic essence are capable of granting powers to those that absorb it. Not quite groundbreaking, but still interesting nonetheless.
+
+Aquatic Aberration
+A spawn of the immense Leviathan, their lifespan can be measured in hours. All they know is how to hunt for their masters. Even non-aquatic life is well within their reach, due to their uncanny ability to fly through air just as easily as swimming through water.
+
+-At first glance, this may not appear that important. However, this states that the Leviathan either can reproduce, or that it can create Aquatic Aberrations itself, although they do not survive very long. Aquatic Aberrations also possess the ability to fly through air, which is an uncommon trait among normal sea creatures.
+Astralachnea
+Once black widows, they have now been reduced to their most basic functions. The effects of the Astral Infection are far more intense underground than it is on the surface, the air heavy with the thick fog and vestiges of the star burrowed deeply into the earth.
+
+-Astralachneas are former Black Widows that have been afflicted by the Astral Infection.
+-The Astral Infection’s effects are stronger under the surface of the planet.
+
+Vestiges: A very small amount of something that may no longer exist.
+Atlas
+Knights of the infection, these fusions of creatures pack an immense punch. Though slow due to their overbearing weight, a single blow from an atlas is easily able to pulverize a monolith. Their hearts continue to slowly beat even after being ripped from their bodies, for their lives seemingly cannot truly end.
+
+-Atlases are incredibly strong monsters that are a fusion of various creatures, presumably due to the Astral Infection’s effects.
+-The Infection allows their hearts to stay beating regardless of if it’s in the body or not.
+Aurora Spirit
+Thought to be no more than an old wives’ tale, sightings of aurora spirits have become commonplace since the defeat of the wall of flesh. Upon closer inspection, it appears these “spirits” are rather wisp-like entities clad in a cryonic shell, a sure sign that these were created by Archmage Permafrost.
+
+-Aurora Spirits are a creation of Permafrost’s.
+-After the Wall of Flesh’s defeat, they started appearing quite frequently in the world.
+Baby Cannonball Jellyfish
+These creatures have been hunted for centuries now. They are widely used as ammunition in ships or even as normal bombs. Despite this, they never truly vanish, as if an external power kept this species alive.
+
+-What power could this entry be referring to… Silva, perhaps?
+Baby Ghost Bell
+Ghost Bells were bred in large numbers during the Ilmeran war, due to the Ilmerian army needing a staggering amount of electricity to keep Yharim and his forces at bay. Alas, their efforts were for naught, and the kingdom collapsed after the Great Incineration.
+
+-Ghost Bells were the primary source of protection for the Ilmerian army, as they served as protection from Yharim’s forces. Unfortunately, the Ilmerians lost the war anyway, due to having little protection against Calamitas incinerating Ilmeris.
+Blight Slimes
+Slimes that have absorbed some of the blighted godly essence. Riddled with impurity, they are now more putrid flesh than gelatin and, having taken in such an amount that they seem ready to burst. Yet unlike most slimes which have relatively basic minds, these seem to be collecting mass with a purpose.
+
+-Many slimes are of a simple mind. However, the Blight Slimes are set out to do something, likely given a mission by the Slime God.
+-Clearly there is more than meets the eye to these slimes. They’ve been filled with the godly essence that the Crimson and Corruption are filled with, yet haven’t had any major side effects beyond becoming composed partly of flesh, so as the entry states, there is something else at play here. Perhaps it refers to the Slime God.
+
+
+Blinded Angler
+Lacking most normal senses, these predators use a form of biological sonar to ‘see’ their surroundings. The glowing crystals on their backs draw in prey that use the sea’s shimmering prisms as their guiding light, like a moth to the flame.
+
+-Blinded Anglers can sense what’s around them using a sort of sonar, not too far from echolocation.
+-The crystals on their back lure creatures in for the Blinded Angler to feast upon.
+Bloatfish
+More geological than biological, bloatfish have sticky glue-like skin that they use to cover their bodies in voidstone. Though it protects them from predators, their immense weight has sunk them to the deepest parts of the Abyss.
+
+-Bloatfish are heavily protected by their Voidstone-covered skin. They live in the bottom of the Abyss because of their weight.
+Bloodworm
+Bloodworms are an exceedingly rare creature to stumble upon, as they burrow at the first sign of danger. It takes both exceedingly great patience, wisdom, and agility to catch one, leaving the worms ever having but a single natural predator.
+
+-Mostly self explanatory. Bloodworms are quite evasive creatures, and this entry foreshadows the Old Duke.
+Bloom Slime
+Imbued with profaned energy, this slime wishes to see the world reduced to ashes to ensure the suffering it brings is no more. However, the simplicity of their form makes it difficult for the slain goddess to fully impose her will onto them.
+
+-This slime contains the energy of the Profaned Goddess, Providence. Due to the fact that they are slimes, their simple forms are hard to be fully forced to obey the Goddess’ will.
+-After Providence’s defeat, her energy spread into the world and was imbued into various lifeforms.
+Bobbit Worm
+Hiding away in the darkest corners of the void to strike at unsuspecting prey, bobbit worms take full advantage of the Abyss’ darkness. To live here, in the most extreme environment in the world, a creature must either be truly mighty, learn to use the environment to survive, or both.
+
+-The very bottom of the Abyss is the most extreme environment in Terraria, where only the strongest creatures are able to survive.
+Box Jellyfish
+Larger than the average jellyfish, the sting of these persistent pests packs a powerful punch. Though they can be found in most large bodies of water, they are locally extinct around Ilmeris after the Brimstone Witch turned her hexes against the kingdom.
+
+-Box Jellyfish used to live in the Ilmeran Sea, but were driven to extinction in that area after the Incineration. As such, they mostly live in the Ocean and Abyss now
+-Their sting is quite strong.
+Brimling
+Extensions of the Brimstone Elemental herself, and part of her very being. Both she and her Brimlings are of a single mind, so she naturally cares for them just as she cares for herself. When heavily wounded, they withdraw into a cocoon to protect themselves from further harm.
+
+-Brimlings are practically a part of the Brimstone Elemental, so much so that they may as well share the same mind. When they’re near death, they hide themselves within a cocoon in an attempt to protect themselves.
+Cataclysmic Construct
+A pitiable creation of the clone, made in an attempt to imitate one of the Supreme Witch’s brothers. Yet this and the clone’s other creations have no will of their own, amounting to little more than puppets she controls.
+
+-Calamitas’ Clone was the creator of the clones of Catastrophe and Cataclysm, and she controls them both.
+-Both Catastrophe and Cataclysm’s clones are without wills, as such they cannot think for themselves.
+Catastrophic Construct
+A pitiable creation of the clone, made in an attempt to imitate one of the Supreme Witch’s brothers. Not many would recognize them as such despite her efforts, though a few key characteristics have managed to survive in these abhorrent amalgamations.
+
+-Both Catastrophe and Cataclysm’s clones are failed attempts at recreating Calamitas’ brothers, likely through necromancy. The clones are not completely inaccurate to their namesakes, however, as certain details are still there.
+
+Cloud Elemental
+Part of a solitary elemental that rarely appears aside from when her domain is at its strongest. Many attempts were made by what remained of Yharim’s forces to hunt down the Elementals after Azafure fell. Only now that the war has passed do the weaker elementals dare return.
+
+-After Azafure was destroyed, Yharim’s remaining forces hunted out any Elementals that may have remained.
+-The Cloud Elemental we see here is merely a part of a whole, explaining why we can see multiple of them in-game.
+Cnidrion
+Once trained to be the steeds of honored Ilmerian warriors, cnidrions survived the Incineration due to their sheer might. They continue to defend what was once the heart of the sea kingdom from intruders, maintaining a fierce loyalty to their masters even after they have passed on.
+
+-Cnidrions were able to survive the incineration of Ilmeris, and continue to guard where the Ilmeran Kingdom formerly resided.
+-Cnidrions are apparently very loyal due to this behavior.
+Colossal Squid
+These creatures have grown immensely in size and strength due to the effects Silva’s essence has had on them. As they are able to consume the growths she caused directly due to being herbivores in the past, more life flows within them than nearly every other Abyss creature.
+
+-Colossal Squids were not always this big, but only grew after Silva’s influence spread through the Abyss.
+
+Cosmic Lantern
+These lanterns possess a magical, distorted flame that radiates no heat whatsoever. If one looks closely into their fire, they may see another world entirely.
+
+-This entry in its entirety is referencing the Distortion, which is where Signus, the creator of these lanterns resides. The “another world” the entry mentions is the Distortion.
+Cryo Slime
+Slimes enchanted by the Archmage, as a host to crystallize the frozen power of the tundra into a magical metal. He cast a spell to hide away most of his creations and research soon after leaving the Godseeker’s side, well aware that Yharim may attempt to exploit his previous work.
+
+-Permafrost was the person responsible for the Cryo Slimes’ existence, and many of his creations were sealed to avoid Yharim using them.
+Cryon
+Archmage Permafrost went through great pains to not take part in combat himself, instead molding cryons to act as his personal guardians. Noticing the spread of godly essence just as many other creatures have, they have come out of stasis to combat any signs of it so that they may defend their master.
+
+-Cryons were awakened when the Godly essence contained in the Wall of Flesh was released.
+-Permafrost was the one who made Cryons.
+Dark Energy
+-
+
+-Similar to Ceaseless Void’s entry, this is purposefully left blank, so this is largely going to be speculation on my part.
+-Maybe Dark Energy is some sort of Distortion-related creation. This theory has some evidence to back it up, what with Ceaseless Void being a portal to the Distortion, and the Dark Energy inflicting the “Distorted” debuff. It could be some sort of essence of the Distortion itself, or of whatever creature dwells within, but this part of the theory is far more speculatory and has little to back it up, so take it with a grain of salt.
+Desert Nuisance
+Though these serpents are of the Desert Scourge’s species, they are notably younger and less developed. Choosing to hunt in a pack with the large scourge due to this weakness, many have seen them tear apart prey not unlike the piranhas that once populated the former sea.
+
+-Desert Nuisances are younger versions of the Desert Scourge.
+-They are pack hunters, meaning they hunt in large numbers to mitigate their low individual strength.
+Draconic Swarmer
+Though but an adolescent dragonfolly, it poses a great threat to all around it regardless of its age. Their species survived the draconic purges by reproducing rapidly and becoming highly reclusive, alongside developing a hyper-aggressive nature.
+
+-Draconic Swarmers are adolescent Dragonfollies, yet are still quite powerful.
+-Due to their high reproduction rate, they managed to survive through the Draconic genocide.
+Draedon
+One of the many recon bodies made by, and created in the image of, the enigmatic engineer, Draedon. The scientist has become increasingly reclusive since leaving the Godseeker’s side, devoting every waking moment to his never-ending research.
+
+-The Draedon we see in-game is merely a recon body representing Draedon himself.
+-After he left Yharim’s crusade, he proceeded to dedicate himself wholly to his research.
+-This recon body’s chair is clean while the recon body itself is rusty, showing that Draedon clearly cares about the chair more than the body itself..
+Earth Elemental
+After the Brimstone Elemental became dormant, the forgemasters of Azafure used clockwork and crystal to bind the powers of an elemental to a mechanical body. While formidable, it seems the dream of creating a true replacement for an elemental died unfulfilled with Azafure itself.
+
+-The Earth Elemental was created by Azafurian forgemasters in an attempt to create an artificial elemental. Their efforts never came to fruition, however.
+Ebonian & Crimulan Paladin
+The Slime God avoids direct combat due to its weakness, instead choosing to mold guardians to protect it. These guardians were created from countless blight slimes, their filth acting as a counterweight to the purity of their god.
+
+-The Ebonian and Crimulan Paladins were created by the Slime God as guardians.
+Frogfish
+Well-camouflaged and prepared to strike at any moment, Frogfish show that the ocean is rarely as serene as it seems. There are few places where one can find true peace here in the heart of what once was an empire unrivaled.
+
+-Frogfish are adept hunters, as they camouflage themselves and wait for prey to come nearby before striking.
+-I’m uncertain as to what this “empire unrivaled” could be, although I do have a few theories. As an in-universe theory, this may be referring to an empire that used to reside within the Ocean, potentially one that worshiped Anahita similar to Azafure with the Brimstone Elemental. As an out-of-universe theory, this might be a reference to Atlantis, a sea kingdom from Greek mythology. 
+Gamma Slime
+A slime overloaded with radiation from Draedon’s long-since abandoned experiments with nuclear energy. Though methods of generating power involving nuclear energy surpassed all others that came before in terms of raw efficiency, not even these advancements were enough to satisfy the enigmatic engineer.
+
+-Draedon’s experiments in the Sulphurous Sea had altered the composition of this slime, filling it with radiation.
+-Even though many advancements were made regarding nuclear power, Draedon still needed more efficiency for his experiments.
+Ghost Bell
+These high-voltage jellyfish can incapacitate most with a single touch, and were a major factor in the Ilmerian army’s strength. The sea kingdom used the electricity produced by Ghost Bells to drive back Yharim’s forces, electrifying the waters so that none could cross their borders.
+
+-Ghost Bells have great power in their sting, and were used to defend Ilmeris during Yharim’s assault.
+Great Sand Shark
+These intelligent predators once swam the shores of the upper Ilmeran Sea, with many being trained to hold back Yharim’s forces. Yet when the day came, the sand sharks were barely even a distraction for the Supreme Witch, with this particular specimen surviving only by making a hasty retreat.
+
+-The Sand Sharks once lived in the upper Ilmeran Sea, and they were trained in an attempt to hinder Yharim’s forces. They could not defend Ilmeris forever, as Calamitas incinerated the Sea. The Great Sand Shark we see in-game was supposedly the only survivor of its species that day.
+Heat Spirit
+Citizens of Azafure who committed heinous crimes were cast out of the city and forced to don unremovable obsidian skulls as a mark of their sins, to let all know of their vile acts. Now the lost souls of those who were exiled are finally able to return home after the city’s fall, the skulls they wore being all that remains of them.
+
+-Heat Spirits were once citizens of Azafure, but they were exiled due to committing unforgivable crimes. After their death and Azafure’s fall, they returned as mere souls, keeping the sins of their past lives with them in the form of obsidian skulls.
+Ice Clasper
+Though their exact origins are an enigma, what is known is that these ethereal beings seek to stamp out any and all sources of warmth that exist in their home. Due to this fact, and taking into account the fossil record, many speculate that ice claspers may have played a vital role in the tundra’s creation.
+
+-Ice Claspers are incredibly ancient creatures, with fossil records dating them back to the creation of the tundra. 
+Impious Immolator
+An idol carved in the image of Her, it is lit ablaze with the crafter’s lifeforce. After all, what weight does one’s life hold when one wishes to see the world wreathed in Her holy flames?
+
+-Totally not a reference to Xenoblade Chronicles 3 Flame Clocks
+In all seriousness, this is an interesting entry because it gives more insight into Providence’s following. Many of her followers care not about their own lives, they only care about achieving Providence’s goal.
+Nova
+Warped yet simple creatures created from but stardust and mana, containing a volatile nucleus within. They feel that they must defend the infection despite lacking proper means of even defending themselves, and so all they can do to ward off intruders is overcharge their nucleus, causing themselves to combust.
+
+-Despite not having a proper way to attack intruders, Novae do have a self-destruct method to detonate themselves if necessary.
+Nuclear Terror
+The effects of our actions are never immediately obvious. Centuries of poison and constant fighting for its own life created such monstrosity, now dragged to the shore by the unrelenting torrents. Whatever it may have been before, all that is left now is its will to survive.
+
+-The constant pollution of the Sulphurous Sea and the hostile environment it provided has led to the Nuclear Terror’s creation.
+Orthocera
+Though radiation normally slowly kills living things, thanks to Silva’s influence keeping creatures in the Sulphurous Sea alive, mutations caused by radiation will rarely reawaken lost genes and traits. These creatures are but one such example.
+
+-Silva’s lasting influence is able to keep the Sulphurous Sea’s inhabitants alive.
+-Sometimes due to this influence, radiation-caused mutations can cause genes to reappear in certain creatures.
+Overloaded Soldier
+A body given life again, overflowing with the souls of warriors that perished during the Crusade who were unable to find peace. Their ravenous hunger for battle has been reignited due to sensing godly essences in the land once more.
+
+-Overloaded Soldiers are soldiers that died during Yharim’s Crusade, whether that be soldiers that opposed Yharim or soldiers that were part of Yharim’s army.
+Pestilent Slime
+The virus hunts for any openings within one’s body to reprogramme all to serve the enigmatic engineer. The gelatinous body of slimes are particularly easy to infest, yet with no neural system, slimes are unable to receive direct orders, processing them as vague suggestions at best.
+
+-The Plague virus serves to reprogram any and all creatures to serve Draedon’s will.
+Plague Charger
+Spawn of the Plaguebringers, these were born already taken by Draedon’s nanomachines. Nanites ensure they reach adulthood in a matter of hours by supercharging their aging process, even if this means their lifespan can be counted in days. Yet, this is exactly what makes them the perfect dispensable soldiers.
+
+-Plague Chargers were born already infected by the Plague.
+-Due to their upbringing, they have incredibly short lifespans.
+-The Plague is partially composed of nanites, which are able to age creatures at an abnormal rate.
+Profaned Energy
+Those most devout to Her travel the world, being planted into societies and acting as spies and assassins. Among their duties is constructing shrines in Her honor infused with Her divine power, that She might bless pagans blinded by darkness with visions of Her new age of light.
+
+-The most devoted of Providence’s followers travel across the world to try to spread Her faith, as well as work as spies and assassins. 
+
+Devout: Deeply committed to a faith.
+Pagan: Holding religious beliefs that aren’t of the main religion(s).
+Radiator
+A species of once near-extinct sea slugs that have learned to carry crystallized depleted plutonium on their backs to dissuade predators, rather than relying on toxins that most creatures in the Sulfurous Sea are now immune to. Though radiation is detrimental to most life, it has curiously been an opportunity for some.
+
+-Strangely, Radiators have benefited from radiation.
+-They carry crystallized plutonium on their backs as a defensive measure.
+-Plutonium is likely the radioactive fuel that Draedon had been dumping in the Sulphurous Sea. 
+Reaper Shark
+Apex predators of the void, these sharks take advantage of both their stealthiness and might to hunt anything and everything that comes near. Using their arms for purposes from hurling colossal squids into the Abyss’ walls to crushing the heavily armored heads of eidolon wyrms, few can match their raw strength.
+
+-Reaper Sharks are the apex predators of the Abyss.
+-They use their arms to battle any who may oppose them.
+Scorn Eater
+For one to be weak of will does not inherently mean they are weak of body. Within these powerful individuals does a powerful fire burn, and She is all too willing to fan the flames. All one need give in return for Her gracious blessing is their free will, and they shall be gifted Her enlightenment.
+
+-The followers of Providence that have been granted Her blessing are without free will.
+Shockstorm Shuttle
+Mining devices and scouts for a civilization from a long lost world. They now seek whatever resources are left on other nearby planets, and perhaps even this world as a potential replacement for their ruined home.
+
+-Could be referring to Martians?
+-Wherever these came from, they’re scouting out Terraria for resource gathering and potentially even use it as a new homeland.
+Soul Seeker
+The Clone’s attempt at wielding the souls of the damned as weapons, these retain slightly more autonomy than their Azafurian brethren. And yet given the striking resemblance the bear to the Clone’s shell, it’s arguable that they might be further from Calamitas’ current Soul Seekers than those found in Azafure’s ruins.
+
+-Soul Seekers are creations of the Calamitas Clone that resemble the Soul Slurpers of Azafure.
+-Despite the fact they resemble the Clone’s shell, they’re likely closer to the Soul Slurpers of Azafure than they are to Calamitas’ Soul Seekers.
+Soul Seeker (Supreme)
+Created through a marriage of brimstone magic and necromancy, these foul beings serve their master’s whims unflinchingly. What they lack in sheer power they make up for in both sheer numbers and their coordinated attacks.
+
+-These Soul Seekers were created through brimstone magic and necromancy, and serve Calamitas without fail.
+-They aren’t very strong individually, but when they attack together they are a fierce foe.
+Soul Slurper
+An early form of Calamitas’ Soul Seekers, summoned by the Witch during her conflict with the Brimstone Elemental. Unlike the refined form that would follow it, she possessed very little control of them, leading to her creations going rogue shortly after the arduous battle was finally over.
+
+-Soul Slurpers are an early form of the Soul Seekers that Calamitas summoned during her fight with the Brimstone Elemental.
+-Calamitas had little control of the Soul Slurpers when she created them, so they went rogue after the battle.
+Stormlion
+Some survivors of Ilmeris’ downfall claim that enough magical lightning surged through the sea during its final days that there existed not a single drop of water without levin coursing through it. Even now, electricity from the battle remains buried in the sands, with several antlions having learned to both channel and harness the former kingdom’s power.
+
+-So much magic lightning was flowing through the Ilmeran Sea during its stand against Yharim’s forces that not one drop of water existed without lightning in it.
+-Stormlions are antlions that managed to use the electricity from then.
+
+Levin: Lightning, thunderbolts.
+
+
+
+
+
+
+
+
+Minor Worldbuilding Entries
+
+??? 
+A lure created by the Water Elemental, Anahita. It sings so sweetly, its voice full of promise and warmth, but beware: follow the siren’s call at your own peril.
+
+-Not much to say about this one. It does foreshadow that you’ll end up killing this to summon Anahita though, so that’s something to note.
+Acid Eel 
+Though they are predators themselves, acid eels lay near the bottom of the Sulphur Sea’s food chain. Their diet largely consists of mollusks, thanks to their ability to squirm into tight crevices. This paired with their speed and camouflage assist them in avoiding becoming meals for others.
+
+-A small look into the Sulphurous Sea’s ecosystem through the Acid Eel. According to this, creatures need to be swift and evasive to survive in the Sulphurous Sea.
+Androomba
+One of the most mundane of Draedon’s creations, the directive of Androombas is simply to tidy up his labs and domiciles. He and his scientists could not afford to waste time on menial labor when there was endless research to be done.
+
+-Androombas, as the name describes, act as the cleaning services of Draedon’s laboratories. 
+-Draedon has scientists working with him (or for him), his research is not a solo effort.
+
+Domicile: A country of permanent residence.
+Androomba Pal
+Reverse-engineered Androombas that have been retrofitted to spread the Steampunker’s solutions rather than clean dust and debris off of floors. They can be used to purify the world– or ruin it further, if one so desires.
+
+-Self explanatory for the most part, this entry references how the Clentaminator Solutions can be used to purify or corrupt the world.
+Anthozoan Crab
+Though disguised as simple rocks, they are capable of hurling entire boulders at creatures with ease, and will retreat swiftly if approached. Elsewhere, a creature such as this would thrive due to its might; yet in such a hostile environment as this, this much is required merely to survive.
+
+-Another entry describing the evolutionary requirements of living in the Sulphurous Sea, similarly to the Acid Eel. This reinforces what I said about the Acid Eel entry, that creatures need to be evasive to survive here.
+Aquatic Urchin
+Closely related to sea urchins, aquatic urchins have been forced to adapt to the acidic water and radioactive waste. Normally their spikes would normally deter predators, but in the environment it lives in, a painful meal is still a meal. Nothing in this sea can afford to be a picky eater.
+
+-Here, we see a description of the harshness of the Sulphurous Sea’s ecosystem, and how creatures need to eat nearly anything that they can find in order to survive.
+Aries
+These creatures bound across the landscape endlessly, chasing down any intruders that dare enter the hive mind’s home. The star’s power has bestowed them limitless stamina, rendering them unable to feel exhaustion.
+
+-It’s not really clear what this creature was before being afflicted with the Astral Infection. However, this entry refers to something called “the star”, which may be the star that the Astral Infection was borne from.
+Armored Digger
+Despite being relatively primitive compared to Draedon’s current technology, armored diggers continue to see use to this day. Though their primary directive is mining and delivering minerals, they also once cleared room for the numerous underground laboratories.
+
+-Armored Diggers are some of Draedon’s earlier creations, and they still serve as a mining device.
+-These are partially responsible for the creation of the Arsenal Labs.
+Astral Probe
+What were once simply common birds have been transmuted by the overwhelming amounts of mana. Though weak on their own, they choose to harass those who are unassimilated while the victim attempts to fight off other infected beasts.
+
+-Astral Probes were formerly birds before being afflicted by the Astral Infection’s influence. While they may not be that powerful by themselves, they often hunt those that the Astral Infection cannot affect along with other affected creatures.
+Astral Slime
+With slimes already acclimated to absorbing both matter and energy from the environment, it is a trivial matter for the star’s mana to overtake the gelatinous creatures of this land. But the slimes care not, for little about their existence is changed.
+
+-A rare case where the Astral Infection changes little about its host, as slimes share a similar goal as the Infection..
+
+Acclimated: Accustomed to.
+Baby Flak Crab
+Adolescent flak crabs make no attempt to fight off predators, and simply flee from any threats. Their species only learns to pelt their targets from afar later in life, leaving the adolescents defenseless and dependent on their parents.
+
+-The attack instinct of Flak Crabs is not inherent knowledge, and the babies rely largely on adult Flak Crabs to protect them.
+Bandit
+The bandit may have a bad habit of looting battlefields and taking what isn’t theirs, but their actions are mostly motivated by their hatred of the obscenely rich who haven’t truly earned the wealth they possess. Their methods are somewhat shady, but can always be relied upon to get a job done.
+
+-The Bandit steals from those who have gained their money in bad ways. However, they are generally trustworthy, despite their questionable methods.
+Belching Coral
+Although all coral is alive to some extent, this species possesses above average intelligence. They are capable of fending off creatures attempting to consume them by releasing pressurized bursts of sulfuric gas when approached. Occasionally, this process makes a noise resembling music.
+
+-Belching Corals are incredibly intelligent for being coral. They can defend themself by spewing sulfurous gasses at attackers, and sometimes it can make a musical sound, referring to the Belching Saxophone.
+Calamity Eye
+Born from the ashes of the battle between the witch and the elemental, these eye-like creatures are the weakest and most mundane of the Crag’s new inhabitants. Yet even they pose a threat to those who intrude upon their sacred grounds.
+
+-Calamity Eyes were created after Azafure’s destruction, and are the weakest inhabitants of the ruins of the city.
+Cannonball Jellyfish
+These jellyfishes help keep the Abyss clean from the sulphuric poisoning. Unlike most hard-skinned creatures in the Sulphurous Sea, they instead use their stingers to drain the acid near them to later use it for self-defense.
+
+-Cannonball Jellyfish help clean the acidic waters of the Sulphurous Sea by draining the acid around them, then storing it in their stingers for later use.
+Chaotic Puffer
+These creatures inhale trace amounts of scoria in the water while inflating, heating the liquid inside of them immensely. Hot enough to melt iron in this state, they cause horrific burns to those they make contact with, and predators attempting to consume them are boiled from the inside out.
+
+-Chaotic Puffers are capable of heating themselves to extreme temperatures when they inflate themselves due to the scoria they inhale.
+
+Clam
+Clams once lived in the upper portion of the Ilmeran Sea before the Incineration, being forced to relocate after the battle. Though it was thanks in part to their adaptability and hardiness that their species survived, luck was also certainly on their side.
+
+-As many other creatures from the Sunken Sea were, Clams were displaced due to the Incineration. Fortunately, the Clams were greatly benefitted by their evolution, yet they were also quite lucky in their escape. This is in fact referencing Pearls, which make Luck Potions.
+Corrupt Slime Spawn
+Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings. Even as gel, a slime is still technically alive– it simply exists in a state where it cannot function in any meaningful way.
+
+-The smaller slimes summoned by the Slime God are parts of the Ebonian and Crimulan Paladins.
+Cosmic Guardian
+Though of the same species as the nameless serpent, their minds and functions are far more basic. They possess very little will of their own and blindly follow the orders of their gluttonous master.
+
+-Cosmic Guardians are related to the Devourer of Gods.
+-They don’t really think for themselves, they merely follow the Devourer’s orders.
+Cragmaw Mire
+A mostly immobile creature that dwells in the depths of the radioactive wasteland, it boasts an exoskeleton harder than titanium to defend its core. To compensate for its lack of movement, it has formed a symbiotic relationship with a worm that reels in prey in exchange for protection.
+
+-Cragmaw Mires are incredibly resilient due to their exoskeleton, but they cannot move much due to this. Aorm gathers prey for the Cragmaw Mire in exchange for being protected.
+Crimson Slime Spawn
+Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings.They even retain the memories of the original slime, and so continue to work in the interest of their “parent”.
+
+-The small slimes summoned by the Slime God are technically extensions of the Crimulan and Ebonian Paladins.
+Crimson Slime Spawn (Spiked)
+Though many slimes may get objects stuck partway inside of it and learn to use them as weapons, these slimes are a unique case. The spikes of these slimes are a natural part of them, heavily sharpened so that they may impale those who dare defy their god.
+
+-These slimes were created with spikes inside of them, built as a defense mechanism to protect the Slime God.
+Cuttlefish
+Using natural camouflage to hide from greater predators and catch unsuspecting prey, Cuttlefish wait patiently on the ground for their time to strike. They chase other creatures relentlessly once disturbed, with ferocity enough to scare off any of their would-be predators.
+
+-Cuttlefish are incredibly aggressive towards creatures that bother them, and they are skilled hunters.
+Despair Stone
+Constructs created from slabs of Brimstone, given life by warlocks that remain in Azafure. Able to accelerate to blistering speeds thanks to their wheel-like design, their sole purpose is to make sure that none dare trespass on their masters’ lands.
+
+-Azafurian warlocks, likely the Renegade Warlocks we see ingame, are the reasons why Despair Stones are alive.
+-They act as guardians of the ruins of Azafure.
+Devilfish
+So called for their demonic horns, Devilfish absorb the fumes left behind by Azafure’s pollution, using the flames to empower themselves. The Abyss’ lower layers are largely unmarred by waste and toxins thanks to these enigmatic creatures.
+
+-Devilfish are strengthened by absorbing the polluted fumes of Azafure. Due to this, the lower layers of the Abyss are generally clean. 
+Eutrophic Ray
+Eutrophic Rays have formed a commensalistic relationship with Ghost Bells. The rays can store energy given by the Ghost Bells for electrical muscle stimulation, allowing for great bursts of speed.
+
+-Eutrophic Rays use Ghost Bells to gain speed boosts. This doesn’t harm or benefit the Ghost Bells.
+
+Commensalistic: Beneficial for one organism and neither beneficial nor harmful for the other.
+Flak Crab
+Needing to hide themselves from the roaming creatures, flak crabs disguise themselves as the sulfurous gas vents scattered across the Sulphurous Sea. As they reproduce quickly, stumbling upon these and their offspring is a rather common occurrence.
+
+-Flak Crabs try to resemble sulfurous vents in order to hide from predators.
+-They reproduce very quickly, so they appear quite often.
+Fusion Feeder
+Bloated with mana, the immense amount of magical power has dulled the instincts of this former sand shark, its movements now slow and sluggish. Its need for food has been permanently sated, and it now thirsts only for distant stars.
+
+-Fusion Feeders used to be sand sharks before the Astral Infection took their minds, as such they’ve been slowed down considerably.
+-They now desire the mana that stars are composed of, and they no longer need food.
+Gem Crawlers
+Relatives to the Ilmeran Sea’s prismbacks. The aquatic lizards ended up in the wild after being taken in as pets, though without the proper nutrients to grow prisms on their back, many grew the next best thing– precious gems.
+
+
+-This entry is shared by all Gem Crawlers, so it’s labeled as such.
+-Here, this entry mentions that the Gem Crawlers are related to creatures from the Sunken Sea, specifically the Prism-Backs. Here we see that in order to grow the prisms on their backs, they require proper nutrition, and a lack of that leads to growing gemstones instead.
+Giant Clam
+Clams slowly crystalise ambient magic around themselves into pearls, and as they grow larger, so too do their pearls. Upon growing to their full size, they are classified as Giant Clams, and gain the ability to use the magic stored in their pearls to some degree.
+
+-The pearls that Giant Clams make are infused with magic, and once they become really large, they have a somewhat limited ability to use the magic in the pearls.
+Giant Squid
+Squid are known to be cannibalistic animals, having few qualms with consuming their own kind when in need of food. Quite ironically, this creature’s main predator is itself.
+
+-Giant Squids are their own worst enemy.
+Gnasher
+Though gnashers are relatively slow, these mutated snapping turtles boast an unnaturally strong shell. Attempting to kill and eat one would injure most creatures greatly due to its terrifying biting power and its spiked shell that’s hard as stone and easily capable of impaling flesh.
+
+-Gnashers are mutated snapping turtles (they don’t eat pizza in the sewers though).
+-Their shell is incredibly hard, and the spikes on their back are sharp enough to pierce through flesh.
+Gulper Eel
+Though sluggish and bulky, these eels traverse the abyss with surprising ease. They blend into the darkness, with a mouth that can stretch abnormally wide used to slowly swallow prey whole. Their meals are left unaware of their predicament until it is far too late.
+
+-Gulper Eels are silent hunters, despite their size.
+Hadarian
+Once mere desert vultures, they have been metamorphosed into new beings, their feathers stripped and replaced with gooey tissue and stone-like plating. They sit still as a statue, with eyes seemingly staring at both everything, and nothing at all.
+
+-Hadarians were formerly vultures before being afflicted with the Astral Infection, and they act as the info gatherers of the Star.
+Hive
+Amalgamations of several creatures, with all of their features rendered unrecognizable after being fused into a singular being. Unable to act on their own due to its immense mass, hives choose instead to split off small parts of themselves to fight for them.
+
+-Hives are many creatures meshed into one.
+-They cannot move due to being incredibly heavy.
+Hiveling
+Hivelings may be rather unthreatening alone, though dangerous in large numbers. Being simply extensions of a hive, they lack a preservation instinct, and fight ferociously to the death so that they may serve the greater whole.
+
+-Hivelings are parts of Hives, and they are often suicidal when it comes to defending the Hive.
+Hive Tumor
+This tumor acts as the brain of the putrid wasteland, being all that is left of the minds of the slain gods that lay there. The creatures of the Corruption exist to protect it, and those who attempt to harm it rarely live to tell the tale.
+
+-Hive Tumors are parts of the minds of slain Gods.
+Infernal Congealment
+A lava slime that has absorbed pieces of the charred stone left behind by the Brimstone Elemental. Despite its simple nature, these creatures are just as much of a threat as the rest of the Crag’s current inhabitants.
+
+-Similarly to many other ore slimes, Infernal Congealments were formed by absorbing the material it represents. Brimstone Elemental seems to be responsible for Infernal Suevite’s existence.
+Irradiated Slime
+Though slime is known to fall from the sky on occasion, slime in the sky condenses far quicker here in the Sulphurous Sea, as its air is thick with sulfur and radiation. It isn’t uncommon for full sized slimes to fall from the heavens during acid rain storms, never mind a fully-fledged slime rain.
+
+-Slimes fall from the sky far more often here in the Sulphurous Sea, especially during the Acid Rains, due to the radiation in the air.
+Luminous Corvina
+Lumenyl grows on the fins of these exotic corvina, making these creatures one of the few sources of light in the Abyss. It survives by guiding what would be its predators to other prey, signaling where it is by emitting a shrill pulse.
+
+-Luminous Corvina have Lumenyl growing on their fins.
+-They manage to survive in the Abyss despite their bright fins by diverting attention to other prey. 
+Mantis
+The most versatile organism born from the Astral Infection, mantises can reach incredible speeds and are equipped with claws capable of slicing through all but the most durable metals with ease. When their foes are at a distance, they are capable of condensing latent mana in the air to form bladed disks they can throw at their enemies.
+
+-Mantises are very fast, and their claws are quite sharp. The disks they use to attack enemies from afar are formed from mana in the air.
+Mantis Shrimp
+Though a variety of answers are given when one asks adventurers about dangerous creatures, few aside from sailors will mention the small yet mighty Mantis Shrimp. Their strikes are so swift that the energy generated from them heats the water to temperatures rivaling the magma of Azafure.
+
+-Mantis Shrimp are incredibly powerful little guys, with their punches matching the heat of Azafurian magma.
+Mauler
+Powerful radiation has caused prehistoric genes to reawaken in this shark, granting it overwhelming speed and strength. The insatiable hunger of this beast draws it to the shoreline during acidic rainstorms for a feeding frenzy.
+
+-Maulers had genes in them from prehistoric times, possibly from close to the start of the shark species. They have an insatiable hunger that makes them head to the shores of the Sulphurous Sea during Acid Rains.
+Melter
+While its frailty compared to other plague creatures appears to be a rather glaring weakness, the melters are able to spread the plague quicker than any other creature. Though it may cost them their lives, Melters contain a mechanism that causes them to explode upon death, leaving little uninfected in their wake.
+
+-Melters have a self-destruct mechanism that allows them to spread the Plague upon death.
+Mirage Jelly
+Using the light refracted from lumenyl crystals and water warmed by the scorching heat of scoria, these jellyfish can create afterimages of themselves to confuse predators, or catch prey of their own.
+
+-Mirage Jellies can create, well, mirages using light from Lumenyl and Scoria-heated water.
+Moray Eel
+When a fish bites your heel and it looks like an eel, that’s a moray. When it swims in the reef and has two sets of teeth, that’s a moray. When you’re slapped in the face with a slimy embrace, that’s a moray.
+
+-When the eel hunts you down and it doesn’t have a frown, that’s a moray. When it hits you with venom and doesn’t wear some denim, that’s a moray.
+-(Ok that was me being stupid so here’s an actual note)
+-Moray Eels are narrow fish of the eel species, and they are fierce hunters.
+Nanodroid
+Ambient lighting, total surveillance, instantaneous repair… With enough of these tiny machines working in unison, any problem is solvable.
+
+-Nanodroids are likely responsible, at least in part, for the upkeep of the Arsenal Labs.
+Nuclear Toad
+These toads expand like a pufferfish when creatures are near and burst when in danger. The otherwise terrifying inhabitants of the sea have learned well to avoid these critters due to their particularly explosive nature.
+
+-Nuclear Toads are feared by the other creatures of the Sulphurous Sea due to their explosive nature.
+Oarfish
+Oarfishes are known for laying thousands or even millions of eggs in astonishingly quick gestation cycles. These eggs are the most abundant source of food in the Abyss, being part of the reason even the smallest and least threatening creatures can live in the otherwise near inhospitable depths of the sea.
+
+-Oarfish have incredibly rapid reproduction rates, even potentially laying millions of eggs in their gestation cycles. Many creatures in the Abyss feed off these eggs to survive.
+Perforator Cyst
+This twitching and convulsing pile of gore acts as the heart of the Perforator Hive, harvesting what small amount of diluted Ichor flowing through the Crimson is left and feeding it to the Hive. Little else is known about it, for those who dare to disturb it have become indistinguishable from the landscape.
+
+-Perforator Cysts harvest Ichor within the Crimson and feed it to the Perforator Hive.
+
+Convulsing: Involuntarily contracting, especially of a muscle.
+Plagueshell
+A turtle’s shell and nervous system are intertwined, making Giant Tortoises ideal targets for the Plague. Whatever pain is caused by the process of drilling into their shells is rapidly anesthetized, putting the tortoises under control without a single protest.
+
+-Giant Tortoises’ nervous system runs through their shells, which makes them ideal for Plague experiments.
+Prismback
+Due to the beautiful prisms and calm behavior, these animals have been taken in as pets by many over the course of centuries, even outside of Ilmeris. Though far too slow and bulky to hunt normally, the sea prisms on their back act as a lure for small fish.
+
+-Prismbacks were often treated as pets in the past.
+Renegade Warlock
+Victims caught in the crossfire during the battle between Calamitas and the Brimstone Elemental, cursed to wander the ruins of their former home for all eternity. Their final moments were spent clinging to life, and in death they seek survival by using the very magicks that slaughtered them.
+
+-Renegade Warlocks were citizens of Azafure during its destruction.
+-They now wander the ruins of Azafure, and use the magicks that caused their deaths.
+Repair Unit
+These handy little helpers are the reason that Draedon’s decades-old labs stand to this day. Though bulkier and less energy efficient than nanodroids, having to take what power they need from the labs’ generators, they can easily clean up the dust, though struggle with the rust.
+
+-As you might expect from the name, Repair Units take care of maintenance of the Arsenal Labs.
+-Also Rust and Dust reference
+Rimehound
+These hounds were bred and trained to survive in the tundra’s hostile conditions by Yharim’s forces, so that they may act as scouts. Most were simply abandoned by their masters out of either necessity or choice, and were resigned to roam forever without purpose.
+
+-Yharim’s forces used Rimehounds as scouts in the tundra.
+Rotdog
+Fast and furious, these hounds prowl the night, hunting prey with their razor sharp teeth. They are similar in nature to the demon eyes, both being spawned from the same vile mire, yet these creatures are tailored made to end those who have proven themselves a threat to it.
+
+-Rotdogs and Demon Eyes were created by the same source.
+Scryllar
+Vengeful spirits of those who lost their lives during the clash between Calamitas and the Elemental, now forever bound to their home. Those who were close enough to bear witness to the battle perished in it, leaving few to know the truth of the battle’s outcome.
+
+-More dead from the destruction of Azafure.
+-Very few know entirely what happened on that day, as any who were close enough to see the battle died.
+Sea Floaty
+Flatworms can be found in many seas and oceans across the world, and are exceptional at fitting through cracks or crevices due to their thin bodies. These particular flatworms only ever inhabited the lower sea, and were left entirely unthreatened by the carnage that annihilated most species’ homes.
+
+-Sea Floaties are a species of flatworm, and avoided the destruction caused by the Incineration due to living in the lower portion of the Ilmeran Sea.
+Sea Minnow
+Schools of sea minnows were one of the most beautiful things one could witness during the days when Ilmeris was unshattered. Those permitted into the kingdom would gather to see these fish swimming in the open sea… yet, this is but a distant past now, even for the minnows themselves.
+
+-Sea Minnow schools were a popular sight in Ilmeris before the Incineration.
+Sea Serpent
+Despite being one of the few carnivorous creatures to have ever existed in the Ilmeran Sea, even these serpents are unusually passive towards those they do not consider prey by the standards of elsewhere. The sea has only ever known one truly aggressive predator, and it abandoned a life of calming solitude years ago.
+
+-Sea Serpents are a carnivore, which is rare in the Sunken Sea.
+-The second half of the entry likely references the Desert Scourge.
+Sea Urchin
+Massive urchins that roll and hop their way across the sea floor, catching both fish hiding in the sand thanks to their spikes that allow them to comb the sea floor and those far above with their incredible leaps. Their surprising size is due to this species’ carnivorous diet, rather than consuming plants like most types of urchins.
+
+-Sea Urchins are carnivores, which is unlike other urchins.
+-Their spikes allow them to catch fish that hide in the sand.
+Sightseer Spitter
+What once were wandering eyes have been transformed into something else entirely. Rather than attempting to rush their enemies, they now primarily spit an infectious saliva from what was their mouths as a weapon. 
+
+-These guys were formerly Wandering Eyes, but got infected by the Astral Infection. They essentially fire saliva to attack other creatures.
+Sightseer Collider
+Originally demon eyes, these now act as an extension of the dead star. Unlike the larger variants, these sightseers lack the ability to spit at their enemies. All they are capable of is ramming into those who intrude upon land taken by the Astral Infection with a questionable amount of success.
+
+-These were formerly Demon Eyes before the Infection took them. Unlike Sightseer Spitters, these do not possess a ranged attack, so they attempt to ram into enemies instead.
+Skyfin
+Too weak to hunt in the waters below, skyfins instead use their wing-like fins to take to the sky and generally feast on insects or even small birds that dare wander near the sea. However, they are also able to hunt larger prey on land by fighting in packs and using hit and run tactics.
+
+-Skyfins are able to fly due to their wing-like fins.
+-They hunt in packs to take down larger prey.
+Stellar Culex
+Their pincers work not only as a weapon, but as a means of spreading the star further. By digging their claws into the ground, they are capable of infecting nearby caves with the help of their supercharged cores.
+
+-The pincers on a Stellar Culex are capable of spreading the Astral Infection.
+-When they dig their claws into the ground, they can infect caverns with help from their cores.
+Sulflounder
+A relative to certain hadopelagic creatures living in the depths, the Sulflounders are a branch in their evolution with a fragile exterior. This allowed them not to sink to the bottom of the Abyss, though their flesh is barely enough to withstand the acidic water.
+
+-Sulfounders are likely related to Bloatfish, due to the wording of this entry.
+-While they are lighter than their abyssal brethren, they can barely survive the waters in their habitat.
+Sulphurous Skater
+Though their exoskeleton provides minimal protection, their deceptively light weight allows them to run on water. These curious insects are even known to ride acidic bubbles for better vantage points and to escape being devoured by surfacing sea creatures.
+
+-Due to their light weight, Sulphurous Skaters are able to run on water.
+-They can ride the acidic bubbles in the Sulphurous Sea to escape from predators and gain vantage points.
+Sunskater
+To the civilization that lived far above clouds, sunskaters were seen as a good omen. These creatures inspired hope in those who saw them, that their society might live on for as long as the sun’s light bathes the world.
+
+-Sunskaters were considered a good omen to the unnamed sky island civilization, and they inspired hope in those who saw them.
+Toxicatfish
+Though these fish once threatened none other than their prey, the radiation from nuclear waste generated from Draedon’s old experiments has rotted both their bodies and minds. Attacking anything that comes near, this once flourishing species is now on the verge of extinction.
+
+-Nuclear waste from Draedon’s experiments caused Toxicatfish’s minds and bodies to rot.
+-They are close to extinction due to their new aggressive behavior.
+Toxic Minnow
+These abnormally large minnows have evolved to use nutrients from plants they consume to create toxins inside their body, which is then released after they die. They have next to no predators due to this, and contribute nearly nothing to their environment.
+
+-Toxic Minnows use the nutrients from plants to create the toxins that we see them use. Due to this, they have few predators.
+Trasher
+Despite being equipped with a mouth large enough to swallow a child whole, these crocodiles simply act as scavengers, devouring scraps and bones left over from predators’ meals. Needing to conserve energy due to eating relatively little, they rarely move at their full speed unless they feel threatened.
+
+-Trashers don’t eat much, due to their scavenging lifestyle. As such, they try to conserve energy as much as possible.
+Trilobite
+These aquatic arthropods make leaps and bounds in both water and air despite possessing shells like stone, both in texture and weight. Thanks to their immense shells, they are capable of passing through predators’ digestion systems unscathed.
+
+-Trilobite shells are incredibly heavy and stone-like. These same shells allow them to pass through their predators’ digestive systems with little to no harm.
+Twinkler
+These infected fireflies exist solely as prey, guiding unsuspecting creatures to the star for assimilation that would not be driven to it otherwise.
+
+-These serve as nothing more than prey for other creatures to potentially be taken by the Astral Infection.
+Viperfish
+Omnivorous fish that dwell in the middle sections of the Abyss, viperfish rest firmly near the bottom of the food chain. Their wide mouth normally reserved for filter feeding can double as a means to scare off predators by mimicking the much more threatening gulper eels.
+
+-Viperfish are filter feeders that are very low on the food chain, and they survive by mimicking Gulper Eels with their wide mouth.
+Viruling
+Unlike Derplings who use their proboscis to drain the blood of other creatures, Virulings use theirs by using it to inject the plague directly into their victims. Aside from the Plaguebringers themselves, no creature is nearly as efficient at contaminating the local wildlife.
+
+-Virulings are infected Derplings who use their proboscis to infect other creatures with the Plague.
+Wulfrum Amplifier
+These amplifiers empower fellow wulfrum machines through a surprisingly advanced tesla field. While the field is harmless to any organic beings that pass through it, wulfrum machines are designed to receive energy from it which allows them to run at peak efficiency.
+
+-The tesla fields that Wulfrum Amplifiers make are harmless to organic creatures.
+Wulfrum Drone
+The purpose the wulfrum machines once fulfilled can most clearly be seen through the drones: to harass the basic troopers of Yharim’s forces. They were not threatening enough to be a priority target, though their laser attacks could be quite deadly if allowed to fully power up.
+
+-The Wulfrum enemies were once intended to harass Yharim’s normal troops, though they were very rarely a large threat.
+Wulfrum Gyrator
+One of the more advanced Wulfrum machines, they hop and roll unpredictably in an attempt to throw off any attacks from afar. Gyrators are not very threatening on their own, and were mostly deployed to defend other more important machines.
+
+-Wulfrum Gyrators generally serve as a distraction method to defend more important machines.
+Wulfrum Hovercraft
+Though they may seem advanced, even a novice engineer can create hovercrafts such as these. They can’t pack much firepower, and their armor may be thin, but these Wulfrum creations' true strength lies in being versatile and easy to repurpose into other projects.
+
+-Despite their advanced appearance, Wulfrum Hovercraft are actually quite simple.
+-Wulfrum is generally versatile and can be repurposed easily if necessary.
+Wulfrum Rover 
+The most simple of the Wulfrum Machines, and the honorary mascot of those who rebelled against Yharim. Its small stature and eager movements may remind some of a dog, but don't be deceived; in the chaos of battle, a Rover is still dangerous.
+
+-Wulfrum Rovers act as the honorary mascot of people who rebelled against Yharim.
+
+
+
+
+
+Hello! This is the new lore document dictator. This doc will be updated whenever new lore releases (teasers don't count since they are ultimately WIP). Octo out :3c
+
+
+
 
 """
 
@@ -1306,10 +2456,11 @@ for i in range(len(words)):
 for item in m:
     print(item)
 
-dat = "new"
+dat = "a"
 last = dat
-for i in range(100):
-    last = m.follow_ref(m.index(last), random.randint(0, len(m.get_all_refs_at_item(m.index(last)))))
+for i in range(800):
+    idx = math.floor(len(m.get_all_refs_at_item(m.index(last))) / 3)
+    last = m.follow_ref(m.index(last), random.randint(0, idx))
     dat = dat + " " + last
 
 print(dat)
