@@ -31,7 +31,6 @@ class Memory:
             return len(self.connection_ref[idx]) - 1
         else:
             self.similar_ref[idx].append([ref, count])
-            print(self.similar_ref)
             return len(self.similar_ref[idx]) - 1
 
     def get_all_refs_at_item(self, idx, type=False):
@@ -44,7 +43,6 @@ class Memory:
         if type: # connection ref
             return tuple(self.connection_ref[idx_item][idx_ref])
         else:
-            print(idx_ref)
             return tuple(self.similar_ref[idx_item][idx_ref])
         
     def set_ref(self, idx_item, idx_ref, ref, type=False, count=None):
@@ -100,6 +98,9 @@ class Memory:
                     return None
                 i += 1
             return self.add_ref(idx_item, idx, type=False, count=1)
+        
+    def index(self, item):
+        return self.items.index[item]
 
 
 if __name__ == "__main__": # Unit tests
