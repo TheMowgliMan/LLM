@@ -31,6 +31,7 @@ class Memory:
             return len(self.connection_ref) - 1
         else:
             self.similar_ref[idx].append([ref, count])
+            print(self.similar_ref)
             return len(self.similar_ref) - 1
 
     def get_all_refs_at_item(self, idx, type=False):
@@ -69,11 +70,11 @@ if __name__ == "__main__":
     # mice = m.add_ref(second, "mouse", count=14)
 
 
-    for item in m:
+    """ for item in m:
         print(item)
 
     for item in m.get_all_refs_at_item(second):
-        print(item)
+        print(item) """
 
     print(cats)
     # print(mice)
