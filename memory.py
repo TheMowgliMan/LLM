@@ -76,6 +76,9 @@ class Memory:
             return self.items[self.similar_ref[idx_item][idx_ref][0]]
         
     def find_ref(self, idx_item, item, type=False):
+        if len(self.items) != len(self.similar_ref) != len(self.connection_ref):
+            print("error!")
+
         idx = None
         if not item in self.items:
             self.append(item)
@@ -100,7 +103,7 @@ class Memory:
             return self.add_ref(idx_item, idx, type=False, count=1)
         
     def index(self, item):
-        return self.items.index[item]
+        return self.items.index(item)
 
 
 if __name__ == "__main__": # Unit tests

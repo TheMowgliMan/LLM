@@ -1,4 +1,5 @@
 from memory import *
+import random
 
 m = Memory()
 words = """
@@ -1299,8 +1300,16 @@ Categories:
 words = words.split()
 for i in range(len(words)):
     if i == 0:
-        m.append(words[i])
+        m.append(words[i].lower())
     else:
-        m.find_ref(i - 1, words[i])
+        m.find_ref(m.index(words[i - 1].lower()), words[i].lower())
 for item in m:
     print(item)
+
+dat = "new"
+last = dat
+for i in range(100):
+    last = m.follow_ref(m.index(last), random.randint(0, len(m.get_all_refs_at_item(m.index(last)))))
+    dat = dat + " " + last
+
+print(dat)
