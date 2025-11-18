@@ -28,11 +28,11 @@ class Memory:
     def add_ref(self, idx, ref, type=False, count=None):
         if type: # connection ref
             self.connection_ref[idx].append([ref, count])
-            return len(self.connection_ref) - 1
+            return len(self.connection_ref[idx]) - 1
         else:
             self.similar_ref[idx].append([ref, count])
             print(self.similar_ref)
-            return len(self.similar_ref) - 1
+            return len(self.similar_ref[idx]) - 1
 
     def get_all_refs_at_item(self, idx, type=False):
         if type: # connection ref
@@ -59,29 +59,35 @@ class Memory:
             else:
                 self.similar_ref[idx_item][idx_ref] = [ref, count]
 
+    def set_count(self, idx_item, idx_ref, count, type=False):
+        if type:
+            self.connection_ref[idx_item][idx_ref] = [self.connection_ref[idx_item][idx_ref][0], count]
+        else:
+            self.similar_ref[idx_item][idx_ref] = [self.similar_ref[idx_item][idx_ref][0], count]
+
 
 if __name__ == "__main__":
     m = Memory()
     m.append("buh 1")
     second = m.append("buh 2")
     m.append("buh 3")
-    cats = m.add_ref(second, "cat", count=2)
+    cats = m.add_ref(second, 1, count=2)
     print(cats)
-    # mice = m.add_ref(second, "mouse", count=14)
+    mice = m.add_ref(second, 2, count=14)
 
 
-    """ for item in m:
+    for item in m:
         print(item)
 
     for item in m.get_all_refs_at_item(second):
-        print(item) """
+        print(item)
 
     print(cats)
-    # print(mice)
+    print(mice)
     print(m.get_ref(second, cats))
 
-    # m.set_ref(1, mice, "dead mouse")
-    m.set_ref(1, cats, "cat", count=3)
+    m.set_ref(1, mice, 1)
+    m.set_ref(1, cats, 1, count=3)
 
     for item in m:
         print(item)
