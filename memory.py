@@ -71,8 +71,18 @@ class Memory:
         else:
             self.similar_ref[idx_item][idx_ref][1] = count + self.similar_ref[idx_item][idx_ref][1]
 
+    def follow_ref(self, idx_item, idx_ref, type=False):
+        if type:
+            return self.items[self.connection_ref[idx_item][idx_ref][0]]
+        else:
+            return self.items[self.similar_ref[idx_item][idx_ref][0]]
+        
+    def find_ref(self, idx_item, item, type=False):
+        if item in self.items:
+            self.append(item)
 
-if __name__ == "__main__":
+
+if __name__ == "__main__": # Unit tests
     m = Memory()
     m.append("buh 1")
     second = m.append("buh 2")
@@ -95,7 +105,7 @@ if __name__ == "__main__":
     print(m.get_ref(second, cats))
 
     m.set_ref(1, mice, 1)
-    m.set_ref(1, cats, 1, count=3)
+    m.set_ref(1, cats, 0, count=3)
     m.set_count(third, zyzzy, 3, type=True)
 
     print("----------")
@@ -109,3 +119,4 @@ if __name__ == "__main__":
 
     for item in m:
         print(item)
+    print(m.follow_ref(second, cats))
