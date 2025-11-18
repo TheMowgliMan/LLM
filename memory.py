@@ -65,6 +65,12 @@ class Memory:
         else:
             self.similar_ref[idx_item][idx_ref] = [self.similar_ref[idx_item][idx_ref][0], count]
 
+    def increment_count(self, idx_item, idx_ref, count, type=False):
+        if type:
+            self.connection_ref[idx_item][idx_ref][1] = count + self.connection_ref[idx_item][idx_ref][1]
+        else:
+            self.similar_ref[idx_item][idx_ref][1] = count + self.similar_ref[idx_item][idx_ref][1]
+
 
 if __name__ == "__main__":
     m = Memory()
@@ -91,6 +97,13 @@ if __name__ == "__main__":
     m.set_ref(1, mice, 1)
     m.set_ref(1, cats, 1, count=3)
     m.set_count(third, zyzzy, 3, type=True)
+
+    print("----------")
+
+    for item in m:
+        print(item)
+
+    m.increment_count(second, cats, 100)
 
     print("----------")
 
