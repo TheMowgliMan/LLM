@@ -70,24 +70,29 @@ if __name__ == "__main__":
     m = Memory()
     m.append("buh 1")
     second = m.append("buh 2")
-    m.append("buh 3")
+    third = m.append("buh 3")
     cats = m.add_ref(second, 1, count=2)
     print(cats)
     mice = m.add_ref(second, 2, count=14)
-
+    zyzzy = m.add_ref(third, 1, type=True)
 
     for item in m:
         print(item)
 
+    print("----------")
+
     for item in m.get_all_refs_at_item(second):
         print(item)
 
-    print(cats)
-    print(mice)
+    print("----------")
+
     print(m.get_ref(second, cats))
 
     m.set_ref(1, mice, 1)
     m.set_ref(1, cats, 1, count=3)
+    m.set_count(third, zyzzy, 3, type=True)
+
+    print("----------")
 
     for item in m:
         print(item)
