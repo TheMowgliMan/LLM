@@ -81,7 +81,7 @@ class Memory:
         idx = None
         if not item in self.items:
             self.append(item)
-            idx = self.__len__()
+            idx = self.__len__() - 1
         else:
             idx = self.items.index(item)
         if type:
@@ -89,17 +89,17 @@ class Memory:
             for ref in self.connection_ref[idx_item]:
                 if ref[0] == idx:
                     self.increment_count(idx_item, i, 1, type=True)
-                    return
+                    return None
                 i += 1
-            self.add_ref(idx_item, idx, type=True, count=1)
+            return self.add_ref(idx_item, idx, type=True, count=1)
         else:
             i = 0
             for ref in self.similar_ref[idx_item]:
                 if ref[0] == idx:
                     self.increment_count(idx_item, i, 1, type=False)
-                    return
+                    return None
                 i += 1
-            self.add_ref(idx_item, idx, type=False, count=1)
+            return self.add_ref(idx_item, idx, type=False, count=1)
 
 
 if __name__ == "__main__": # Unit tests
@@ -140,3 +140,12 @@ if __name__ == "__main__": # Unit tests
     for item in m:
         print(item)
     print(m.follow_ref(second, cats))
+
+    print("----------")
+    m.find_ref(second, "buh 1")
+    m.find_ref(second, "buh 1")
+    m.find_ref(second, "buh 2")
+    m.find_ref(second, "buh 3")
+    m.find_ref(second, "bruh")
+    for item in m:
+        print(item)

@@ -1,4 +1,5 @@
 from math import *
+from memory import *
 
 class Neuron:
     inp = []
