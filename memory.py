@@ -78,8 +78,28 @@ class Memory:
             return self.items[self.similar_ref[idx_item][idx_ref][0]]
         
     def find_ref(self, idx_item, item, type=False):
-        if item in self.items:
+        idx = None
+        if not item in self.items:
             self.append(item)
+            idx = self.__len__()
+        else:
+            idx = self.items.index(item)
+        if type:
+            i = 0
+            for ref in self.connection_ref[idx_item]:
+                if ref[0] == idx:
+                    self.increment_count(idx_item, i, 1, type=True)
+                    return
+                i += 1
+            self.add_ref(idx_item, idx, type=True, count=1)
+        else:
+            i = 0
+            for ref in self.similar_ref[idx_item]:
+                if ref[0] == idx:
+                    self.increment_count(idx_item, i, 1, type=False)
+                    return
+                i += 1
+            self.add_ref(idx_item, idx, type=False, count=1)
 
 
 if __name__ == "__main__": # Unit tests
