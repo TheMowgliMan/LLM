@@ -2450,16 +2450,16 @@ Hello! This is the new lore document dictator. This doc will be updated whenever
 words = words.split()
 for i in range(len(words)):
     if i == 0:
-        m.append(words[i].lower())
+        m.append(words[i])
     else:
-        m.find_ref(m.index(words[i - 1].lower()), words[i].lower())
+        m.find_ref(m.index(words[i - 1]), words[i])
 for item in m:
     print(item)
 
-dat = "a"
+dat = "Permafrost"
 last = dat
-for i in range(800):
-    idx = math.floor(len(m.get_all_refs_at_item(m.index(last))) / 3)
+for i in range(100):
+    idx = math.floor((len(m.get_all_refs_at_item(m.index(last))) - 1) / 1)
     last = m.follow_ref(m.index(last), random.randint(0, idx))
     dat = dat + " " + last
 

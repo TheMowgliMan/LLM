@@ -1,5 +1,6 @@
 from math import *
 from memory import *
+import random as r
 
 class Neuron:
     inp = []
@@ -9,7 +10,7 @@ class Neuron:
     __tolerance__ = 0.4
     __fired__ = False
 
-    def __init__(self, inputs, weights = []):
+    def __init__(self, inputs : list, weights = []):
         if not isinstance(inputs, list):
             raise TypeError("Improper inputs format: must be of type 'list'")
         if not isinstance(weights, list):
@@ -35,20 +36,24 @@ class Neuron:
 
         # Process neuron, which is tanh(inp[0] * wei[0], inp[1] * wei[1], [...] inp[x] * wei[x])
         proc = 0
-        for i in range(len(self.inp)): proc += self.inp[i] * self.wei [i]
+        for i in range(len(self.inp)):
+                d = self.inp[i] * self.wei [i]
+                if abs(d) > self.__tolerance__:
+                    proc += self.inp[i] * self.wei [i]
         proc = tanh(proc)
+
         # When the neuron is less than the tolerance + part of out, don't fire
         if abs(proc + self.out / 2) < self.__tolerance__:
             proc = 0
             self.out *= 0.80 # Out decays over time if it failed to fire
-            self.__tolerance__ *= 1.0001 # Long disuse causes tolerance to increase
+            self.__tolerance__ *= 1.00001 # Long disuse causes tolerance to increase
             return self.out 
         else: self.out = proc; self.__lastOut__ = proc; self.__fired__ = True # Fire!
 
         # It becomes desensitized to an input if it is far higher than any others
         getsorted = sorted(self.inp, reverse=True)
         if self.__fired__ == True and (abs(getsorted[0]) - abs(getsorted[1]) > 0.3):
-            self.wei[self.inp.index(max(self.inp))] *= 0.9999 # Reduce the weight
+            self.wei[self.inp.index(max(self.inp))] *= 0.99999 # Reduce the weight
         del getsorted # Just in case
 
         return self.out
@@ -60,20 +65,10 @@ class Neuron:
         return self.__lastOut__
     
     # Encourages neurons that fired and discourages ones that didn't to force a certain outcome
-    def train(self, increase_mult, decrease_div = True):
-        if self.__fired__:
-            self.__tolerance__ *= 0.95 # Slightly increase firing chances
+    def train(self, target):
+        raise NotImplementedError("This brain is lazy")
+    
 
-            proc = 0
-            for i in range(len(self.inp)):
-                proc = self.inp[i] * self.wei [i]
-
-                if proc > 1:
-                    self.wei [i] *= increase_mult
-        else:
-            proc = 0
-            for i in range(len(self.inp)):
-                proc = self.inp[i] * self.wei [i]
-
-                if proc > 1:
-                    self.wei [i] /= decrease_div
+if __name__ == "__main__":
+    n = Neuron([0])
+    n.train(0)
