@@ -129,7 +129,7 @@ class FileImporter:
     @staticmethod
     def importf(fname):
         try:
-            f = open(fname)
+            f = open(fname, encoding="utf8")
             t = f.read()
         finally:
             f.close() # pyright: ignore[reportPossiblyUnboundVariable]
@@ -149,7 +149,7 @@ if __name__ == "__main__":
                 try:
                     m.import_str(FileImporter.importf(prompt[1]))
                 except IndexError:
-                    print("'trainf' requires 1 param: <file_name_or_path>")
+                    print("'importf' requires 1 param: <file_name_or_path>")
                 except FileNotFoundError:
                     print("File '", prompt[1], "' doesn't exist!")
             if prompt[0] == "spaghetti":
@@ -160,5 +160,7 @@ if __name__ == "__main__":
                         idx = floor((len(m.get_all_refs_at_item(m.index(last))) - 1) / 1)
                         last = m.follow_ref(m.index(last), r.randint(0, idx))
                         dat = dat + " " + last
+
+                    print(dat)
                 except IndexError:
                     print("'spaghetti' requires 2 params: <word>, <count>")
