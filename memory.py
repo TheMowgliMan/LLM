@@ -104,6 +104,14 @@ class Memory:
         
     def index(self, item):
         return self.items.index(item)
+    
+    def import_str(self, stri):
+        words = stri.split()
+        for i in range(len(words)):
+            if len(self.items) == 0:
+                self.append(words[i])
+            else:
+                self.find_ref(self.index(words[i - 1]), words[i])
 
 
 if __name__ == "__main__": # Unit tests

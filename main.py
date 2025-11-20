@@ -1,4 +1,4 @@
-from math import *
+from math import * # pyright: ignore[reportWildcardImportFromLibrary]
 from memory import *
 import random as r
 
@@ -72,21 +72,37 @@ class Neuron:
         raise NotImplementedError("This brain is lazy")
     
 class Box:
+    # members
     ns = []
     inp = 0
     outs = []
-    def __init__(self, inputs:int, width:int, height:int):
-        self.inp = inputs
-        for x in range(width):
+
+    def __init__(self, inputc:int, widthc:int, heightc:int):
+        # Init local variables just to be safe
+        self.ns = []
+        self.inp = 0
+        self.outs = []
+
+        # The number of inputs this box has, added for verification purposes
+        self.inp = inputc
+
+        # Iterate for a number equal to the width to get every column
+        for x in range(widthc):
+            # Create empty column
             line = []
-            for y in range(height):
+            for y in range(heightc):
+                # If this is the first column...
                 if x == 0:
-                    line.append(Neuron([0]*inputs, weights=[r.uniform(-5.0, 5.0) for _ in range(inputs)]))
+                    # ...have number of inputs equal to box inputs...
+                    line.append(Neuron([0]*inputc, weights=[r.uniform(-5.0, 5.0) for _ in range(inputc)]))
                 else:
-                    line.append(Neuron([0]*height, weights=[r.uniform(-5.0, 5.0) for _ in range(height)]))
+                    # ...otherwise equal to neuron inputs...
+                    line.append(Neuron([0]*heightc, weights=[r.uniform(-5.0, 5.0) for _ in range(heightc)]))
+
+            # Add the column to the box
             self.ns.append(line)
 
-        self.outs = [0] * height
+        self.outs = [0] * heightc
 
     def run(self, inps:list):
         if len(inps) != self.inp:
@@ -95,7 +111,6 @@ class Box:
         ix = 0
         last = []
         now = []
-        print(len(self.ns))
         for x in self.ns:
             now = []
             for y in x:
@@ -112,11 +127,8 @@ class Box:
 
 if __name__ == "__main__":
     print("creating boxes")
-    b = Box(3, 16, 2)
-    box = Box(3, 16, 2)
-
-    print("boxes created. processing...")
-    b.run([0.3, -0.3, 0.7])
-    # box.run([0.3, -0.3, 0.7])
-
-    print("done")
+    b = [Box(3, 32, 2) for i in range(5000)]
+    print("Done. Processing...")
+    for i in b:
+        i.run([0.3, -0.3, 0.7])
+    print("processing complete, processed " + str(2*32*5000) + " neurons")
