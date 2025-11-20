@@ -117,6 +117,6 @@ if __name__ == "__main__":
 
     print("boxes created. processing...")
     b.run([0.3, -0.3, 0.7])
-    box.run([0.3, -0.3, 0.7])
+    # box.run([0.3, -0.3, 0.7])
 
     print("done")
