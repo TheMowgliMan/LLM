@@ -109,9 +109,9 @@ class Memory:
         words = stri.split()
         for i in range(len(words)):
             if len(self.items) == 0:
-                self.append(words[i])
+                self.append(words[i].lower())
             else:
-                self.find_ref(self.index(words[i - 1]), words[i])
+                self.find_ref(self.index(words[i - 1].lower()), words[i].lower())
 
 
 if __name__ == "__main__": # Unit tests

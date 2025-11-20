@@ -124,11 +124,41 @@ class Box:
         
         self.outs = last
         return self.outs
+    
+class FileImporter:
+    @staticmethod
+    def importf(fname):
+        try:
+            f = open(fname)
+            t = f.read()
+        finally:
+            f.close() # pyright: ignore[reportPossiblyUnboundVariable]
+        return t
 
 if __name__ == "__main__":
-    print("creating boxes")
-    b = [Box(3, 32, 2) for i in range(5000)]
-    print("Done. Processing...")
-    for i in b:
-        i.run([0.3, -0.3, 0.7])
-    print("processing complete, processed " + str(2*32*5000) + " neurons")
+    m = Memory()
+
+    while True:
+        prompt = input("?> ")
+
+        if prompt.lower() == "end":
+            break;
+        else:
+            prompt = prompt.split()
+            if prompt[0] == "importf":
+                try:
+                    m.import_str(FileImporter.importf(prompt[1]))
+                except IndexError:
+                    print("'trainf' requires 1 param: <file_name_or_path>")
+                except FileNotFoundError:
+                    print("File '", prompt[1], "' doesn't exist!")
+            if prompt[0] == "spaghetti":
+                try:
+                    dat = prompt[1]
+                    last = dat
+                    for i in range(int(prompt[2])):
+                        idx = floor((len(m.get_all_refs_at_item(m.index(last))) - 1) / 1)
+                        last = m.follow_ref(m.index(last), r.randint(0, idx))
+                        dat = dat + " " + last
+                except IndexError:
+                    print("'spaghetti' requires 2 params: <word>, <count>")
