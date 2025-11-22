@@ -135,8 +135,14 @@ class FileImporter:
             f.close() # pyright: ignore[reportPossiblyUnboundVariable]
         return t
 
-if __name__ == "__main__":
+class LanguageModel:
     m = Memory()
+
+    def __init__(self) -> None:
+        self.m = Memory()
+
+if __name__ == "__main__":
+    langmod = LanguageModel()
 
     while True:
         prompt = input("?> ")
@@ -147,7 +153,7 @@ if __name__ == "__main__":
             prompt = prompt.split()
             if prompt[0] == "importf":
                 try:
-                    m.import_str(FileImporter.importf(prompt[1]))
+                    langmod.m.import_str(FileImporter.importf(prompt[1]))
                 except IndexError:
                     print("'importf' requires 1 param: <file_name_or_path>")
                 except FileNotFoundError:
@@ -157,8 +163,8 @@ if __name__ == "__main__":
                     dat = prompt[1]
                     last = dat
                     for i in range(int(prompt[2])):
-                        idx = floor((len(m.get_all_refs_at_item(m.index(last))) - 1) / 1)
-                        last = m.follow_ref(m.index(last), r.randint(0, idx))
+                        idx = floor((len(langmod.m.get_all_refs_at_item(langmod.m.index(last))) - 1) / 1)
+                        last = langmod.m.follow_ref(langmod.m.index(last), r.randint(0, idx))
                         dat = dat + " " + last
 
                     print(dat)
