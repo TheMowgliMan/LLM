@@ -110,11 +110,21 @@ class Memory:
         for i in range(len(words)):
             if i == 0:
                 self.append(words[i].lower())
+            elif i == 1:
+                if words[i - 1].lower() in self.items:
+                    self.find_ref(self.index(words[i - 1].lower()), words[i].lower())
+                else:
+                    self.append(words[i].lower())
             else:
-                    if words[i - 1].lower() in self.items:
-                        self.find_ref(self.index(words[i - 1].lower()), words[i].lower())
-                    else:
-                        self.append(words[i].lower())
+                found = False
+                if words[i - 1].lower() in self.items:
+                    self.find_ref(self.index(words[i - 1].lower()), words[i].lower())
+                    found = True
+                if words[i - 2].lower() in self.items:
+                    self.find_ref(self.index(words[i - 2].lower()), words[i].lower(), type=True)
+                    found = True
+                if not found:
+                    self.append(words[i].lower())
 
 
 if __name__ == "__main__": # Unit tests

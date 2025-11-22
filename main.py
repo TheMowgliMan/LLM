@@ -36,28 +36,9 @@ class Neuron:
         if inputs != []: self.inp = inputs
         else: self.inp = [0] * len(self.inp)
 
-        # Process neuron, which is tanh(inp[0] * wei[0], inp[1] * wei[1], [...] inp[x] * wei[x])
-        proc = 0
-        for i in range(len(self.inp)):
-            d = self.inp[i] * self.wei [i]
-            if abs(d) > self.__tolerance__:
-                proc += self.inp[i] * self.wei [i]
-        proc = tanh(proc)
-
-        # When the neuron is less than the tolerance + part of out, don't fire
-        if abs(proc + self.out / 2) < self.__tolerance__:
-            proc = 0
-            self.out *= 0.80 # Out decays over time if it failed to fire
-            self.__tolerance__ *= 1.00001 # Long disuse causes tolerance to increase
-            return self.out 
-        else: self.out = proc; self.__lastOut__ = proc; self.__fired__ = True # Fire!
-
-        # It becomes desensitized to an input if it is far higher than any others
-        if len(self.inp) > 1:
-            getsorted = sorted(self.inp, reverse=True)
-            if self.__fired__ == True and (abs(getsorted[0]) - abs(getsorted[1]) > 0.3):
-                self.wei[self.inp.index(max(self.inp))] *= 0.99999 # Reduce the weight
-            del getsorted # Just in case
+        # Process neuron, which is LReLU(tanh(inp[0] * wei[0], inp[1] * wei[1], [...] inp[x] * wei[x]))
+        proc = tanh(sum([self.inp[i] * self.wei [i] if self.inp[i] * self.wei [i] > self.__tolerance__ else 0 for i in range(len(self.inp))]))
+        proc = max(-0.01*abs(proc), proc) # TanH Leaky RelU
 
         return self.out
     
@@ -152,33 +133,7 @@ class LanguageModel:
             self.boxes.append(side)
 
     def ai_spaghetti(self, word):
-        if not word in m.items:
-            raise KeyError("Word is not in database!")
-        
-        word_arg = word
-        finout = word
-
-        for z in range (100):
-            tt = m.index(word_arg)
-            tt = bin(tt)[2:].zfill(16)
-            inputs = [tt[y] for y in range(16)] * self.size
-            outputs = []
-            for i in range(len(self.boxes)):
-                for b in range(len(self.boxes[i])):
-                    outputs.extend(self.boxes[i][b].run(inputs))
-                inputs = outputs
-
-            out = self.last_box.run(inputs) # pyright: ignore[reportOptionalMemberAccess]
-            tt = ""
-            for i in range(len(out)):
-                v = out[i]
-                if v < 0:
-                    v = 0
-                if v > 1:
-                    v = 1
-                else:
-                    v = round(v)
-                tt = tt + str(v)
+        pass
 
 if __name__ == "__main__":
     langmod = LanguageModel(19)
@@ -201,9 +156,22 @@ if __name__ == "__main__":
                 try:
                     dat = prompt[1]
                     last = dat
+                    last_idx = langmod.m.index(last)
+                    two_idx = None
                     for i in range(int(prompt[2])):
-                        idx = floor((len(langmod.m.get_all_refs_at_item(langmod.m.index(last))) - 1) / 1)
-                        last = langmod.m.follow_ref(langmod.m.index(last), r.randint(0, idx))
+                        if r.random() > 0.05 or i < 2:
+                            idx = floor((len(langmod.m.get_all_refs_at_item(last_idx)) - 1) / 1)
+                            f = r.randint(0, idx)
+                            last = langmod.m.follow_ref(last_idx, f)
+                            two_idx = last_idx
+                            last_idx = langmod.m.get_ref(last_idx, f)[0]
+                        else:
+                            idx = floor((len(langmod.m.get_all_refs_at_item(two_idx, type=True)) - 1) / 1)
+                            f = r.randint(0, idx)
+                            last = langmod.m.follow_ref(two_idx, f, type=True)
+                            tt = two_idx
+                            two_idx = last_idx
+                            last_idx = langmod.m.get_ref(tt, f, type=True)[0]
                         dat = dat + " " + last
 
                     print(dat)
