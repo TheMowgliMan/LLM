@@ -148,6 +148,7 @@ if __name__ == "__main__":
             if prompt[0] == "importf":
                 try:
                     langmod.m.import_str(FileImporter.importf(prompt[1]))
+                    print(str(len(langmod.m)) + " items in dataset")
                 except IndexError:
                     print("'importf' requires 1 param: <file_name_or_path>")
                 except FileNotFoundError:
