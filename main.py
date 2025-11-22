@@ -137,12 +137,51 @@ class FileImporter:
 
 class LanguageModel:
     m = Memory()
+    boxes = []
+    size = 0
+    last_box = None
 
-    def __init__(self) -> None:
+    # Size is the edge length of the number of intervening blocks between I and O
+    def __init__(self, size:int) -> None:
         self.m = Memory()
+        self.size = size
+        self.boxes = []
+        self.last_box = Box(size * 16, 1, 16)
+        for i in range(size):
+            side = [Box(size * 16, 48, 16) for y in range(size * 2)]
+            self.boxes.append(side)
+
+    def ai_spaghetti(self, word):
+        if not word in m.items:
+            raise KeyError("Word is not in database!")
+        
+        word_arg = word
+        finout = word
+
+        for z in range (100):
+            tt = m.index(word_arg)
+            tt = bin(tt)[2:].zfill(16)
+            inputs = [tt[y] for y in range(16)] * self.size
+            outputs = []
+            for i in range(len(self.boxes)):
+                for b in range(len(self.boxes[i])):
+                    outputs.extend(self.boxes[i][b].run(inputs))
+                inputs = outputs
+
+            out = self.last_box.run(inputs) # pyright: ignore[reportOptionalMemberAccess]
+            tt = ""
+            for i in range(len(out)):
+                v = out[i]
+                if v < 0:
+                    v = 0
+                if v > 1:
+                    v = 1
+                else:
+                    v = round(v)
+                tt = tt + str(v)
 
 if __name__ == "__main__":
-    langmod = LanguageModel()
+    langmod = LanguageModel(19)
 
     while True:
         prompt = input("?> ")
